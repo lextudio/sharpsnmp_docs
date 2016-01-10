@@ -1,4 +1,4 @@
-Installing #SNMP Library On Windows
+Installing #SNMP Library on Windows
 ===================================
 
 By `Lex Li`_
@@ -10,7 +10,7 @@ This page shows you how to install #SNMP Library to your project on Windows.
   :depth: 1
 
 Install #SNMP Library via NuGet
----------------------------------
+-------------------------------
 
 The easiest way to get started building applications with #SNMP Library is to install via NuGet in the latest version of Visual Studio 2015 (including the free Community edition). 
 
@@ -31,7 +31,7 @@ The easiest way to get started building applications with #SNMP Library is to in
   * `Main Library <https://www.nuget.org/packages/Lextm.SharpSnmpLib/>`_. 
 
 Install #SNMP Library via source code
----------------------------------------
+-------------------------------------
 
 #SNMP Library source code can be directly used in your project. 
 
@@ -42,3 +42,11 @@ Install #SNMP Library via source code
 3. Add SharpSnmpLib.Portable.csproj and SharpSnmpLib.Full.csproj in ``SharpSnmpLib`` directory to your solution.
 
 .. note:: SharpSnmpLib.Android.csproj and SharpSnmpLib.iOS.csproj might be used to target Xamarin platforms.
+
+Related Resources
+-----------------
+
+- :doc: /tutorials/introduction
+- :doc: /tutorials/v3-operations
+- :doc: /samples/command-line-tools
+- :doc: /samples/agent-development

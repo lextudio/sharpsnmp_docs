@@ -6,3 +6,5 @@ Getting Started
 
    installing-on-windows
    history
+   license-notice
+   export-restrictions   

@@ -379,6 +379,6 @@ intersphinx_mapping = {
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'http://library.sharpsnmp.com/en/latest'
+feed_base_url = 'http://docs.sharpsnmp.com/en/latest'
 feed_description = '#SNMP Library Documentation'
 feed_author = 'Lex Li'

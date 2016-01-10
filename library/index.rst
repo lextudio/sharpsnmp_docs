@@ -15,7 +15,8 @@ Topics
     :titlesonly:
 
     getting-started/index
-    tutorials/index    
+    tutorials/index
+    samples/index
     contribute/index
 
 Contribute
