@@ -158,6 +158,6 @@ The following code shows how to send an INFORM message to an SNMP manager/trap l
 Related Resources
 -----------------
 
-- :doc: /samples/command-line-tools
-- :doc: /tutorials/introduction
+- :doc:`/samples/command-line-tools`
+- :doc:`/tutorials/introduction`
 - `The API Reference <http://help.sharpsnmp.com>`_

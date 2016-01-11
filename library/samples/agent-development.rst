@@ -122,4 +122,4 @@ A lot of improvements will be provided in the future to further enhance this use
 Related Resources
 -----------------
 
-- :doc: /samples/command-line-tools
+- :doc:`/samples/command-line-tools`

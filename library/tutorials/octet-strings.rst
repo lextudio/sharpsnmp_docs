@@ -24,12 +24,12 @@ Important Methods
 -----------------
 As a reference at first, there are new methods and properties in ``OctetString`` class you should pay attention to,
 
-# The overloading constructor ``public OctetString(string str, Encoding encoding)``. You may provide a specific ``Encoding`` so that the internal bytes are what you expect after initialization.
-# The overloading method ``public string ToString(Encoding encoding)``. According to ``Encoding`` provided, the internal bytes are decoded to a correct string.
-# The instance property ``public Encoding Encoding``. This is a read only property that illustrates what encoding is assigned to this ``OctetString`` instance.
-# The static property ``public static Encoding DefaultEncoding``. This is a property to define default encoding used for all ``OctetString`` instance if no encoding is assigned via the constructor described in item 1. The default value of this property is ``Encoding.ASCII``.
-# The overloading constructor ``public OctetString(string str)``. ``OctetString.DefaultEncoding`` is used to generate internal bytes from ``str``.
-# The overloading method ``public string ToString()``. ``OctetString.Encoding`` is used to generate a string from internal bytes.
+#. The overloading constructor ``public OctetString(string str, Encoding encoding)``. You may provide a specific ``Encoding`` so that the internal bytes are what you expect after initialization.
+#. The overloading method ``public string ToString(Encoding encoding)``. According to ``Encoding`` provided, the internal bytes are decoded to a correct string.
+#. The instance property ``public Encoding Encoding``. This is a read only property that illustrates what encoding is assigned to this ``OctetString`` instance.
+#. The static property ``public static Encoding DefaultEncoding``. This is a property to define default encoding used for all ``OctetString`` instance if no encoding is assigned via the constructor described in item 1. The default value of this property is ``Encoding.ASCII``.
+#. The overloading constructor ``public OctetString(string str)``. ``OctetString.DefaultEncoding`` is used to generate internal bytes from ``str``.
+#. The overloading method ``public string ToString()``. ``OctetString.Encoding`` is used to generate a string from internal bytes.
 
 Scenarios
 ---------

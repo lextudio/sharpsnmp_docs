@@ -3,13 +3,19 @@ Project History
 
 By `Lex Li`_
 
+This article describes history of #SNMP.
+
+.. contents:: In this article:
+  :local:
+  :depth: 1
+
+The Road to 1.0 Release
+-----------------------
 Microsoft introduced .NET Framework to developers in 2000. However, it lacks of official SNMP protocol support. Many third parties provide their solutions ever after to please their users.
 
 Lex Li did an evaluation report in 2008 for his project at Cisco [1]_. He was quite satisfied with some of the commercial solutions, but felt that there should be a need to have an open source 
 implementation. Based on the code base from Malcolm Crowe [2]_, Lex was able to start a new open source project called #SNMP Library [3]_ in April 2008.
 
-The Road to 1.0 Release
------------------------
 It was challenging a task to design an easy-to-use SNMP API, and also difficult a mission to study the SNMP protocol details. Remember the facts that Lex just graduated in 2007, and only had one 
 year experience on programming serious projects. But luckily all initial problems (such as message parsing) were solved via endless experiments, and even features such as MIB parsing was developed in an 
 ugly way [4]_ . By using TDD approach, every major features are covered.

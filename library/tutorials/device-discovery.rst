@@ -35,6 +35,6 @@ As in this way the device IP address is revealed, make sure your devices don't u
 Related Resources
 -----------------
 
-- :doc: /samples/command-line-tools
-- :doc: /tutorials/introduction
-- :doc: /tutorials/v3-operations
+- :doc:`/samples/command-line-tools`
+- :doc:`/tutorials/introduction`
+- :doc:`/tutorials/v3-operations`

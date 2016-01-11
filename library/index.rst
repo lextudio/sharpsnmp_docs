@@ -18,6 +18,7 @@ Topics
     tutorials/index
     samples/index
     contribute/index
+    support/index
 
 Contribute
 ----------

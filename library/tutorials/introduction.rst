@@ -172,6 +172,6 @@ The manager should send back a reply to this INFORM message. Otherwise, a ``Time
 Related Resources
 -----------------
 
-- :doc: /samples/command-line-tools
-- :doc: /tutorials/v3-operations
+- :doc:`/samples/command-line-tools`
+- :doc:`/tutorials/v3-operations`
 - `The API Reference <http://help.sharpsnmp.com>`_

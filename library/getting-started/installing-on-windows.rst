@@ -46,7 +46,7 @@ Install #SNMP Library via source code
 Related Resources
 -----------------
 
-- :doc: /tutorials/introduction
-- :doc: /tutorials/v3-operations
-- :doc: /samples/command-line-tools
-- :doc: /samples/agent-development
+- :doc:`/tutorials/introduction`
+- :doc:`/tutorials/v3-operations`
+- :doc:`/samples/command-line-tools`
+- :doc:`/samples/agent-development`

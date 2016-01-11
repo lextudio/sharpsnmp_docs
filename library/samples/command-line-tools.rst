@@ -134,5 +134,5 @@ SNMP packets to go through.
 Related Resources
 -----------------
 
-- :doc:/tutorials/introduction
-- :doc:/tutorials/v3-operations
+- :doc:`/tutorials/introduction`
+- :doc:`/tutorials/v3-operations`
