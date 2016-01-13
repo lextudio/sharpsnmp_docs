@@ -14,9 +14,6 @@ Topics
 .. toctree::
     :titlesonly:
 
-    getting-started/index
-    tutorials/index
-
 Contribute
 ----------
 
