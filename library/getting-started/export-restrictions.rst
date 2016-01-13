@@ -22,6 +22,6 @@ References
 Frank Hecker has written `a detailed explanation of Mozilla's ECCN <http://hecker.org/mozilla/eccn>`_ . It applies to other open source software, including #SNMP Library.
 
 Addendum: Prior to January 7, 2011, downloading #SNMP Library in Cuba, Iran, North Korea, Libya, Sudan, and Syria was prohibited. 
-`On January 7, 2011 the U.S. Bureau of Industry and Security removed this restriction <http://www.federalregister.gov/articles/2011/01/07/2010-32803/publicly-available-mass-market-encryption-software-and-other-specified-publicly-available-encryption>'_ .
+`On January 7, 2011 the U.S. Bureau of Industry and Security removed this restriction <http://www.federalregister.gov/articles/2011/01/07/2010-32803/publicly-available-mass-market-encryption-software-and-other-specified-publicly-available-encryption>`_ .
 
 The information above follows `Wireshark's claim <https://www.wireshark.org/export.html>`_ . Consult a lawyer if you have any questions.
