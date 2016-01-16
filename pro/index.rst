@@ -14,6 +14,10 @@ Topics
 .. toctree::
     :titlesonly:
 
+    getting-started/index
+    tutorials/index
+    support/index
+
 Contribute
 ----------
 
