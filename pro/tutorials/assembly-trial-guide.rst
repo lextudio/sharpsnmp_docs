@@ -64,6 +64,7 @@ The API reference documentation can be found on `the help site <http://help.shar
 Related Resources
 -----------------
 
+- :doc:`/support/purchase`
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-trial-guide`

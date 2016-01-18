@@ -32,5 +32,7 @@ Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can b
 Related Resources
 -----------------
 
+- :doc:`/support/purchase`
+- :doc:`/getting-started/compiler-features`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/assembly-full-guide`

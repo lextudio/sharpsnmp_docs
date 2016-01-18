@@ -41,3 +41,10 @@ This means that one software developer can install the licensed version of the S
 environment in order to test and debug the product through its development stages. After the product is fully developed, the redistributable run-time licenses can be deployed (bundled with your 
 application) either within your company (i.e., if you were developing an in-house tool) and/or sold to your end users (again, bundled with your application). You are eligible to redistribute unlimited 
 copies of SharpSnmpPro.Mib Assembly.
+
+Related Resources
+-----------------
+
+- :doc:`/support/purchase`
+- :doc:`/getting-started/compiler-features`
+- :doc:`/getting-started/assembly-features`

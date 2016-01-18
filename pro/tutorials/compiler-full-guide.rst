@@ -42,6 +42,7 @@ Once the license key arrives via email, it is time to perform the following step
 Related Resources
 -----------------
 
+- :doc:`/support/purchase`
 - :doc:`/getting-started/compiler-features`
 - :doc:`/tutorials/compiler-trial-guide`
 - :doc:`/tutorials/assembly-trial-guide`

@@ -162,6 +162,7 @@ We can easily test if the data is valid for ``SNMPv2-MIB::sysDescr``.
 Related Resources
 -----------------
 
+- :doc:`/support/purchase`
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/compiler-trial-guide`

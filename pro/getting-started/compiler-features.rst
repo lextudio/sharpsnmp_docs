@@ -54,10 +54,9 @@ Objects from loaded modules are displayed so the whole object tree is one click 
 
 .. image:: _static/object_tree.png
 
-Purchase
---------
-
 Related Resources
 -----------------
 
+- :doc:`/support/purchase`
+- :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/compiler-trial-guide`

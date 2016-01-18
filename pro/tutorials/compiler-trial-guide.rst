@@ -33,6 +33,7 @@ The Error List panel should display any error or warnings. The Output panel cont
 Related Resources
 -----------------
 
+- :doc:`/support/purchase`
 - :doc:`/getting-started/compiler-features`
 - :doc:`/tutorials/compiler-full-guide`
 - :doc:`/tutorials/assembly-trial-guide`
