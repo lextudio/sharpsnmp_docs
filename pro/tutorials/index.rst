@@ -5,5 +5,6 @@ Tutorials
    :titlesonly:
 
    compiler-trial-guide
+   compiler-full-guide
    assembly-trial-guide
    assembly-full-guide

@@ -17,6 +17,16 @@ The Trial Edition can be requested `here <http://sharpsnmp.com/Home/Send>`_ , an
 * SharpSnmpLib.Full.dll
 * SharpSnmpLib.Portable.dll
 
+Supported Platforms
+-------------------
+Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can be used on multiple platforms,
+
+* .NET Framework 4.5.2 and above
+* Mono 4.2.1 and above
+* Xamarin.iOS Unified
+* Xamarin.Android
+* Xamarin.Mac
+
 Evaluation Steps
 ----------------
 To test it out, the default test projects can be found at `GitHub <https://github.com/lextm/sharpsnmppro-sample.git>`_ . It can be cloned to a local folder, such as ``D:\sharpsnmppro-sample`` .
@@ -54,4 +64,7 @@ The API reference documentation can be found on `the help site <http://help.shar
 Related Resources
 -----------------
 
+- :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-full-guide`
+- :doc:`/tutorials/compiler-trial-guide`
+- :doc:`/tutorials/compiler-full-guide`

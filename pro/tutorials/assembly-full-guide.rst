@@ -11,6 +11,24 @@ This page shows you a guide on SharpSnmpPro.Mib assembly full version.
 
 Background
 ----------
+The Full version is sent to registered users only via emails, and is packaged up with latest #SNMP Library. So below are the assemblies in the ZIP package,
+
+* SharpSnmpPro.Mib.dll
+* SharpSnmpLib.Full.dll
+* SharpSnmpLib.Portable.dll
+
+Supported Platforms
+-------------------
+Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can be used on multiple platforms,
+
+* .NET Framework 4.5.2 and above
+* Mono 4.2.1 and above
+* Xamarin.iOS Unified
+* Xamarin.Android
+* Xamarin.Mac
+
+Complete Sample Project
+-----------------------
 You learn how SNMP operations can be done by consuming the open source SNMP API. A question then is what values MIB documents provide, as they are said to be an important part 
 of SNMP protocol but not seem to be utilized anywhere if we solely use #SNMP Library.
 
@@ -24,9 +42,34 @@ Thus, a MIB specific library such as SharpSnmpPro.Mib can help build a much more
 
 .. image:: _static/mib.png
 
+To test it out, we reuse the default test projects for Trial version, which can be found at `GitHub <https://github.com/lextm/sharpsnmppro-sample.git>`_. It can be cloned to a local folder, such as ``D:\sharpsnmppro-sample`` .
+
+.. code-block:: shell
+
+  git clone https://github.com/lextm/sharpsnmppro-sample.git
+
+Then the assemblies can be copied to that folder (``D:\sharpsnmppro-sample`` for example).
+
+``Tests.csproj`` is an NUnit project that shows the below,
+
+* How to compile and load MIB documents.
+* How to query entity by name.
+* How to check description of entities.
+* How to verify data against entities. (note that the trial edition only support simple entities, while the full edition supports all entities).
+* How to check OBJECT-TYPE macro specific properties.
+
+To make the test project work with Full version, the following changes need to be made,
+
+1. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
+1. Add a new reference to ``SharpSnmpPro.Mib.dll``.
+1. Modify ``sharpsnmppro.txt`` following the instructions in the email.
+1. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
+
+The API reference documentation can be found at `the help site`_ .
+
 Examples
 --------
-Now let us see a few examples.
+Now let us see a few common examples.
 
 MIB Document Compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -114,37 +157,12 @@ We can easily test if the data is valid for ``SNMPv2-MIB::sysDescr``.
 
 .. note:: The Trial version does only support data validation against a limited set of default types (defined in core MIB documents), while the Full version supports even custom types such as ``BITS``, ``CiscoRowOperStatus``, and ``CiscoPort``.
 
-Complete Sample Project
-^^^^^^^^^^^^^^^^^^^^^^^
-The Full version is sent to registered users only via emails, and is packaged up with latest #SNMP Library. So below are the assemblies in the ZIP package,
-
-* SharpSnmpPro.Mib.dll
-* SharpSnmpLib.Full.dll
-* SharpSnmpLib.Portable.dll
-
-To test it out, we reuse the default test projects for Trial version, which can be found at `GitHub <https://github.com/lextm/sharpsnmppro-sample.git>`_. It can be cloned to a local folder, such as ``D:\sharpsnmppro-sample`` .
-
-.. code-block:: shell
-
-  git clone https://github.com/lextm/sharpsnmppro-sample.git
-
-Then the assemblies can be copied to that folder (``D:\sharpsnmppro-sample`` for example).
-
-``Tests.csproj`` is an NUnit project that shows the below,
-
-* How to compile and load MIB documents.
-* How to query entity by name.
-* How to check description of entities.
-* How to verify data against entities. (note that the trial edition only support simple entities, while the full edition supports all entities).
-* How to check OBJECT-TYPE macro specific properties.
-
-To make the test project work with Full version, the following changes need to be made,
-
-1. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
-1. Add a new reference to ``SharpSnmpPro.Mib.dll``.
-1. Modify ``sharpsnmppro.txt`` following the instructions in the email.
-1. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
-
-The API reference documentation can be found at `the help site`_ .
-
 .. _the help site: http://help.sharpsnmp.com
+
+Related Resources
+-----------------
+
+- :doc:`/getting-started/assembly-features`
+- :doc:`/tutorials/assembly-trial-guide`
+- :doc:`/tutorials/compiler-trial-guide`
+- :doc:`/tutorials/compiler-full-guide`

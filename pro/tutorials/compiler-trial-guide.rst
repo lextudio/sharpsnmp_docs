@@ -1,9 +1,9 @@
-#SNMP Compiler Pro Reviewers' Guide
-===================================
+#SNMP Compiler Pro Trial Version Reviewers' Guide
+=================================================
 
 By `Lex Li`_
 
-This page shows you a guide on #SNMP Compiler Pro.
+This page shows you a guide on #SNMP Compiler Pro Trial version.
 
 .. contents:: In this article:
   :local:
@@ -11,7 +11,7 @@ This page shows you a guide on #SNMP Compiler Pro.
 
 Background
 ----------
-The Trial Edition can be requested `here <http://sharpsnmp.com/Home/Send>`_ , and is packaged up with #SNMP Library 8.5 and the latest SharpSnmpPro.Mib.
+The Trial version can be requested `here <http://sharpsnmp.com/Home/Send>`_ , and is packaged up with #SNMP Library 8.5 and the latest SharpSnmpPro.Mib.
 
 Evaluation Steps
 ----------------
@@ -34,3 +34,6 @@ Related Resources
 -----------------
 
 - :doc:`/getting-started/compiler-features`
+- :doc:`/tutorials/compiler-full-guide`
+- :doc:`/tutorials/assembly-trial-guide`
+- :doc:`/tutorials/assembly-full-guide`
