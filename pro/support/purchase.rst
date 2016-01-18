@@ -21,6 +21,10 @@ SharpSnmpPro.Mib Assembly
 ----------------
 `Buy #SNMP MIB Compiler Pro + SharpSnmpPro.Mib Assembly Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JXFC29ENV43HA>`_ at **799 USD**
 
+Source Code Availability
+------------------------
+All above are binaries sold only. Source code is sold separately. Please contact `the support team <mailto:support@lextm.com>`_ for more information.
+
 Related Resources
 -----------------
 
