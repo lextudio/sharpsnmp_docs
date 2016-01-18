@@ -60,10 +60,10 @@ Then the assemblies can be copied to that folder (``D:\sharpsnmppro-sample`` for
 
 To make the test project work with Full version, the following changes need to be made,
 
-1. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
-1. Add a new reference to ``SharpSnmpPro.Mib.dll``.
-1. Modify ``sharpsnmppro.txt`` following the instructions in the email.
-1. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
+#. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
+#. Add a new reference to ``SharpSnmpPro.Mib.dll``.
+#. Modify ``sharpsnmppro.txt`` following the instructions in the email.
+#. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
 
 The API reference documentation can be found at `the help site`_ .
 

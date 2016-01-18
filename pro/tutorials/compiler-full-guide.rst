@@ -15,11 +15,11 @@ Once you finish the purchase, please follow the these steps to request a license
 
 Generate License Hint
 ---------------------
-1. Launch the compiler by double clicking Compiler.exe.
-1. Go to Help | Register Product menu item.
-1. In Register dialog, fill in the User name field and click Generate Hint button. The hint data will be generated in the Hint field.
-1. Click Copy Hint button to copy the data to clipboard.
-1. Exit the Register dialog by clicking the red cross on top right corner.
+#. Launch the compiler by double clicking Compiler.exe.
+#. Go to Help | Register Product menu item.
+#. In Register dialog, fill in the User name field and click Generate Hint button. The hint data will be generated in the Hint field.
+#. Click Copy Hint button to copy the data to clipboard.
+#. Exit the Register dialog by clicking the red cross on top right corner.
 
 Please paste that data to an email and send to `the support team <mailto:support@lextm.com>`_ .
 
@@ -31,11 +31,11 @@ License Activation
 ------------------
 Once the license key arrives via email, it is time to perform the following steps to get the compiler activated,
 
-1. Launch the compiler by double clicking Compiler.exe.
-1. Go to Help | Register Product menu item.
-1. In Register dialog, switch to Product Key Registration tab.
-1. Paste the license key to the text box and click Register.
-1. Exit the Register dialog by clicking the red cross on top right corner.
+#. Launch the compiler by double clicking Compiler.exe.
+#. Go to Help | Register Product menu item.
+#. In Register dialog, switch to Product Key Registration tab.
+#. Paste the license key to the text box and click Register.
+#. Exit the Register dialog by clicking the red cross on top right corner.
 
 .. image:: _static/key.png
 

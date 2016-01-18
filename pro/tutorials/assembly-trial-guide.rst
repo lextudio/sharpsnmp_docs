@@ -53,9 +53,9 @@ In Visual Studio you can analyze the two projects in ``Tests.sln``.
 
 If new projects are going to be created to test out the Trial Edition, please note that you need to follow the provided samples to,
 
-1. Include a text file named ``sharpsnmppro.txt``.
-1. The text file must contain exactly "#SNMP MIB Compiler Pro" (without quotes).
-1. Build Action for this text file must be set as Embedded Resource.
+#. Include a text file named ``sharpsnmppro.txt``.
+#. The text file must contain exactly "#SNMP MIB Compiler Pro" (without quotes).
+#. Build Action for this text file must be set as Embedded Resource.
 
 Without this text file, the Trial Edition should give you an exception with error message "This assembly is not licensed to you. Please buy a license from LeXtudio...".
 
