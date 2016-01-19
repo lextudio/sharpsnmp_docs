@@ -30,3 +30,4 @@ Related Resources
 
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-full-guide`
+- `Support Services <http://docs.sharpsnmp.com/en/latest/support/services.html>`_
