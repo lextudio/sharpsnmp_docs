@@ -17,11 +17,3 @@ Topics
     getting-started/index
     tutorials/index
     support/index
-
-Contribute
-----------
-
-**We accept pull requests!** But you're more likely to have yours accepted if you follow these guidelines:
-
-	1. Read the `Contributing Guide <https://github.com/lextm/sharpsnmp_docs/blob/master/CONTRIBUTING.md>`_.
-	2. Follow the `ASP.NET 5 Docs Style Guide <https://docs.asp.net/en/latest/contribute/style-guide.html>`_.

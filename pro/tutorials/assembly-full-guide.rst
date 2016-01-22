@@ -142,8 +142,8 @@ With MIB documents, it is very easy to determine if an OID is a table.
   Assert.IsFalse(registry.ValidateTable(entry));
   Assert.IsFalse(registry.ValidateTable(unknown));
 
-Data Validation
-^^^^^^^^^^^^^^^
+Input Data Validation
+^^^^^^^^^^^^^^^^^^^^^
 In SNMP managers or agents, it is a common need to determine if a piece of data is valid for an OID. Various constraints can be defined at MIB document level, but it is often difficult to extract that from the files. With a 
 few lines of code you can now do that
 
@@ -163,6 +163,7 @@ Related Resources
 -----------------
 
 - :doc:`/support/purchase`
+- `Requesting Trial <http://sharpsnmp.com>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/compiler-trial-guide`

@@ -65,6 +65,7 @@ Related Resources
 -----------------
 
 - :doc:`/support/purchase`
+- `Requesting Trial <http://sharpsnmp.com>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-trial-guide`
