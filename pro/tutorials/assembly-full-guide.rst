@@ -131,7 +131,7 @@ There are of course other properties you can review, which are documented online
 
 Table Validation
 ^^^^^^^^^^^^^^^^
-With MIB documents, it is very easy to determine if an OID is a table.
+With MIB documents, it is very easy to determine if an OID is a table, a table entry, or a table column.
 
 .. code-block:: csharp
 
@@ -141,6 +141,8 @@ With MIB documents, it is very easy to determine if an OID is a table.
   Assert.IsTrue(registry.ValidateTable(table));
   Assert.IsFalse(registry.ValidateTable(entry));
   Assert.IsFalse(registry.ValidateTable(unknown));
+
+By accessing ``Children`` property of a table object, the entry of that table can be queries. Similarly, by accessing ``Children`` property of an entry object, the columns of the table can be queried easily.
 
 Input Data Validation
 ^^^^^^^^^^^^^^^^^^^^^
