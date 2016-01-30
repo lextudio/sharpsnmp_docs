@@ -6,3 +6,4 @@ Support Information
 
    purchase
    licensing
+   services

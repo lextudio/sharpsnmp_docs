@@ -28,7 +28,7 @@ All above are binaries sold only. Source code is sold separately. Please contact
 Related Resources
 -----------------
 
-- `Support Services <http://docs.sharpsnmp.com/en/latest/support/services.html>`_
+- :doc:`/support/services`
 - `Requesting Trial <http://sharpsnmp.com>`_
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-full-guide`
