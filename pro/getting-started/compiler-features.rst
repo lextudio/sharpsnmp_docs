@@ -14,8 +14,15 @@ Background
 #SNMP Library used to ship a compiler sample project, which only provides limited features such as syntax highlighting. The Pro Edition of #SNMP MIB Compiler, however, is designed and developed to include 
 advanced features that target SNMP professionals and enterprises. It also comes with professional consulting and support services.
 
+Supported Platforms
+-------------------
+The Compiler Pro which requires .NET 4.5 and Windows Vista and above.
+
+Features
+--------
+
 Accurate Error Reporting and Rich Metadata Extraction
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Type information extraction is a key requirement of a compiler that for every objects their basic types can be determined (Counter32, OCTET STRING, and so on). Even the intermediate types (such as DisplayString) 
 are very useful for troubleshooting. In the meantime, as constraints can be added at each levels, such constraints play an important role in data validation.
 
@@ -25,31 +32,31 @@ Based on the metadata collected from MIB documents, the compiler can generate ap
 The output C# source files can be used to link with the snmpd sample in #SNMP Library so as to form a simulator for those MIB documents.
 
 Visual Studio Style Panels
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 The compiler is designed to be similar to Visual Studio, with dock panels that show various information to assist MIB document authoring.
 
 .. image:: _static/vs2012.png
 
 Solution Explorer
-^^^^^^^^^^^^^^^^^
+*****************
 MIB documents can be loaded here. Last used solution will be automatically loaded at startup.
 
 .. image:: _static/solution_explorer.png
 
 Module List
-^^^^^^^^^^^
+***********
 Loaded and pending modules are displayed in this panel, so it is obvious which modules are not compiled.
 
 .. image:: _static/module_list.png
 
 Error List
-^^^^^^^^^^
+**********
 Compilation errors and warnings are displayed so it is easy to identify issues in documents.
 
 .. image:: _static/error_list.png
 
 Object Tree
-^^^^^^^^^^^
+***********
 Objects from loaded modules are displayed so the whole object tree is one click away.
 
 .. image:: _static/object_tree.png
