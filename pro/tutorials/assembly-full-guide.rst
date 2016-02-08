@@ -65,8 +65,6 @@ To make the test project work with Full version, the following changes need to b
 #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
 #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
 
-The API reference documentation can be found at `the help site`_ .
-
 Related Resources
 -----------------
 
