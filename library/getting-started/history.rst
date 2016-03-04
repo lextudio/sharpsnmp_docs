@@ -32,9 +32,9 @@ so overwhelming that Lex had to drop another open source project [7]_ .
 The next major release of #SNMP Suite was 1.5 (code name TwinTower) in January 2009 [8]_ . It provides a refined API set, and many bug fixes over the initial release. Three months later, the 2.0 release 
 (code name CrossRoad) was released in April 2009 [9]_ , which finished all tasks except SNMP v3 support.
 
-SNMP v3 is a monster to conquer, because it introduces fundamental changes to the message format (and diffrent agent side behaviors when we attempted to implement an agent prototype). Thus, many API elements 
-have to be completed rewrite. But things became easier for #SNMP as another open source SNMP implementation named SNMP#NET was published by Milan Sinadinovic [10]_ . By reusing the encryption code, #SNMP 
-Library could soon support SNMP v3 packets. The 3.0 release (code name Trident) was released in August 2009 with initial SNMP v3 support.
+SNMP v3 is a monster to conquer, because it introduces fundamental changes to the message format (and different agent side behaviors when we attempted to implement an agent prototype). Thus, many API elements 
+have to be completed rewritten. But things became easier as another open source SNMP implementation named SNMP#NET was published by Milan Sinadinovic [10]_ . By reusing the encryption code, #SNMP 
+Library soon started to support SNMP v3 packets. The 3.0 release (code name Trident) was released in August 2009 with initial SNMP v3 support.
 
 The next major task was to implement an SNMP agent that can process incoming requests. Fortunately Lex was working on ASP.NET/IIS at Microsoft at that time, so he reused many ideas he learned from ASP.NET 
 request pipeline and designed a similar pipeline for SNMP messages [11]_ . The 4.0 release (code name SquareRoot) shipped the initial result in March 2010 with SNMP v1 and v2c message support [12]_ . SNMP v3 message 
