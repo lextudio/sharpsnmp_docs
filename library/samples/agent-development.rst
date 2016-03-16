@@ -113,7 +113,7 @@ You should take a look at ``MainForm.cs`` and read what extra lines are required
 
 As the sample is released under MIT/X11 license, you can feel free to use it as a starting point of your own SNMP agent.
 
-Our traplistener sample also uses the pipeline to handle trap messages, and once you are familiar with snmpd, you can switch to it to learn how to construct a browser side pipeline accordingly.
+The snmptrapd sample also uses the pipeline to handle trap messages, and once you are familiar with snmpd, you can switch to it to learn how to construct a browser side pipeline accordingly.
 
 The pipeline greatly enhances our message processing infrastructure, and you should spare some time to go through its current status.
 
