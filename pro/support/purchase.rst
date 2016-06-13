@@ -29,6 +29,6 @@ Related Resources
 -----------------
 
 - :doc:`/support/services`
-- `Requesting Trial <http://sharpsnmp.com>`_
+- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-full-guide`

@@ -148,7 +148,7 @@ Related Resources
 -----------------
 
 - :doc:`/support/purchase`
-- `Requesting Trial <http://sharpsnmp.com>`_
+- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
 - :doc:`/getting-started/compiler-features`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/assembly-full-guide`
