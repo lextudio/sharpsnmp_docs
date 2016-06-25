@@ -33,7 +33,7 @@ The next major release of #SNMP Suite was 1.5 (code name TwinTower) in January 2
 (code name CrossRoad) was released in April 2009 [9]_ , which finished all tasks except SNMP v3 support.
 
 SNMP v3 is a monster to conquer, because it introduces fundamental changes to the message format (and different agent side behaviors when we attempted to implement an agent prototype). Thus, many API elements 
-have to be completed rewritten. But things became easier as another open source SNMP implementation named SNMP#NET was published by Milan Sinadinovic [10]_ . By reusing the encryption code, #SNMP 
+have to be completely rewritten. But things became easier as another open source SNMP implementation named SNMP#NET was published by Milan Sinadinovic [10]_ . By reusing the encryption code, #SNMP 
 Library soon started to support SNMP v3 packets. The 3.0 release (code name Trident) was released in August 2009 with initial SNMP v3 support.
 
 The next major task was to implement an SNMP agent that can process incoming requests. Fortunately Lex was working on ASP.NET/IIS at Microsoft at that time, so he reused many ideas he learned from ASP.NET 
@@ -44,7 +44,7 @@ The 6.0 release (code name HoneyCell) in November 2010 was the first major relea
 
 Later Releases and License Changes
 ----------------------------------
-The 7.0 release (code name BigDipper) was released in October 2011 [16]_ was major a bug fix release.
+The 7.0 release (code name BigDipper) was released in October 2011 [16]_ was mainly a bug fix release.
 
 The 8.0 release (code name TritonMate) was released in April 2013 [17]_ . It featured a new compiler based on ANTLR [18]_ , which was under BSD 3 Clause. This indicated a move to more permissive licenses. The SNMP pipeline 
 code was changed to MIT/X11 in the same release [19]_ . After the final release, the code base had been updated to support Xamarin's mobile platforms.
