@@ -37,9 +37,11 @@ Install #SNMP Library via source code
 
 1. Download the source code from `GitHub <https://github.com/lextm/sharpsnmplib/releases>`_, or clone the repo directly.
 
-2. Open/create a empty Windows Forms project in a solution.
+2. Run ``prepare.bat`` on Windows (or ``prepare.sh`` on non-Windows platforms) to prepare the code base for compilation.
 
-3. Add SharpSnmpLib.Portable.csproj and SharpSnmpLib.Full.csproj in ``SharpSnmpLib`` directory to your solution.
+3. Open/create a empty Windows Forms project in a solution.
+
+4. Add SharpSnmpLib.Portable.csproj and SharpSnmpLib.Full.csproj in ``SharpSnmpLib`` directory to your solution.
 
 .. note:: SharpSnmpLib.Android.csproj and SharpSnmpLib.iOS.csproj might be used to target Xamarin platforms.
 
