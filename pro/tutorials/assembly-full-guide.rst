@@ -27,7 +27,7 @@ Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be
 * Xamarin.Android
 * Xamarin.Mac
 
-.. note: The default build targets desktop profiles. Customers who need to target iOS and Android can request mobile builds via customer support free of charge.
+.. note:: The default build targets desktop profiles only. Customers who need to target iOS and Android can request mobile builds via customer support free of charge.
 
 Complete Sample Project
 -----------------------
