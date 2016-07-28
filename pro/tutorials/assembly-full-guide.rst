@@ -19,13 +19,15 @@ The Full version is sent to registered users only via emails, and is packaged up
 
 Supported Platforms
 -------------------
-Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can be used on multiple platforms,
+Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be used on multiple platforms,
 
 * .NET Framework 4.5.2 and above
 * Mono 4.2.1 and above
 * Xamarin.iOS Unified
 * Xamarin.Android
 * Xamarin.Mac
+
+.. note: The default build targets desktop profiles. Customers who need to target iOS and Android can request mobile builds via customer support free of charge.
 
 Complete Sample Project
 -----------------------
