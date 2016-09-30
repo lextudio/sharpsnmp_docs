@@ -42,7 +42,7 @@ These .NET Framework releases are end of life.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 According to `Microsoft support policies <https://support.microsoft.com/en-us/lifecycle#gp/Framework_FAQ>`_, these releases are still supported.
 
-`#SNMP 8.5 release (code name TritonMate Refresh) <https://sharpsnmplib.codeplex.com/releases/view/118578>`_ can be used on these platforms.
+`#SNMP 8.5 release (code name TritonMate Refresh) <https://sharpsnmplib.codeplex.com/releases/view/118578>`_ and above can be used on these platforms.
 
 .NET Compact Framework
 ----------------------
@@ -50,7 +50,7 @@ Support for .NET Compact Framework 3.5 and above is still experimental.
 
 Mono
 ----
-`#SNMP 8.5 release (code name TritonMate Refresh) <https://sharpsnmplib.codeplex.com/releases/view/118578>`_ can be used on Mono.
+`#SNMP 8.5 release (code name TritonMate Refresh) <https://sharpsnmplib.codeplex.com/releases/view/118578>`_ and above can be used on Mono.
 
 The following operating systems are tested,
 
@@ -58,10 +58,10 @@ The following operating systems are tested,
 * Ubuntu
 * Fedora Core
 
-It is recommended to use latest Mono release, such as 4.2.1.
+It is recommended to use latest Mono release, such as 4.2.1 and above.
 
-.NET Core 5
------------
-Microsoft hasn't yet released .NET Core 5 final build (RC 1 is available at this writing).
+.NET Core
+---------
+Microsoft has released .NET Core 1.0, but this new platform still lacks of certain APIs for this library to consume.
 
-#SNMP will support this platform but there can be several limitations.
+#SNMP will support this platform officially once it becomes more mature.

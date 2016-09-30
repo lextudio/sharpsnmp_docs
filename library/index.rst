@@ -20,6 +20,12 @@ Topics
     contribute/index
     support/index
 
+Pro Edition
+-----------
+MIB Compiler and the related library is released as #SNMP Pro edition.
+
+More information can be found at `its own documentation site <https://pro.sharpsnmp.com>`_ .
+
 Contribute
 ----------
 

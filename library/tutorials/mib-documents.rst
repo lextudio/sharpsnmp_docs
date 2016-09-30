@@ -38,5 +38,5 @@ The descriptions help you understand the meaning of the data you get from the ag
 Related Resources
 -----------------
 
-- `#SNMP MIB Compiler Pro <http://pro.sharpsnmp.com/en/latest/getting-started/compiler-features.html>`_
-- `SharpSnmpPro.Mib Assembly <http://pro.sharpsnmp.com/en/latest/getting-started/assembly-features.html>`_
+- `#SNMP MIB Compiler Pro <https://pro.sharpsnmp.com/en/latest/getting-started/compiler-features.html>`_
+- `SharpSnmpPro.Mib Assembly <https://pro.sharpsnmp.com/en/latest/getting-started/assembly-features.html>`_
