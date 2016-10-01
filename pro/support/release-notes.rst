@@ -12,19 +12,29 @@ This page documents major releases of SharpSnmpPro.Mib.
 Releases
 -------------------------
 
+1.1.3
+^^^^^
+This is a bug fix release. Major changes:
+
+* `Parser2.Compile exceptions are handled properly. <https://github.com/lextm/sharpsnmppro-sample/issues/4>`_ 
+
 1.1.2
 ^^^^^
 This is a bug fix release. Major changes:
-* `Assistance OIDs are no longer generated <https://github.com/lextm/sharpsnmppro-sample/issues/1>`_ 
+
+* `Assistance OIDs are no longer generated. <https://github.com/lextm/sharpsnmppro-sample/issues/1>`_ 
+* `Duplicate module detection is added. <https://github.com/lextm/sharpsnmppro-sample/issues/3>`_ 
 
 1.1.1
 ^^^^^
 This is a bug fix release. Major changes:
+
 * .NET Framework 4.0 is no longer supported. .NET 4.5 and above is required.
 
 1.1.0
 ^^^^^
 This is a bug fix release. Major change:
+
 * More internal types are now exposed as public.
 
 1.0.0
