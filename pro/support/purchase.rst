@@ -17,7 +17,7 @@ This page shows you how to purchase the Pro Edition.
 
 Source Code Availability
 ------------------------
-All above are binaries sold only. Source code is sold separately. Please contact `the support team <mailto:support@lextm.com>`_ for more information.
+All above are binaries sold only. Source code is sold separately. Please contact `the support team <mailto:support@lextudio.com>`_ for more information.
 
 Related Resources
 -----------------

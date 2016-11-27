@@ -30,5 +30,5 @@ Professional Advisory services are designed for developers, IT professionals and
 
 Professional Advisory services are provided for the same price as a Professional Support incident, and the delivery time is expected be similar to a support incident, typically 2 to 3 hours. Requests may be rescoped to fit the limited delivery time or the service may be declined. Professional Advisory services are available during normal business hours: 7:00 PM – 10:00 PM China Standard Time Monday to Friday, excluding public holidays. Response time will be 8 hours. Simply contact `the support team`_ , stating that you want Professional Advisory Services.
 
-.. _Get Started: mailto:support@lextm.com
-.. _the support team:  mailto:support@lextm.com
+.. _Get Started: mailto:support@lextudio.com
+.. _the support team:  mailto:support@lextudio.com

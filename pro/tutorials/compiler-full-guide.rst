@@ -21,7 +21,7 @@ Generate License Hint
 #. Click Copy Hint button to copy the data to clipboard.
 #. Exit the Register dialog by clicking the red cross on top right corner.
 
-Please paste that data to an email and send to `the support team <mailto:support@lextm.com>`_ .
+Please paste that data to an email and send to `the support team <mailto:support@lextudio.com>`_ .
 
 .. image:: _static/register.png
 
