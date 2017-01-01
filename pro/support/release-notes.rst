@@ -17,6 +17,7 @@ Releases
 This is a bug fix release with some new APIs. Major changes:
 
 Bug fixes
+
 * `zeroDotZero DisplayEntity.GetObjectIdentifier is fixed <https://github.com/lextm/sharpsnmppro-sample/issues/5>`_ .
 * `jmgt DisplayEntity.GetObjectIdentifier is fixed <https://github.com/lextm/sharpsnmppro-sample/issues/6>`_ .
 * `Table index verification is improved to avoid false alarms <https://github.com/lextm/sharpsnmppro-sample/issues/7>`_ .
@@ -24,6 +25,7 @@ Bug fixes
 * `OID resolution is revised to work better with multiple references to the same tree node <https://github.com/lextm/sharpsnmppro-sample/issues/9>`_ .
 
 New features
+
 * `A new Index type is added and implied flag is supported <https://github.com/lextm/sharpsnmppro-sample/issues/2>`_ .
 * A new Augments type is added.
 * New types such as ContraintedType are added to provide initial constraint related support.
