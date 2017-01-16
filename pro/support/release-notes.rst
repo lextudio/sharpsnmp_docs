@@ -68,13 +68,19 @@ The lifecycle of the releases are listed below,
 ======= ================= ================
 Version Release Date      End-of-life Date
 ======= ================= ================
-1.2.0   Jan ?, 2017       N/A
-1.1.3   Oct 1, 2016       N/A
-1.1.2   Sep 15, 2016      Oct 1, 2017
-1.1.1   Jul 14, 2016      Sep 15, 2017
-1.1.0   Feb 22, 2015      Jul 14, 2017
-1.0.0   Feb 3, 2014       Feb 22, 2016
+1.2.0   Jan 16, 2017      N/A             
+1.1.3   Oct 1, 2016       April 16, 2017  
+1.1.2   Sep 15, 2016      Oct 1, 2017     
+1.1.1   Jul 14, 2016      Sep 15, 2017    
+1.1.0   Feb 22, 2015      Jul 14, 2017    
+1.0.0   Feb 3, 2014       Feb 22, 2016    
 ======= ================= ================
+
+The old rule (1.0.0-1.1.2) is that any release will be actively supported till its next release becomes one year old.
+
+The new rule (1.1.3 and above) is that any release will be actively supported till its next release becomes three months old. This change is to match our more frequent release cycles.
+
+Users of expired releases must upgrade to an active supported release before contacing technical support team.
 
 Related Resources
 -----------------
