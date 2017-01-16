@@ -49,7 +49,7 @@ To test it out, we reuse the default test projects for Trial version, which can 
 .. code-block:: shell
 
   git clone https://github.com/lextm/sharpsnmppro-sample.git
-  git checkout 1.1.3
+  git checkout release_1.2
 
 Then the assemblies can be copied to that folder (``D:\sharpsnmppro-sample`` for example).
 

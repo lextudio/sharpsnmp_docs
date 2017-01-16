@@ -16,7 +16,7 @@ advanced features that target SNMP professionals and enterprises. It also comes 
 
 Supported Platforms
 -------------------
-The Compiler Pro which requires .NET 4.5 and Windows Vista and above.
+The Compiler Pro which requires .NET Framework 4.5 and Windows Vista and above.
 
 Features
 --------
