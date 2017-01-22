@@ -104,22 +104,23 @@ Before calling ``SnmpEngine.Start``, it is recommended that the below code to be
   var threads = engine.Listener.Bindings.Count;
   ThreadPool.SetMinThreads(threads + 1, minIOC);
 
-If not tuned, the very first request to this agent will cost extra time (noticeably several seconds if there are too many bindings), as the operating system needs to create new threads before putting 
-them into the thread pool.
+If not tuned, the very first request to this agent will cost extra time (noticeably several seconds if there are too many bindings), as the operating system 
+needs to create new threads before putting them into the thread pool.
 
-The Last Words
---------------
-You should take a look at ``MainForm.cs`` and read what extra lines are required to configure the ``SnmpEngine`` object, how to start and stop it.
+Limitation Explained
+--------------------
+You should take a look at ``MainForm.cs`` and read what extra lines are required to configure the ``SnmpEngine`` object, how to start and stop it. SNMP tables 
+can be quite complex, while this sample only shows simple tables such as IfTable for simplicity.
 
-As the sample is released under MIT/X11 license, you can feel free to use it as a starting point of your own SNMP agent.
+As the sample is released under MIT/X11 license. The snmptrapd sample also uses the pipeline to handle trap messages, and once you are familiar with snmpd, 
+you can switch to it to learn how to construct a browser side pipeline accordingly.
 
-The snmptrapd sample also uses the pipeline to handle trap messages, and once you are familiar with snmpd, you can switch to it to learn how to construct a browser side pipeline accordingly.
-
-The pipeline greatly enhances our message processing infrastructure, and you should spare some time to go through its current status.
-
-A lot of improvements will be provided in the future to further enhance this useful design.
+This sample is provided to demonstrate how the library might be used. If you want to build a full feature SNMP agent based on this sample, then many changes 
+(mult-threading and security related) are mandate.
 
 Related Resources
 -----------------
 
+- :doc:`/tutorials/introduction`
 - :doc:`/samples/command-line-tools`
+- :doc:`/get-started/license-notice`

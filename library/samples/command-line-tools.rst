@@ -11,7 +11,7 @@ This page shows you what are the command line tools shipped.
 How to Acquire The Command Line Tools
 -------------------------------------
 Please follow "Install #SNMP Library via source code" section in :doc:`/getting-started/installing-on-windows` to acquire the source code. Then launch Visual Studio 2015 to 
-open ``SharpSnmpLib.vs2013.sln``.
+open ``SharpSnmpLib.Classic.sln``.
 
 The sample projects are under the "Samples" folder and devided into two languages, C# and VB.NET. Compile them and then they can be executed.
 
@@ -143,3 +143,4 @@ Related Resources
 
 - :doc:`/tutorials/introduction`
 - :doc:`/tutorials/v3-operations`
+- :doc:`/get-started/license-notice`
