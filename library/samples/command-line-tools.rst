@@ -143,4 +143,4 @@ Related Resources
 
 - :doc:`/tutorials/introduction`
 - :doc:`/tutorials/v3-operations`
-- :doc:`/get-started/license-notice`
+- :doc:`/getting-started/license-notice`

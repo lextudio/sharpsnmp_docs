@@ -123,4 +123,4 @@ Related Resources
 
 - :doc:`/tutorials/introduction`
 - :doc:`/samples/command-line-tools`
-- :doc:`/get-started/license-notice`
+- :doc:`/getting-started/license-notice`
