@@ -53,7 +53,7 @@ The following code shows how to send an SNMP v1 GET-NEXT message to an SNMP agen
   {
       throw ErrorException.Create(
           "error in response",
-          receiver.Address,
+          IPAddress.Parse("192.168.1.2"),
           response);
   }
 
@@ -76,7 +76,7 @@ The following code shows how to send an SNMP v2 GET-BULK message to an SNMP agen
   {
       throw ErrorException.Create(
           "error in response",
-          receiver.Address,
+          IPAddress.Parse("192.168.1.2"),
           response);
   }
 
