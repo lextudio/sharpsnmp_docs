@@ -54,7 +54,7 @@ Mono
 
 The following operating systems are tested,
 
-* OS X
+* OS X/macOS
 * Ubuntu
 * Fedora Core
 
