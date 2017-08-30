@@ -9,18 +9,31 @@ This article describes what open source licenses are used for the source code of
   :local:
   :depth: 1
 
-Release 8.5 and Above
----------------------
-==========================  ===================
+Release 10.0 and Above
+----------------------
+==========================  ====================
 Assembly Name               Source Code License
-==========================  ===================
+==========================  ====================
+SharpSnmpLib.dll   MIT/X11
+SharpSnmpLib.Full.dll       MIT/X11
+SharpSnmpLib.Android.dll    MIT/X11
+SharpSnmpLib.iOS.dll        MIT/X11
+snmpd.exe                   MIT/X11
+All other samples           public domain
+==========================  ====================
+
+Release 8.5 and 9.x
+-------------------
+==========================  ====================
+Assembly Name               Source Code License
+==========================  ====================
 SharpSnmpLib.Portable.dll   MIT/X11
 SharpSnmpLib.Full.dll       MIT/X11
 SharpSnmpLib.Android.dll    MIT/X11
 SharpSnmpLib.iOS.dll        MIT/X11
 snmpd.exe                   MIT/X11
 All other samples           public domain
-==========================  ===================
+==========================  ====================
 
 Release 8.0 and Below
 ---------------------

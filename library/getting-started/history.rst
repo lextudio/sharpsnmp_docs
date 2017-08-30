@@ -58,7 +58,9 @@ edition by the new compiler design.
 
 The open source project was renamed back to #SNMP Library. Its latest release 8.5 was published in February 2015 [23]_ . This release featured full support for Windows, OS X, Linux, and Xamarin platforms.
 
-The upcoming release in 2016 is code named LordGate [24]_ . 
+The 9.x release in 2016 is code named LordGate [24]_ . 
+
+The 10.x release will fully support .NET Standard.
 
 .. rubric:: Footnotes
 
