@@ -62,9 +62,7 @@ It is recommended to use latest Mono release, such as 4.2.1 and above.
 
 .NET Core
 ---------
-Microsoft has released .NET Core 1.0, but this new platform still lacks of certain APIs for this library to consume.
-
-#SNMP 10.0 release will support this platform officially via .NET Standard.
+#SNMP 10.0 release supports this platform officially via .NET Standard 1.3 compliance.
 
 Related Resources
 -----------------
