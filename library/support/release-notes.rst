@@ -24,4 +24,4 @@ Any release older than 9.0.5 is obsolete and no longer supported.
 Related Resources
 -----------------
 
-- :doc:`/support/purchase`
+- `Support Services <http://pro.sharpsnmp.com/en/latest/support/services.html>`_

@@ -67,4 +67,4 @@ It is recommended to use latest Mono release, such as 4.2.1 and above.
 Related Resources
 -----------------
 
-- Support Services <http://pro.sharpsnmp.com/en/latest/support/services.html>
+- `Support Services <http://pro.sharpsnmp.com/en/latest/support/services.html>`_
