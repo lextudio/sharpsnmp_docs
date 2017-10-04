@@ -10,7 +10,7 @@ This page documents major releases of SharpSnmpPro.Mib.
   :depth: 1
 
 Releases
--------------------------
+--------
 
 1.2.0
 ^^^^^
@@ -31,6 +31,8 @@ New features
 * New types such as ContraintedType are added to provide initial constraint related support.
 
 Tutorials on the new features will be added to related sections.
+
+.. note:: This release depends on `#SNMP Library 9.0.5 <https://github.com/lextm/sharpsnmplib/releases/tag/9.0.5>`_ and above.
 
 1.1.3
 ^^^^^
