@@ -17,6 +17,12 @@ The Trial Edition can be requested `here <http://sharpsnmp.com/Home/Send>`_ , an
 * SharpSnmpLib.Full.dll
 * SharpSnmpLib.Portable.dll
 
+.. note:: For 2.0 release, the following are included in the ZIP package,
+
+  * SharpSnmpPro.Mib.Trial.dll
+  * SharpSnmpLib.dll
+  * SharpSnmpPro.Mib.Trial.2.0.0.nupkg
+
 Supported Platforms
 -------------------
 Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can be used on multiple platforms,
@@ -36,7 +42,20 @@ To test it out, the default test projects can be found at `GitHub <https://githu
   git clone https://github.com/lextm/sharpsnmppro-sample.git
   git checkout release_1.2
 
-Then the assemblies can be copied to that folder (``D:\sharpsnmppro-sample`` for example).
+.. note:: For 2.0 release, execute the following commands,
+
+  .. code-block:: shell
+
+    git clone https://github.com/lextm/sharpsnmppro-sample.git
+    git checkout release_2.0
+
+Then extract all the files from the ZIP package to that folder (``D:\sharpsnmppro-sample`` for example).
+
+.. note:: For 2.0 release, execute an extra script to prepare the NuGet local feed,
+
+  .. code-block:: shell
+
+    install.nuget.bat
 
 In Visual Studio you can analyze the two projects in ``Tests.sln``.
 

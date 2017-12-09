@@ -17,11 +17,11 @@ The Full version is sent to registered users only via emails, and is packaged up
 * SharpSnmpLib.Full.dll
 * SharpSnmpLib.Portable.dll
 
-For the upcoming 2.0 release, the package contains the following,
+.. note:: For 2.0 release, the package contains the following,
 
-* SharpSnmpPro.Mib.dll
-* SharpSnmpLib.dll
-* SharpSnmpPro.Mib.2.0.0.nupkg
+  * SharpSnmpPro.Mib.dll
+  * SharpSnmpLib.dll
+  * SharpSnmpPro.Mib.2.0.0.nupkg
 
 Supported Platforms
 -------------------
@@ -35,12 +35,12 @@ Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be
 
 .. note:: The default build targets desktop profiles only. Customers who need to target iOS and Android can request mobile builds via customer support free of charge.
 
-For the upcoming 2.0 release, the supported platforms are,
+.. note:: For 2.0 release, the supported platforms are,
 
-* .NET Framework 4.5.2 and above
-* Other platforms that are compliant to .NET Standard 2.0
+  * .NET Framework 4.5.2 and above
+  * Other platforms that are compliant to .NET Standard 2.0
 
-More information about .NET Standard 2.0 can be found from `Microsoft <https://docs.microsoft.com/en-us/dotnet/standard/net-standard>`_ .
+  More information about .NET Standard 2.0 can be found from `Microsoft <https://docs.microsoft.com/en-us/dotnet/standard/net-standard>`_ .
 
 Complete Sample Project
 -----------------------
@@ -64,7 +64,20 @@ To test it out, we reuse the default test projects for Trial version, which can 
   git clone https://github.com/lextm/sharpsnmppro-sample.git
   git checkout release_1.2
 
-Then the assemblies can be copied to that folder (``D:\sharpsnmppro-sample`` for example).
+.. note:: For 2.0 release, execute the following commands,
+
+  .. code-block:: shell
+
+    git clone https://github.com/lextm/sharpsnmppro-sample.git
+    git checkout release_2.0
+
+Then extract all the files from the ZIP package to that folder (``D:\sharpsnmppro-sample`` for example).
+
+.. note:: For 2.0 release, execute an extra script to prepare the NuGet local feed,
+
+  .. code-block:: shell
+
+    install.nuget.bat
 
 ``Tests.csproj`` is an NUnit project that shows the below,
 
@@ -80,6 +93,12 @@ To make the test project work with Full version, the following changes need to b
 #. Add a new reference to ``SharpSnmpPro.Mib.dll``.
 #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
 #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
+
+.. note:: For 2.0 release, the following changes need to be made,
+
+  #. Modify ``snmptranslate.csproj`` and ``Tests.csproj`` to use ``SharpSnmpPro.Mib`` as package reference, instead of ``SharpSnmpPro.Mib.Trial``.
+  #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
+  #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
 
 Related Resources
 -----------------
