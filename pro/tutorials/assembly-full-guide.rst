@@ -17,6 +17,12 @@ The Full version is sent to registered users only via emails, and is packaged up
 * SharpSnmpLib.Full.dll
 * SharpSnmpLib.Portable.dll
 
+For the upcoming 2.0 release, the package contains the following,
+
+* SharpSnmpPro.Mib.dll
+* SharpSnmpLib.dll
+* SharpSnmpPro.Mib.2.0.0.nupkg
+
 Supported Platforms
 -------------------
 Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be used on multiple platforms,
@@ -28,6 +34,13 @@ Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be
 * Xamarin.Mac
 
 .. note:: The default build targets desktop profiles only. Customers who need to target iOS and Android can request mobile builds via customer support free of charge.
+
+For the upcoming 2.0 release, the supported platforms are,
+
+* .NET Framework 4.5.2 and above
+* Other platforms that are compliant to .NET Standard 2.0
+
+More information about .NET Standard 2.0 can be found from `Microsoft <https://docs.microsoft.com/en-us/dotnet/standard/net-standard>`_ .
 
 Complete Sample Project
 -----------------------
