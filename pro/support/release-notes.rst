@@ -12,6 +12,23 @@ This page documents major releases of SharpSnmpPro.Mib.
 Releases
 --------
 
+2.0.0
+^^^^^
+This is a major release with new platform support. Major changes:
+
+Bug fixes
+
+* `Compiler performance and stability is improved <https://github.com/lextm/sharpsnmppro-sample/issues/15>`_ .
+
+New Features
+
+* `.NET Standard 2.0 support is added <https://github.com/lextm/sharpsnmppro-sample/issues/10>`_ .
+* `RFC 2578 descriptor prefix is supported <https://github.com/lextm/sharpsnmppro-sample/issues/11>`_ .
+* `RFC 2578 restriction on imported items is applied <https://github.com/lextm/sharpsnmppro-sample/issues/12>`_ .
+* `RFC 1155 support is improved <https://github.com/lextm/sharpsnmppro-sample/issues/13>`_ .
+* `Moved a few classes to new namespaces <https://github.com/lextm/sharpsnmppro-sample/issues/14>`_ .
+* `Added overloading methods to ObjectRegistryBase support OID input <https://github.com/lextm/sharpsnmppro-sample/issues/16>`_ .
+
 1.2.0
 ^^^^^
 This is a bug fix release with some new APIs. Major changes:
