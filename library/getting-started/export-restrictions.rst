@@ -3,14 +3,14 @@ Export Restrictions
 
 By `Lex Li`_
 
-This page shows you information about export restrictions. 
+This page shows you information about export restrictions.
 
 .. contents:: In this article:
   :local:
   :depth: 1
 
 Background
-----------
+==========
 The #SNMP Library is open source software that contains strong encryption. Specifically, it has the ability to encrypt and decrypt SNMPv3 protocol. Its primary distribution point is 
 in the United States, and subsequently falls under U.S. encryption export regulations.
 
