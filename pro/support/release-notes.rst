@@ -29,6 +29,8 @@ New Features
 * `Moved a few classes to new namespaces <https://github.com/lextm/sharpsnmppro-sample/issues/14>`_ .
 * `Added overloading methods to ObjectRegistryBase support OID input <https://github.com/lextm/sharpsnmppro-sample/issues/16>`_ .
 
+.. note:: This release depends on `#SNMP Library 10.0.2 <https://github.com/lextm/sharpsnmplib/releases/tag/10.0.2>`_ and above.
+
 1.2.0
 ^^^^^
 This is a bug fix release with some new APIs. Major changes:
