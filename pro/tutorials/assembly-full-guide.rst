@@ -13,34 +13,28 @@ Background
 ----------
 The Full version is sent to registered users only via emails, and is packaged up with latest #SNMP Library. So below are the assemblies in the ZIP package,
 
-* SharpSnmpPro.Mib.dll
-* SharpSnmpLib.Full.dll
-* SharpSnmpLib.Portable.dll
+* SharpSnmpPro.Mib.Trial.dll
+* SharpSnmpLib.dll
+* SharpSnmpPro.Mib.Trial.2.0.0.nupkg
 
-.. note:: For 2.0 release, the package contains the following,
+.. note:: For 1.2 release, the following are included in the ZIP package,
 
-  * SharpSnmpPro.Mib.dll
-  * SharpSnmpLib.dll
-  * SharpSnmpPro.Mib.2.0.0.nupkg
+  * SharpSnmpPro.Mib.Trial.dll
+  * SharpSnmpLib.Full.dll
+  * SharpSnmpLib.Portable.dll
 
 Supported Platforms
 -------------------
 Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be used on multiple platforms,
 
 * .NET Framework 4.5.2 and above
-* Mono 4.2.1 and above
-* Xamarin.iOS Unified
-* Xamarin.Android
-* Xamarin.Mac
+* Mono 5.0 and above (via .NET Standard 2.0)
+* Xamarin.iOS Unified (via .NET Standard 2.0)
+* Xamarin.Android (via .NET Standard 2.0)
+* Xamarin.Mac (via .NET Standard 2.0)
+* Other platforms that are compliant to .NET Standard 2.0.
 
-.. note:: The default build targets desktop profiles only. Customers who need to target iOS and Android can request mobile builds via customer support free of charge.
-
-.. note:: For 2.0 release, the supported platforms are,
-
-  * .NET Framework 4.5.2 and above
-  * Other platforms that are compliant to .NET Standard 2.0
-
-  More information about .NET Standard 2.0 can be found from `Microsoft <https://docs.microsoft.com/en-us/dotnet/standard/net-standard>`_ .
+.. note:: More information about .NET Standard 2.0 can be found from `Microsoft <https://docs.microsoft.com/en-us/dotnet/standard/net-standard>`_ .
 
 Complete Sample Project
 -----------------------
@@ -57,27 +51,30 @@ Thus, a MIB specific library such as SharpSnmpPro.Mib can help build a much more
 
 .. image:: _static/mib.png
 
-To test it out, we reuse the default test projects for Trial version, which can be found at `GitHub <https://github.com/lextm/sharpsnmppro-sample.git>`_. It can be cloned to a local folder, such as ``D:\sharpsnmppro-sample`` .
+To test it out, we reuse the default test projects for Trial version, which can be found at `GitHub <https://github.com/lextm/sharpsnmppro-sample.git>`_. 
+It can be cloned to a local folder, such as ``D:\sharpsnmppro-sample`` .
 
 .. code-block:: shell
 
   git clone https://github.com/lextm/sharpsnmppro-sample.git
-  git checkout release_1.2
+  git checkout release_2.0
 
-.. note:: For 2.0 release, execute the following commands,
+.. note:: For 1.2 release, execute the following commands,
 
   .. code-block:: shell
 
     git clone https://github.com/lextm/sharpsnmppro-sample.git
-    git checkout release_2.0
+    git checkout release_1.2
 
 Then extract all the files from the ZIP package to that folder (``D:\sharpsnmppro-sample`` for example).
 
-.. note:: For 2.0 release, execute an extra script to prepare the NuGet local feed,
+Lastly, execute an extra script to prepare the NuGet local feed,
 
   .. code-block:: shell
 
     install.nuget.bat
+
+.. note:: For 1.2 release, there is no ``install.nuget.bat``.
 
 ``Tests.csproj`` is an NUnit project that shows the below,
 
@@ -89,14 +86,14 @@ Then extract all the files from the ZIP package to that folder (``D:\sharpsnmppr
 
 To make the test project work with Full version, the following changes need to be made,
 
-#. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
-#. Add a new reference to ``SharpSnmpPro.Mib.dll``.
+#. Modify ``snmptranslate.csproj`` and ``Tests.csproj`` to use ``SharpSnmpPro.Mib`` as package reference, instead of ``SharpSnmpPro.Mib.Trial``.
 #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
 #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
 
-.. note:: For 2.0 release, the following changes need to be made,
+.. note:: For 1.2 release, the following changes need to be made,
 
-  #. Modify ``snmptranslate.csproj`` and ``Tests.csproj`` to use ``SharpSnmpPro.Mib`` as package reference, instead of ``SharpSnmpPro.Mib.Trial``.
+  #. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
+  #. Add a new reference to ``SharpSnmpPro.Mib.dll``.
   #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
   #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
 

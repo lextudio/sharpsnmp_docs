@@ -11,7 +11,7 @@ This page shows you a guide on #SNMP Compiler Pro Trial version.
 
 Background
 ----------
-The Trial version can be requested `here <http://sharpsnmp.com/Home/Send>`_ , and is packaged up with #SNMP Library 8.5 and the latest SharpSnmpPro.Mib.
+The Trial version can be requested `here <http://sharpsnmp.com/Home/Send>`_ , and is packaged up with the latest #SNMP Library and SharpSnmpPro.Mib.
 
 Evaluation Steps
 ----------------
