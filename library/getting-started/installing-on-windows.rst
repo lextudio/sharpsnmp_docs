@@ -29,7 +29,7 @@ The easiest way to get started building applications with #SNMP Library is to in
   The latest package can be found at,
 
   * `Main Library <https://www.nuget.org/packages/Lextm.SharpSnmpLib/>`_. 
-  * `Platform Extensions <https://www.nuget.org/packages/Lextm.SharpSnmpLib.Extensions/>`_ (Required by release 10.0.0. Not required any more for 10.0.1 and above.)
+  * `Platform Extensions <https://www.nuget.org/packages/Lextm.SharpSnmpLib.Extensions/>`_ (Required by release 10.0.0 only. Not required any more for 10.0.1 and above.)
 
 .. note:: In 10.0.0 release, the platform extensions package is required for .NET Framework, Xamarin.iOS, and Xamarin.Android applications so as to use DES/AES encryption. This package is no longer
    needed in release 10.0.1 and above.
@@ -45,9 +45,9 @@ Install #SNMP Library via source code
 
 3. Open/create a empty Windows Forms project in a solution.
 
-4. Add SharpSnmpLib.Portable.csproj (release 9.x), SharpSnmpLib.csproj (release 10.0 and above), and SharpSnmpLib.Full.csproj (release 9.x and 10.0.0) in ``SharpSnmpLib`` directory to your solution.
+4. Add SharpSnmpLib.csproj (release 10.0 and above), and SharpSnmpLib.Full.csproj (10.0.0) in ``SharpSnmpLib`` directory to your solution.
 
-.. note:: SharpSnmpLib.Android.csproj and SharpSnmpLib.iOS.csproj might be used to target Xamarin platforms for release 9.x and 10.0.0. They are no longer needed for 10.0.1 release and above.
+.. note:: SharpSnmpLib.Android.csproj and SharpSnmpLib.iOS.csproj might be used to target Xamarin platforms for release 10.0.0. They are no longer needed for 10.0.1 release and above.
 
 Related Resources
 -----------------
