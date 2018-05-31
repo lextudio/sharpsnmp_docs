@@ -11,7 +11,7 @@ This page shows you how to purchase the Pro Edition.
 
 #SNMP Pro Bundle
 ----------------
-`Buy #SNMP MIB Compiler Pro + SharpSnmpPro.Mib Assembly Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JXFC29ENV43HA>`_ at **799 USD**
+`Buy #SNMP MIB Compiler Pro + SharpSnmpPro.Mib Assembly Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ETQPZJ88ZBHY>`_ at **1100 CAD**
 
 .. note:: Starting from 1.1.2 release, the products are no longer sold individually.
 
