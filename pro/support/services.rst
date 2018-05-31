@@ -22,7 +22,7 @@ Professional Support Single Incident                 $350 CAD for one incident  
 Professional Support 5-Pack Annual Support Contract  $1750 CAD for five incidents  `Buy Multiple <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BTSEXR62LQEPA>`_  7:00 PM – 10:00 PM Eastern Time Zone, Monday through Friday, excluding public holidays	   `Get Started`_
 ===================================================  ============================  ====================================================================================================  ========================================================================================  ====
 
-Business-critical after-hours support is available for $515 USD per incident and provides support only for business-critical issues. Service is available after business hours, on weekends, and during public holidays. To purchase after-hours support, please contact `the support team`_ .
+Business-critical after-hours support is available for $700 CAD per incident and provides support only for business-critical issues. Service is available after business hours, on weekends, and during public holidays. To purchase after-hours support, please contact `the support team`_ .
 
 Advisory Services
 -----------------
