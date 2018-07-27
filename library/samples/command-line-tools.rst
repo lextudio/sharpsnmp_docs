@@ -126,13 +126,13 @@ SNMP v3
 Community names are obsolete in SNMP v3, so snmpd.exe supports three users (to
 match three modes).
 
-=========  =============  =======================  =====================  ================  ==============
-User name  Security mode  Authentication provider  Authentication phrase  Privacy provider  Privacy phrase
-=========  =============  =======================  =====================  ================  ==============
-neither	   noAuthNoPriv	  default                  N/A	                  default           N/A
-authen	   authNoPriv     MD5                      authentication         default           N/A
-privacy	   authPriv       MD5                      authentication	        DES               privacyphrase
-=========  =============  =======================  =====================  ================  ==============
+=======  =============  ==============  ==============  =======  ==============
+User     Security mode  Authentication  Phrase          Privacy  Phrase
+=======  =============  ==============  ==============  =======  ==============
+neither  noAuthNoPriv   default         N/A             default  N/A
+authen   authNoPriv     MD5             authentication  default  N/A
+privacy  authPriv       MD5             authentication  DES      privacyphrase
+=======  =============  ==============  ==============  =======  ==============
 
 Checkout
 --------

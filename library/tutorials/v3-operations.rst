@@ -3,7 +3,8 @@ SNMP v3 Operations
 
 By `Lex Li`_
 
-This page shows you how to perform SNMP v3 operations. Basic SNMP v3 operations (GET, SET and so on) are translated to #SNMP function calls.
+This page shows you how to perform SNMP v3 operations. Basic SNMP v3
+operations (GET, SET and so on) are translated to #SNMP function calls.
 
 .. contents:: In this article:
   :local:
@@ -11,38 +12,46 @@ This page shows you how to perform SNMP v3 operations. Basic SNMP v3 operations 
 
 Background
 ----------
-SNMP v1 and v2c were designed to be simple, but one significant issue of them is security. It is very hard to hide community strings from sniffers, and also difficult to set access 
-control on entities.
+SNMP v1 and v2c were designed to be simple, but one significant issue of them
+is security. It is very hard to hide community strings from sniffers, and also
+difficult to set access control on entities.
 
-IETF recognized SNMP v3 RFC documents in 2004, which uses a new design to address the security concerns. The changes were so huge, so #SNMP has to expose a different styles of APIs for 
-developers to perform v3 operations. 
+IETF recognized SNMP v3 RFC documents in 2004, which uses a new design to
+address the security concerns. The changes were so huge, so #SNMP has to
+expose a different styles of APIs for developers to perform v3 operations.
 
 Discovery Process
 -----------------
-SNMP v3 defines a discovery process in RFC 3414, that before an SNMP agent responds to a manager the two must interchange information such as time stamp, engine ID and so on. 
+SNMP v3 defines a discovery process in RFC 3414, that before an SNMP agent
+responds to a manager the two must interchange information such as time stamp,
+engine ID and so on.
 
 .. code-block:: csharp
 
   Discovery discovery = Messenger.GetNextDiscovery(SnmpType.GetRequestPdu);
   ReportMessage report = discovery.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
 
-Above we perform such a discovery process by sending out a ``GetRequestPdu`` type of discovery message, and the agent replies with a ``ReportMessage`` which we can reuse later to 
-construct a valid request.
+Above we perform such a discovery process by sending out a ``GetRequestPdu``
+type of discovery message, and the agent replies with a ``ReportMessage``
+which we can reuse later to construct a valid request.
 
 User Credentials
 ----------------
-SNMP v3 requires user credentials to be passed on in each requests, so we need to prepare that information ahead of time.
+SNMP v3 requires user credentials to be passed on in each requests, so we need
+to prepare that information ahead of time.
 
 .. code-block:: csharp
 
   var auth = new SHA1AuthenticationProvider(new OctetString("myauthenticationpassword"));
   var priv = new DESPrivacyProvider(new OctetString("myprivacypassword"), auth);
 
-Assume the agent requires both authentication (SHA-1) and privacy (DES) protection, then above we create a single provider that embeds both passwords.
+Assume the agent requires both authentication (SHA-1) and privacy (DES)
+protection, then above we create a single provider that embeds both passwords.
 
 GET Operation
 -------------
-The following code shows how to send an SNMP v3 GET message to an agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
+The following code shows how to send an SNMP v3 GET message to an agent
+located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
 
 .. code-block:: csharp
 
@@ -56,11 +65,14 @@ The following code shows how to send an SNMP v3 GET message to an agent located 
           reply);
   }
 
-The reply object usually contains the response message we expect. By accessing ``reply.Pdu().Variables`` we can see what data are returned.
+The reply object usually contains the response message we expect. By accessing
+``reply.Pdu().Variables`` we can see what data are returned.
 
 SET Operation
 -------------
-The following code shows how to send an SNMP v3 SET message to an SNMP agent located at ``192.168.1.2`` and set the value of OID ``1.3.6.1.2.1.1.6.0`` to ``"Shanghai"``,
+The following code shows how to send an SNMP v3 SET message to an SNMP agent
+located at ``192.168.1.2`` and set the value of OID ``1.3.6.1.2.1.1.6.0`` to
+``"Shanghai"``,
 
 .. code-block:: csharp
 
@@ -76,7 +88,8 @@ The following code shows how to send an SNMP v3 SET message to an SNMP agent loc
 
 GET-BULK Operation
 ------------------
-The following code shows how to send an SNMP v3 GET-BULK message to an SNMP agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
+The following code shows how to send an SNMP v3 GET-BULK message to an SNMP
+agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
 
 .. code-block:: csharp
 
@@ -94,7 +107,8 @@ The following code shows how to send an SNMP v3 GET-BULK message to an SNMP agen
 
 WALK Operation
 --------------
-The following code shows how to perform v3 WALK on an SNMP agent located at ``192.168.1.2`` starting at ``1.3.6.1.2.1.1``,
+The following code shows how to perform v3 WALK on an SNMP agent located at
+``192.168.1.2`` starting at ``1.3.6.1.2.1.1``,
 
 .. code-block:: csharp
 
@@ -112,9 +126,11 @@ The following code shows how to perform v3 WALK on an SNMP agent located at ``19
 
 TRAP v2 Operation
 -----------------
-.. note:: TRAP v1 message format is obsolete by TRAP v2. Thus, for SNMP v3 TRAP operations, you can only use TRAP v2 message format.
+.. note:: TRAP v1 message format is obsolete by TRAP v2. Thus, for SNMP v3
+   TRAP operations, you can only use TRAP v2 message format.
 
-The following code shows how to send a TRAP v2 message to an SNMP manager/trap listener located at ``192.168.1.2``,
+The following code shows how to send a TRAP v2 message to an SNMP manager/trap
+listener located at ``192.168.1.2``,
 
 .. code-block:: csharp
 
@@ -135,9 +151,11 @@ The following code shows how to send a TRAP v2 message to an SNMP manager/trap l
 
 INFORM Operation
 ----------------
-.. note:: Comparing to sending TRAP v2 messages, it is common to send INFORM messages.
+.. note:: Comparing to sending TRAP v2 messages, it is common to send INFORM
+   messages.
 
-The following code shows how to send an INFORM message to an SNMP manager/trap listener located at ``192.168.1.2``,
+The following code shows how to send an INFORM message to an SNMP manager/trap
+listener located at ``192.168.1.2``,
 
 .. code-block:: csharp
 
@@ -153,7 +171,9 @@ The following code shows how to send an INFORM message to an SNMP manager/trap l
     DefaultPrivacyProvider.DefaultPair,
     report);
 
-.. note:: To help you understand how to use the API provided by #SNMP Library, there are more sample projects you can find under Samples folder in source code package. Both C# and VB.NET samples are available.
+.. note:: To help you understand how to use the API provided by #SNMP Library,
+   there are more sample projects you can find under Samples folder in source
+   code package. Both C# and VB.NET samples are available.
 
 Related Resources
 -----------------

@@ -33,7 +33,8 @@ UDP allows broadcast, so if we broadcast an SNMP GET request with OID
 reply with their device information. In this way we know both the device IP
 address and type from the replies.
 
-.. note:: You should avoid using "public" as community name, as it is so well known.
+.. note:: You should avoid using "public" as community name, as it is so well
+   known.
 
 Discovery for v3 (IPv4)
 -----------------------
