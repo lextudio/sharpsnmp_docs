@@ -6,6 +6,7 @@ Tutorials
 
    introduction
    v3-operations
+   aes
    device-discovery
    octet-strings
    troubleshooting
