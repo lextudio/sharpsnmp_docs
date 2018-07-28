@@ -1,9 +1,9 @@
-Information on AES Privacy
-==========================
+Information on DES/AES Privacy Providers
+========================================
 
 By `Lex Li`_
 
-This page shows you information regarding AES privacy providers.
+This page shows you information regarding DES/AES privacy providers.
 
 .. contents:: In this article:
   :local:
@@ -11,19 +11,24 @@ This page shows you information regarding AES privacy providers.
 
 Background
 ----------
-SNMP v3 standard defines AES algorithms to be used in user security model.
-#SNMP Library 10.0 supports AES 128/192/256.
+SNMP v3 standard defines DES/AES algorithms to be used in user security model.
+#SNMP Library 10.0 supports DES and AES 128/192/256.
 
-However, there are platforms that do not have native AES algorithms support,
-where an extra NuGet package is required.
+However, some platforms do not have native DES/AES algorithms support, where an
+extra NuGet package is required.
 
 Built-in Providers on .NET Core
 -------------------------------
-Microsoft does have some AES support in .NET Core. However, SNMP AES relies on
-CFB mode, which is not supported by .NET Core.
+Microsoft does have some DES/AES support in .NET Core. However,
 
-Therefore, the built-in privacy providers (derived from
-``AESPrivacyProviderBase`` do not work on .NET Core.
+* DES is not part of .NET Standard 1.3.
+* SNMP AES relies on CFB mode, which is not supported by .NET Core.
+
+Therefore, the built-in DES/AES privacy providers (derived from
+``AESPrivacyProviderBase``) do not work well on .NET Core.
+
+You can check ``DESPrivacyProvider.IsSupported`` to see if DES is natively
+supported on a platform.
 
 You can check ``AESPrivacyProviderBase.IsSupported`` to see if AES is natively
 supported on a platform.
@@ -31,13 +36,17 @@ supported on a platform.
 Providers on Bouncy Castle
 --------------------------
 Bouncy Castle is an open source library that implements many algorithms,
-including AES CFB.
+including DES and AES(CFB).
 
-The NuGet package ``SharpSnmpLib.BouncyCastle`` ships AES privacy providers
+The NuGet package ``SharpSnmpLib.BouncyCastle`` ships DES/AES privacy providers
 which are based on Bouncy Castle. They can be used on .NET Core.
 
 .. note:: Compared to built-in providers, these are slower due to Bouncy Castle
    implementation. So this extra package should only be used when necessary.
+
+.. note:: AES privacy providers are available in 10.0.9 release.
+
+.. note:: DES privacy provider is planned for 10.0.10 release.
 
 The following code shows how to test native AES support, and choose the right
 provider.
@@ -52,6 +61,20 @@ provider.
     else
     {
         aes = new BouncyCastleAESPrivacyProvider(...
+    }
+
+Similar code snippet can be used for DES,
+
+.. code-block:: csharp
+
+    IPrivacyProvider des;
+    if (DESPrivacyProvider.IsSupported)
+    {
+        des = new DESPrivacyProvider(...
+    }
+    else
+    {
+        des = new BouncyCastleDESPrivacyProvider(...
     }
 
 Related Resources
