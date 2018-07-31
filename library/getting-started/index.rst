@@ -5,6 +5,7 @@ Getting Started
    :titlesonly:
 
    installing-on-windows
+   signature
    history
    license-notice
    export-restrictions
