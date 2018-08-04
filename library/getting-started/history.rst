@@ -67,7 +67,7 @@ message support [12]_ . SNMP v3 message support only arrived in 5.0 release
 first time as Lex revised DockPanel Suite [14]_ .
 
 The 6.0 release (code name HoneyCell) in November 2010 was the first major
-release that ships no big change. #SNMP Suite had become mature then.
+release that ships no big change [15]_ . #SNMP Suite had become mature then.
 
 Later Releases and License Changes
 ----------------------------------

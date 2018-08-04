@@ -382,3 +382,16 @@ feed_skip_regex = '(.)*index'
 feed_base_url = 'http://docs.sharpsnmp.com/en/latest'
 feed_description = '#SNMP Library Documentation'
 feed_author = 'Lex Li'
+
+if not on_rtd:
+    edit_on_github_project = 'lextm/sharpsnmp_docs'
+    edit_on_github_branch = 'master'
+
+def setup(app):
+    on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+    if not on_rtd:
+        """Insert Google Analytics tracker
+        Based on this Stackoverflow suggestion: https://stackoverflow.com/a/41885884
+        """
+        app.add_javascript("https://www.googletagmanager.com/gtag/js?id=UA-1962620-11")
+        app.add_javascript("google_analytics_tracker.js")
