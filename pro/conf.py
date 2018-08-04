@@ -387,7 +387,7 @@ feed_author = 'Lex Li'
 
 if not on_rtd:
     edit_on_github_project = 'lextm/sharpsnmp_docs'
-    edit_on_github_branch = 'master'
+    edit_on_github_branch = 'master/pro'
 
 def setup(app):
     on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
