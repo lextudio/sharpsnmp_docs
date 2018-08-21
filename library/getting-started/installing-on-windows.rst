@@ -68,7 +68,7 @@ Install #SNMP Library via source code
 2. Run ``prepare.bat`` on Windows (or ``prepare.sh`` on non-Windows platforms)
    to prepare the code base for compilation.
 
-   .. note:: This step is no longer needed in release 10.0.10 and above.   
+   .. note:: This step is no longer needed in release 10.0.10 and above.
 
 3. Open/create a empty Windows Forms project in a solution.
 
