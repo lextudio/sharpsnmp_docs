@@ -6,4 +6,4 @@ Support
 
    release-notes
    platforms
-   Support Services <http://support.lextudio.com>
+   services

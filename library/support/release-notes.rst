@@ -24,7 +24,9 @@ release 9.0.5 and above are all supported.
 
 Any release older than 9.0.5 is obsolete and no longer supported.
 
+Please visit `#SNMP Pro page <https://pro.sharpsnmp.com/support/release-notes.html>`_ to learn more.
+
 Related Resources
 -----------------
 
-- `Support Services <http://support.lextudio.com>`_
+- :doc:`/support/services`
