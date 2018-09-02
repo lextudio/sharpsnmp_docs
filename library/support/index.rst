@@ -6,4 +6,4 @@ Support
 
    release-notes
    platforms
-   Support Services <http://pro.sharpsnmp.com/en/latest/support/services.html>
+   Support Services <http://support.lextudio.com>

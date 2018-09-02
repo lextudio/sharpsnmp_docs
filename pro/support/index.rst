@@ -7,4 +7,4 @@ Support Information
    release-notes
    purchase
    licensing
-   services
+   Support Services <http://support.lextudio.com>

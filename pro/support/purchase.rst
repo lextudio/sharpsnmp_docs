@@ -22,7 +22,7 @@ All above are binaries sold only. Source code is sold separately. Please contact
 Related Resources
 -----------------
 
-- :doc:`/support/services`
+- `Support Services <http://support.lextudio.com>`_
 - `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-full-guide`

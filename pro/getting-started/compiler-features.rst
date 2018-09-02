@@ -12,7 +12,7 @@ This page shows you the main features of the Compiler Pro Edition.
 Background
 ----------
 #SNMP Library used to ship a compiler sample project, which only provides limited features such as syntax highlighting. The Pro Edition of #SNMP MIB Compiler, however, is designed and developed to include 
-advanced features that target SNMP professionals and enterprises. It also comes with professional consulting and support services.
+advanced features that target SNMP professionals and enterprises. Support services can be purchased separately.
 
 Supported Platforms
 -------------------
@@ -65,6 +65,6 @@ Related Resources
 -----------------
 
 - :doc:`/support/purchase`
-- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
+- `Requesting Trial <https://sharpsnmp.com>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/compiler-trial-guide`
