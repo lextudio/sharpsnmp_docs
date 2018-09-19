@@ -102,7 +102,7 @@ Related Resources
 
 - :doc:`/support/purchase`
 - `API Documentation <https://help.sharpsnmp.com>`_
-- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
+- `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/compiler-trial-guide`

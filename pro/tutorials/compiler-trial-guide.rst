@@ -11,7 +11,7 @@ This page shows you a guide on #SNMP Compiler Pro Trial version.
 
 Background
 ----------
-The Trial version can be requested `here <http://sharpsnmp.com/Home/Send>`_ , and is packaged up with the latest #SNMP Library and SharpSnmpPro.Mib.
+The Trial version can be requested `here <https://www.sharpsnmp.com/#contact-us>`_ , and is packaged up with the latest #SNMP Library and SharpSnmpPro.Mib.
 
 Evaluation Steps
 ----------------
@@ -34,7 +34,7 @@ Related Resources
 -----------------
 
 - :doc:`/support/purchase`
-- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
+- `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/getting-started/compiler-features`
 - :doc:`/tutorials/compiler-full-guide`
 - :doc:`/tutorials/assembly-trial-guide`

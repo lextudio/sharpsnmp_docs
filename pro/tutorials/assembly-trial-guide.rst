@@ -11,7 +11,7 @@ This page shows you a guide on SharpSnmpPro.Mib assembly trial version.
 
 Background
 ----------
-The Trial Edition can be requested `here <http://sharpsnmp.com/Home/Send>`_ , and is packaged up with the latest #SNMP Library. So below are the assemblies in the ZIP package,
+The Trial Edition can be requested `here <https://www.sharpsnmp.com/#contact-us>`_ , and is packaged up with the latest #SNMP Library. So below are the assemblies in the ZIP package,
 
 * SharpSnmpPro.Mib.Trial.dll
 * SharpSnmpLib.dll
@@ -89,7 +89,7 @@ Related Resources
 
 - :doc:`/support/purchase`
 - `API Documentation <https://help.sharpsnmp.com>`_
-- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
+- `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-trial-guide`

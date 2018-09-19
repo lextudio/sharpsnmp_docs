@@ -23,6 +23,6 @@ Related Resources
 -----------------
 
 - `Support Services <http://support.lextudio.com>`_
-- `Requesting Trial <https://sharpsnmp.com/Home/Send>`_
+- `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-full-guide`
