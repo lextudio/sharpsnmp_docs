@@ -1,4 +1,10 @@
 {
     "restructuredtext.confPath": "${workspaceRoot}/pro",
-    "restructuredtext.builtDocumentationPath": "${workspaceRoot}/pro/_build/html"
+    "restructuredtext.builtDocumentationPath": "${workspaceRoot}/pro/_build/html",
+    "restructuredtext.languageServer.disabled": false,
+    "restructuredtext.workspaceRoot": "/Users/lextm/sharpsnmp_docs",
+    "editor.rulers": [
+        79
+    ],
+    "python.pythonPath": "/usr/local/opt/python/bin/python3.7"
 }

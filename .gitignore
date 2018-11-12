@@ -1,3 +1,2 @@
 **/_build/
-/library/_ext/__pycache__
-/pro/_ext/__pycache__
+*.pyc
