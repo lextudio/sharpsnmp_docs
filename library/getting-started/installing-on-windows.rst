@@ -61,18 +61,17 @@ Install #SNMP Library via source code
 
 #SNMP Library source code can be directly used in your project.
 
-1. Download the source code from `GitHub
+#. Download the source code from `GitHub
    <https://github.com/lextm/sharpsnmplib/releases>`_, or clone the repo
    directly.
-
-2. Run ``prepare.bat`` on Windows (or ``prepare.sh`` on non-Windows platforms)
+#. Run ``prepare.bat`` on Windows (or ``prepare.sh`` on non-Windows platforms)
    to prepare the code base for compilation.
 
    .. note:: This step is no longer needed in release 10.0.10 and above.
 
-3. Open/create a empty Windows Forms project in a solution.
+#. Open/create a empty Windows Forms project in a solution.
 
-4. Add SharpSnmpLib.csproj (release 10.0 and above), and
+#. Add SharpSnmpLib.csproj (release 10.0 and above), and
    SharpSnmpLib.Full.csproj (10.0.0) in ``SharpSnmpLib`` directory to your
    solution.
 
@@ -80,7 +79,7 @@ Install #SNMP Library via source code
    to target Xamarin platforms for release 10.0.0. They are no longer needed
    for 10.0.1 release and above.
 
-.. note:: SharpSnmpLib.BouncyCastle.csproj is optional.
+.. note:: Other projects (``SharpSnmpLib.BouncyCastle.csproj``) are optional.
 
 Related Resources
 -----------------
