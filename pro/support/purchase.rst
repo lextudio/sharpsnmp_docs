@@ -3,7 +3,7 @@ Purchase
 
 By `Lex Li`_
 
-This page shows you how to purchase the Pro Edition. 
+This page shows you how to purchase the Pro Edition.
 
 .. contents:: In this article:
   :local:
@@ -13,7 +13,17 @@ This page shows you how to purchase the Pro Edition.
 ----------------
 `Buy #SNMP MIB Compiler Pro + SharpSnmpPro.Mib Assembly Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ETQPZJ88ZBHY>`_ at **1100 CAD**
 
-.. note:: Starting from 1.1.2 release, the products are no longer sold individually.
+.. note:: Starting from 1.1.2 release, the products are no longer sold
+   individually.
+
+.. important:: The bundle contains three months of email based support
+   services, so no refund is provided once the bundle is delivered.
+
+.. important:: Due to local business hours, the delivery of the product can
+   take some time (usually within one business day).
+
+   You can learn our business hours from
+   `this page <https://support.lextudio.com/contracts/purchase.html>`_ .
 
 Source Code Availability
 ------------------------
