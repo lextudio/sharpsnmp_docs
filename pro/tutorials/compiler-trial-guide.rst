@@ -11,24 +11,36 @@ This page shows you a guide on #SNMP Compiler Pro Trial version.
 
 Background
 ----------
-The Trial version can be requested `here <https://www.sharpsnmp.com/#contact-us>`_ , and is packaged up with the latest #SNMP Library and SharpSnmpPro.Mib.
+The Trial version can be requested `here <https://www.sharpsnmp.com/#contact-us>`_,
+and is packaged up with the latest #SNMP Library and SharpSnmpPro.Mib.
 
 Evaluation Steps
 ----------------
-To test it out, the default test MIB documents can be found at `GitHub <https://github.com/lextm/sharpsnmppro-mib>`_ . It can be cloned to a local folder, such as ``D:\sharpsnmppro-mib`` .
+To test it out, the default test MIB documents can be found at
+`GitHub <https://github.com/lextm/sharpsnmppro-mib>`_ . It can be cloned to a
+local folder, such as ``D:\sharpsnmppro-mib`` .
 
 .. code-block:: shell
 
-  git clone https://github.com/lextm/sharpsnmppro-mib.git
+   git clone https://github.com/lextm/sharpsnmppro-mib.git
 
-Then the documents can be copied to that folder (``D:\sharpsnmppro-mib`` for example).
+Then the documents can be copied to that folder (``D:\sharpsnmppro-mib`` for
+example).
 
-Launch the compiler by executing ``Compiler.exe`` and then click File | Open menu item to navigate to ``D:\sharpsnmppro-mib`` folder in Open file dialog.
+Launch the compiler by executing ``Compiler.exe`` and then click
+:menuselection:`File --> Open` menu item to navigate to ``D:\sharpsnmppro-mib``
+folder in Open file dialog.
 
-Change the file extension filter to All files (.), and then select all .txt files in this folder. Click Open button to open all files in the compiler. The file names should appear in Solution Explorer panel.
+Change the file extension filter to All files (.), and then select all .txt
+files in this folder. Click Open button to open all files in the compiler. The
+file names should appear in Solution Explorer panel.
 
-Click Build | Compile menu item to start compiling the files. In a few seconds, the Object Tree panel should be updated with objects extracted from the files, while Module List panel shows the loaded modules (as well as pending ones). 
-The Error List panel should display any error or warnings. The Output panel contains the diagnostics logging entries.
+Click Build | Compile menu item to start compiling the files. In a few seconds,
+the Object Tree panel should be updated with objects extracted from the files,
+while Module List panel shows the loaded modules (as well as pending ones).
+
+The Error List panel should display any error or warnings. The Output panel
+contains the diagnostics logging entries.
 
 Related Resources
 -----------------
