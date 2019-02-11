@@ -31,7 +31,7 @@ To test out the same with SharpSnmpPro.Mib assembly,
 #. Clone the extensions assembly from
    `GitHub <https://github.com/lextudio/sharpsnmppro.mib.extensions>`_ .
 #. Replace the project reference to ``SharpSnmpPro.Mib`` with a NuGet package
-   reference to ``SharpSnmpPro.Mib.Trial`` or ``SharpSnmpPro.Mib``.
+   reference to ``SharpSnmpPro.Mib``.
 #. Use ``ObjectTree.GenerateSourceFiles(string outputFolder)`` method to
    generate C# source files.
 
