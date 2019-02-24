@@ -11,13 +11,17 @@ This page shows you how to purchase the Pro Edition.
 
 #SNMP Pro Bundle
 ----------------
-`Buy #SNMP MIB Compiler Pro + SharpSnmpPro.Mib Assembly Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ETQPZJ88ZBHY>`_ at **1100 CAD**
+`Buy #SNMP Pro Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ETQPZJ88ZBHY>`_ at **1100 CAD**
+
+* #SNMP MIB Compiler Pro
+* SharpSnmpPro.Mib Assembly
+* Three months email based support
 
 .. note:: Starting from 1.1.2 release, the products are no longer sold
    individually.
 
-.. important:: The bundle contains three months of email based support
-   services, so no refund is provided once the bundle is delivered.
+.. important:: Email based support is activated upon delivery of the products,
+   so there is no refund for bundle purchase once activated.
 
 .. important:: Due to local business hours, the delivery of the product can
    take some time (usually within one business day).
