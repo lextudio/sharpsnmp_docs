@@ -20,6 +20,8 @@ Commercial Support
 ------------------
 Commercial support is provided by `LeXtudio Support Services <http://support.lextudio.com>`_ .
 
+.. important:: The sample projects are not covered by bugfix support.
+
 Related Resources
 -----------------
 
