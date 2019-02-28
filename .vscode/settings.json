@@ -1,5 +1,5 @@
 {
-    "restructuredtext.confPath": "${workspaceRoot}/pro",
+    "restructuredtext.confPath": "${workspaceFolder}/pro",
     "restructuredtext.builtDocumentationPath": "${workspaceRoot}/pro/_build/html",
     "restructuredtext.languageServer.disabled": false,
     "restructuredtext.workspaceRoot": "/Users/lextm/sharpsnmp_docs",

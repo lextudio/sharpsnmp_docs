@@ -40,7 +40,8 @@ The latest package can be found at,
   (Required by release 10.0.0. Not required by release 10.0.1 and above.)
 * `DES/AES Privacy Providers via Bouncy Castle
   <https://www.nuget.org/packages/Lextm.SharpSnmpLib.BouncyCastle/>`_
-  (Required by platforms without native DES/AES support, like .NET Core/UWP).
+  (Required by platforms without native DES/AES support, like .NET Core/UWP.
+  Obsolete in 11.1.0 and above).
 
 .. note:: In 10.0.0 release, the platform extensions package is required for
    .NET Framework, Xamarin.iOS, and Xamarin.Android applications so as to use
@@ -56,13 +57,17 @@ The latest package can be found at,
 .. note:: DES privacy provider based on Bouncy Castle would be available in
    10.0.10 release.
 
+.. note:: Starting from 11.1.0 release, ``Lextm.SharpSnmpLib.BouncyCastle``
+   package is obsolete, and no longer published. You can compile your own copy
+   using the source code from `the samples <https://github.com/lextudio/sharpsnmplib-samples>`_ .
+
 Install #SNMP Library via source code
 -------------------------------------
 
 #SNMP Library source code can be directly used in your project.
 
 #. Download the source code from `GitHub
-   <https://github.com/lextm/sharpsnmplib/releases>`_, or clone the repo
+   <https://github.com/lextudio/sharpsnmplib/releases>`_, or clone the repo
    directly.
 #. Run ``prepare.bat`` on Windows (or ``prepare.sh`` on non-Windows platforms)
    to prepare the code base for compilation.
@@ -80,6 +85,9 @@ Install #SNMP Library via source code
    for 10.0.1 release and above.
 
 .. note:: Other projects (``SharpSnmpLib.BouncyCastle.csproj``) are optional.
+
+Sample projects for #SNMP Library are available in their own
+`repo <https://github.com/lextudio/sharpsnmplib-samples>`_ .
 
 Related Resources
 -----------------

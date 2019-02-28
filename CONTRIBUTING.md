@@ -2,7 +2,7 @@
 
 This document is derived from ASP.NET 5 [Contributing Guide](https://github.com/aspnet/Docs/blob/master/CONTRIBUTING.md).
 
-Information on contributing to this repo is in the [Contributing Guide](https://github.com/lextm/sharpsnmplib/blob/dev/CONTRIBUTING.md) in the Home repo.
+Information on contributing to this repo is in the [Contributing Guide](https://github.com/lextudio/sharpsnmplib/blob/dev/CONTRIBUTING.md) in the Home repo.
 
 The documentation is built using [Sphinx](http://sphinx-doc.org) and [reStructuredText](http://sphinx-doc.org/rest.html), and then hosted by [ReadTheDocs](http://docs.sharpsnmp.com).
 

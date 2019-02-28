@@ -12,7 +12,7 @@ This page shows you how the agent sample works.
 Dependencies
 ------------
 When you open snmpd.csproj in Visual Studio (or another IDE), you should first
- check what are its references.
+check what are its references.
 
 The ``SharpSnmpLib`` NuGet package contains our #SNMP Library components.
 

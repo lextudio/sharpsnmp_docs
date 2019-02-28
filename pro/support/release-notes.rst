@@ -29,7 +29,7 @@ New Features
 * `Moved a few classes to new namespaces <https://github.com/lextm/sharpsnmppro-sample/issues/14>`_ .
 * `Added overloading methods to ObjectRegistryBase support OID input <https://github.com/lextm/sharpsnmppro-sample/issues/16>`_ .
 
-.. note:: This release depends on `#SNMP Library 10.0.2 <https://github.com/lextm/sharpsnmplib/releases/tag/10.0.2>`_ and above.
+.. note:: This release depends on `#SNMP Library 10.0.2 <https://github.com/lextudio/sharpsnmplib/releases/tag/10.0.2>`_ and above.
 
 1.2.0
 ^^^^^
@@ -47,11 +47,12 @@ New features
 
 * `A new Index type is added and implied flag is supported <https://github.com/lextm/sharpsnmppro-sample/issues/2>`_ .
 * A new Augments type is added.
-* New types such as ContraintedType are added to provide initial constraint related support.
+* New types such as ContraintedType are added to provide initial constraint
+  related support.
 
 Tutorials on the new features will be added to related sections.
 
-.. note:: This release depends on `#SNMP Library 9.0.5 <https://github.com/lextm/sharpsnmplib/releases/tag/9.0.5>`_ and above.
+.. note:: This release depends on `#SNMP Library 9.0.5 <https://github.com/lextudio/sharpsnmplib/releases/tag/9.0.5>`_ and above.
 
 1.1.3
 ^^^^^
