@@ -18,16 +18,16 @@ This is a major release with new platform support. Major changes:
 
 Bug fixes
 
-* `Compiler performance and stability is improved <https://github.com/lextm/sharpsnmppro-sample/issues/15>`_ .
+* `Compiler performance and stability is improved <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/15>`_ .
 
 New Features
 
-* `.NET Standard 2.0 support is added <https://github.com/lextm/sharpsnmppro-sample/issues/10>`_ .
-* `RFC 2578 descriptor prefix is supported <https://github.com/lextm/sharpsnmppro-sample/issues/11>`_ .
-* `RFC 2578 restriction on imported items is applied <https://github.com/lextm/sharpsnmppro-sample/issues/12>`_ .
-* `RFC 1155 support is improved <https://github.com/lextm/sharpsnmppro-sample/issues/13>`_ .
-* `Moved a few classes to new namespaces <https://github.com/lextm/sharpsnmppro-sample/issues/14>`_ .
-* `Added overloading methods to ObjectRegistryBase support OID input <https://github.com/lextm/sharpsnmppro-sample/issues/16>`_ .
+* `.NET Standard 2.0 support is added <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/10>`_ .
+* `RFC 2578 descriptor prefix is supported <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/11>`_ .
+* `RFC 2578 restriction on imported items is applied <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/12>`_ .
+* `RFC 1155 support is improved <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/13>`_ .
+* `Moved a few classes to new namespaces <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/14>`_ .
+* `Added overloading methods to ObjectRegistryBase support OID input <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/16>`_ .
 
 .. note:: This release depends on `#SNMP Library 10.0.2 <https://github.com/lextudio/sharpsnmplib/releases/tag/10.0.2>`_ and above.
 
@@ -37,15 +37,15 @@ This is a bug fix release with some new APIs. Major changes:
 
 Bug fixes
 
-* `zeroDotZero DisplayEntity.GetObjectIdentifier is fixed <https://github.com/lextm/sharpsnmppro-sample/issues/5>`_ .
-* `jmgt DisplayEntity.GetObjectIdentifier is fixed <https://github.com/lextm/sharpsnmppro-sample/issues/6>`_ .
-* `Table index verification is improved to avoid false alarms <https://github.com/lextm/sharpsnmppro-sample/issues/7>`_ .
-* `Special SMIv1 -> SMIv2 converted TRAP items are properly handled <https://github.com/lextm/sharpsnmppro-sample/issues/8>`_ .
-* `OID resolution is revised to work better with multiple references to the same tree node <https://github.com/lextm/sharpsnmppro-sample/issues/9>`_ .
+* `zeroDotZero DisplayEntity.GetObjectIdentifier is fixed <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/5>`_ .
+* `jmgt DisplayEntity.GetObjectIdentifier is fixed <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/6>`_ .
+* `Table index verification is improved to avoid false alarms <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/7>`_ .
+* `Special SMIv1 -> SMIv2 converted TRAP items are properly handled <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/8>`_ .
+* `OID resolution is revised to work better with multiple references to the same tree node <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/9>`_ .
 
 New features
 
-* `A new Index type is added and implied flag is supported <https://github.com/lextm/sharpsnmppro-sample/issues/2>`_ .
+* `A new Index type is added and implied flag is supported <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/2>`_ .
 * A new Augments type is added.
 * New types such as ContraintedType are added to provide initial constraint
   related support.
@@ -58,14 +58,14 @@ Tutorials on the new features will be added to related sections.
 ^^^^^
 This is a bug fix release. Major changes:
 
-* `Parser2.Compile exceptions are handled properly. <https://github.com/lextm/sharpsnmppro-sample/issues/4>`_ 
+* `Parser2.Compile exceptions are handled properly. <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/4>`_ 
 
 1.1.2
 ^^^^^
 This is a bug fix release. Major changes:
 
-* `Assistance OIDs are no longer generated. <https://github.com/lextm/sharpsnmppro-sample/issues/1>`_ 
-* `Duplicate module detection is added. <https://github.com/lextm/sharpsnmppro-sample/issues/3>`_ 
+* `Assistance OIDs are no longer generated. <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/1>`_ 
+* `Duplicate module detection is added. <https://github.com/lextm/lextudio/sharpsnmppro-samples/issues/3>`_ 
 
 1.1.1
 ^^^^^
