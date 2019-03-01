@@ -49,7 +49,7 @@ such as .NET Core.
 
 .. note:: DES privacy provider is available for 10.0.10 release.
 
-.. note:: Starting from 11.1.0 release, such extra providers are shipped in
+.. note:: Starting from 11.0.0 release, such extra providers are shipped in
    source code only, and as part of the samples repository.
 
 The following code shows how to test native AES support, and choose the right
