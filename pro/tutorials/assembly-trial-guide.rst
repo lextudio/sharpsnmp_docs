@@ -82,7 +82,7 @@ If new projects are going to be created to test out the Trial Edition, please no
 
 Without this text file, the Trial Edition should give you an exception with error message "This assembly is not licensed to you. Please buy a license from LeXtudio...".
 
-The API reference documentation can be found on `the help site <http://help.sharpsnmp.com>`_ .
+The API reference documentation can be found on `the help site <https://help.sharpsnmp.com>`_ .
 
 Related Resources
 -----------------

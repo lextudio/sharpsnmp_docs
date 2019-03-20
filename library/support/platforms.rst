@@ -79,4 +79,4 @@ compliance.
 Related Resources
 -----------------
 
-- `Support Services <http://support.lextudio.com>`_
+- `Support Services <https://support.lextudio.com>`_

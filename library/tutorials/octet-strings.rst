@@ -91,4 +91,4 @@ Related Resources
 -----------------
 
 - :doc:`/tutorials/introduction`
-- `The API Reference <http://help.sharpsnmp.com>`_
+- `The API Reference <https://help.sharpsnmp.com>`_

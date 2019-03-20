@@ -87,4 +87,4 @@ Related Resources
 - :doc:`/tutorials/introduction`
 - :doc:`/samples/command-line-tools`
 - :doc:`/tutorials/v3-operations`
-- `The API Reference <http://help.sharpsnmp.com>`_
+- `The API Reference <https://help.sharpsnmp.com>`_

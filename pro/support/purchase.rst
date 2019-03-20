@@ -36,7 +36,7 @@ All above are binaries sold only. Source code is sold separately. Please contact
 Related Resources
 -----------------
 
-- `Support Services <http://support.lextudio.com>`_
+- `Support Services <https://support.lextudio.com>`_
 - `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/tutorials/assembly-full-guide`
 - :doc:`/tutorials/compiler-full-guide`

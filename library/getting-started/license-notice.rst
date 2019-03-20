@@ -57,7 +57,7 @@ Dependencies
 below.
 
 DockPanel Suite (MIT/X11) (c) Copyright 2007 Weifen Luo and other contributors
-http://dockpanelsuite.com
+https://dockpanelsuite.com
 
 System.Tuples (MIT/X11) (c) Copyright 2010 Adis Hamzic
 https://systemtuples.codeplex.com

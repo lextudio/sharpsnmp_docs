@@ -377,12 +377,12 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'pro': ('http://pro.sharpsnmp.com/en/latest', None)
+    'pro': ('https://pro.sharpsnmp.com/en/latest', None)
 }
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'http://docs.sharpsnmp.com/en/latest'
+feed_base_url = 'https://docs.sharpsnmp.com/'
 feed_description = '#SNMP Library Documentation'
 feed_author = 'Lex Li'
 
