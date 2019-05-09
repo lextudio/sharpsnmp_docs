@@ -26,6 +26,10 @@ common approach.
    broadcasting. THerefore, they are valid only for IPv4. IPv6 does not
    support broadcasting.
 
+.. error:: If you are the network administrators and hit this page, think
+   twice whether you need to discover devices. Keep in mind that you are
+   supposed to know all the devices and their IP addresses.
+
 Simple Device Discovery for v1 and v2c (IPv4)
 ---------------------------------------------
 UDP allows broadcast, so if we broadcast an SNMP GET request with OID
