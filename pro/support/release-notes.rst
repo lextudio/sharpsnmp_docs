@@ -12,8 +12,8 @@ This page documents major releases of SharpSnmpPro.Mib.
 Releases
 --------
 
-2.1.0
-^^^^^
+2.1.0 (Private Beta)
+^^^^^^^^^^^^^^^^^^^^
 This is a bug fix release. Major changes:
 
 Bug fixes
@@ -109,8 +109,8 @@ The lifecycle of the releases are listed below,
 ======= ================= ================
 Version Release Date      End-of-life Date
 ======= ================= ================
-2.1.0   Mar 31, 2019      N/A
-2.0.0   Dec 31, 2017      Jun 30, 2019
+2.1.0   Sep 30, 2019      N/A
+2.0.0   Dec 31, 2017      Dec 31, 2019
 1.2.0   Jan 16, 2017      Mar 31, 2018
 1.1.3   Oct 01, 2016      Apr 16, 2017
 1.1.2   Sep 15, 2016      Oct 01, 2017
