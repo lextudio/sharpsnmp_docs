@@ -31,8 +31,7 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.intersphinx',
-    'edit_on_github'
+    'sphinx.ext.intersphinx'
 ]
 
 
@@ -385,10 +384,6 @@ feed_skip_regex = '(.)*index'
 feed_base_url = 'https://docs.sharpsnmp.com/'
 feed_description = '#SNMP Library Documentation'
 feed_author = 'Lex Li'
-
-if not on_rtd:
-    edit_on_github_project = 'lextm/sharpsnmp_docs'
-    edit_on_github_branch = 'master/library'
 
 def setup(app):
     on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
