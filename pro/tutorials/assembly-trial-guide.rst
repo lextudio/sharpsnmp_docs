@@ -36,7 +36,7 @@ Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can b
 Evaluation Steps
 ----------------
 To test it out, the default test projects can be found at `GitHub <https://github.com/lextm/lextudio/sharpsnmppro-samples.git>`_ . 
-It can be cloned to a local folder, such as ``D:\lextudio/sharpsnmppro-samples`` .
+It can be cloned to a local folder, such as ``D:\lextudio\sharpsnmppro-samples`` .
 
 .. code-block:: shell
 
@@ -50,7 +50,7 @@ It can be cloned to a local folder, such as ``D:\lextudio/sharpsnmppro-samples``
     git clone https://github.com/lextm/lextudio/sharpsnmppro-samples.git
     git checkout release_1.2
 
-Then extract all the files from the ZIP package to that folder (``D:\lextudio/sharpsnmppro-samples`` for example).
+Then extract all the files from the ZIP package to that folder (``D:\lextudio\sharpsnmppro-samples`` for example).
 
 Lastly, execute an extra script to prepare the NuGet local feed,
 
