@@ -17,12 +17,6 @@ The Full version is sent to registered users only via emails, and is packaged up
 * SharpSnmpLib.dll
 * SharpSnmpPro.Mib.Trial.2.0.0.nupkg
 
-.. note:: For 1.2 release, the following are included in the ZIP package,
-
-  * SharpSnmpPro.Mib.Trial.dll
-  * SharpSnmpLib.Full.dll
-  * SharpSnmpLib.Portable.dll
-
 Supported Platforms
 -------------------
 Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be used on multiple platforms,
@@ -59,13 +53,6 @@ It can be cloned to a local folder, such as ``D:\sharpsnmppro-samples`` .
   git clone https://github.com/lextudio/sharpsnmppro-samples.git
   git checkout release_2.0
 
-.. note:: For 1.2 release, execute the following commands,
-
-  .. code-block:: shell
-
-    git clone https://github.com/lextudio/sharpsnmppro-samples.git
-    git checkout release_1.2
-
 Then extract all the files from the ZIP package to that folder (``D:\sharpsnmppro-samples`` for example).
 
 Lastly, execute an extra script to prepare the NuGet local feed,
@@ -73,8 +60,6 @@ Lastly, execute an extra script to prepare the NuGet local feed,
   .. code-block:: shell
 
     install.nuget.bat
-
-.. note:: For 1.2 release, there is no ``install.nuget.bat``.
 
 ``Tests.csproj`` is an NUnit project that shows the below,
 
@@ -89,13 +74,6 @@ To make the test project work with Full version, the following changes need to b
 #. Modify ``snmptranslate.csproj`` and ``Tests.csproj`` to use ``SharpSnmpPro.Mib`` as package reference, instead of ``SharpSnmpPro.Mib.Trial``.
 #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
 #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
-
-.. note:: For 1.2 release, the following changes need to be made,
-
-  #. Remove the original reference to ``SharpSnmpPro.Mib.Trial.dll``.
-  #. Add a new reference to ``SharpSnmpPro.Mib.dll``.
-  #. Modify ``sharpsnmppro.txt`` following the instructions in the email.
-  #. Remove ``TRIAL`` from "Conditional compilation symbols", which then enables Full version only test cases.
 
 Related Resources
 -----------------

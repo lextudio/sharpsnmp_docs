@@ -109,8 +109,8 @@ The lifecycle of the releases are listed below,
 ======= ================= ================
 Version Release Date      End-of-life Date
 ======= ================= ================
-2.1.0   Sep 30, 2019      N/A
-2.0.0   Dec 31, 2017      Dec 31, 2019
+2.1.0   N/A               N/A
+2.0.0   Dec 31, 2017      N/A
 1.2.0   Jan 16, 2017      Mar 31, 2018
 1.1.3   Oct 01, 2016      Apr 16, 2017
 1.1.2   Sep 15, 2016      Oct 01, 2017
