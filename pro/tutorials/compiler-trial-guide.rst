@@ -18,17 +18,18 @@ Evaluation Steps
 ----------------
 To test it out, the default test MIB documents can be found at
 `GitHub <https://github.com/lextm/sharpsnmppro-mib>`_ . It can be cloned to a
-local folder, such as ``D:\sharpsnmppro-mib`` .
+local folder, such as ``%temp%\sharpsnmppro-mib`` .
 
 .. code-block:: shell
 
+   cd %temp%
    git clone https://github.com/lextm/sharpsnmppro-mib.git
 
-Then the documents can be copied to that folder (``D:\sharpsnmppro-mib`` for
+Then the documents can be copied to that folder (``%temp%\sharpsnmppro-mib`` for
 example).
 
 Launch the compiler by executing ``Compiler.exe`` and then click
-:menuselection:`File --> Open` menu item to navigate to ``D:\sharpsnmppro-mib``
+:menuselection:`File --> Open` menu item to navigate to ``%temp%\sharpsnmppro-mib``
 folder in Open file dialog.
 
 Change the file extension filter to All files (.), and then select all .txt

@@ -46,14 +46,16 @@ Thus, a MIB specific library such as SharpSnmpPro.Mib can help build a much more
 .. image:: _static/mib.png
 
 To test it out, we reuse the default test projects for Trial version, which can be found at `GitHub <https://github.com/lextudio/sharpsnmppro-samples.git>`_. 
-It can be cloned to a local folder, such as ``D:\sharpsnmppro-samples`` .
+It can be cloned to a local folder, such as ``%temp%\sharpsnmppro-samples`` .
 
 .. code-block:: shell
 
+  cd %temp%
   git clone https://github.com/lextudio/sharpsnmppro-samples.git
+  cd sharpsnmppro-samples
   git checkout release_2.0
 
-Then extract all the files from the ZIP package to that folder (``D:\sharpsnmppro-samples`` for example).
+Then extract all the files from the ZIP package to that folder (``%temp%\sharpsnmppro-samples`` for example).
 
 Lastly, execute an extra script to prepare the NuGet local feed,
 
