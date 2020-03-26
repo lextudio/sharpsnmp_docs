@@ -27,6 +27,8 @@ Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can b
 * Xamarin.Android (via .NET Standard 2.0)
 * Xamarin.Mac (via .NET Standard 2.0)
 
+.. important:: The trial edition only supports .NET Framework.
+
 Evaluation Steps
 ----------------
 To test it out, the default test projects can be found at `GitHub <https://github.com/lextudio/sharpsnmppro-samples.git>`_ . 
