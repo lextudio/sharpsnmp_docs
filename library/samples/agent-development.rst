@@ -11,6 +11,10 @@ This page shows you how the agent sample works.
 
 Dependencies
 ------------
+
+.. note:: The sample projects have been moved to
+   `a new location <https://github.com/lextudio/sharpsnmplib-samples>`_.
+
 When you open snmpd.csproj in Visual Studio (or another IDE), you should first
 check what are its references.
 

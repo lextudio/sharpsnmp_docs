@@ -10,9 +10,12 @@ This page shows you what are the command line tools shipped.
 
 How to Acquire The Command Line Tools
 -------------------------------------
-Please follow "Install #SNMP Library via source code" section in
-:doc:`/getting-started/installing-on-windows` to acquire the source code. Then
-launch Visual Studio 2017 to open ``SharpSnmpLib.Samples.sln``.
+
+.. note:: The sample projects have been moved to
+   `a new location <https://github.com/lextudio/sharpsnmplib-samples>`_.
+
+Please acquire the source code and then launch Visual Studio 2017 to open
+``SharpSnmpLib.Samples.sln``.
 
 The sample projects are under the "Samples" folder and devided into two
 languages, C# and VB.NET. Compile them and then they can be executed.
