@@ -11,7 +11,9 @@ This page shows you how to purchase the Pro Edition.
 
 #SNMP Pro Bundle
 ----------------
-`Buy #SNMP Pro Bundle here <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5ETQPZJ88ZBHY>`_ at **1100 CAD**
+To purchase licenses for #SNMP Pro Bundle please contact `our support team <mailto:support@lextudio.com>`_ .
+
+The current price for a single developer license is **880 CAD** (after discount, original price was 1100 CAD).
 
 * #SNMP MIB Compiler Pro
 * SharpSnmpPro.Mib Assembly
