@@ -43,6 +43,15 @@ while Module List panel shows the loaded modules (as well as pending ones).
 The Error List panel should display any error or warnings. The Output panel
 contains the diagnostics logging entries.
 
+.. note:: There is a button on the tool bar to control C# code generation.
+
+   If this button is checked, then when ``Compiler.exe`` compiles MIB
+   documents, its working directory will add a new folder ``modules`` which
+   contains the generated source files.
+
+   To learn the usage of generated files, please refer to
+   :doc:`/tutorials/mib2sharp`.
+
 Related Resources
 -----------------
 
