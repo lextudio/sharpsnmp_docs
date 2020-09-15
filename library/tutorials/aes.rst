@@ -12,7 +12,7 @@ This page shows you information regarding DES/AES privacy providers.
 Background
 ----------
 SNMP v3 standard defines DES/AES algorithms to be used in user security model.
-#SNMP Library 10.0 supports DES and AES 128/192/256.
+#SNMP Library 10.0 and above supports DES and AES 128/192/256.
 
 However, some platforms do not have native DES/AES algorithms support, where
 BouncyCastle can be used.
@@ -38,9 +38,9 @@ Providers on Bouncy Castle
 Bouncy Castle is an open source library that implements many algorithms,
 including DES and AES(CFB).
 
-The sample projects show how to use ``SharpSnmpLib.BouncyCastle`` to enable
-DES/AES privacy providers based on Bouncy Castle. They can be used on platforms
-such as .NET Core.
+The sample projects show how to use ``Samples.BouncyCastle``(12.1 and above) or
+``SharpSnmpLib.BouncyCastle``(10.0-12.0) to enable DES/AES privacy providers
+based on Bouncy Castle. They can be used on platforms such as .NET Core.
 
 .. note:: Compared to built-in providers, these are slower due to Bouncy Castle
    implementation. So such should only be used when necessary.

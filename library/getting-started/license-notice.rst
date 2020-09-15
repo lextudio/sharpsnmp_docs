@@ -10,8 +10,17 @@ of major releases of #SNMP.
   :local:
   :depth: 1
 
-Release 10.0 and Above
+Release 11.0 and Above
 ----------------------
+=======================================  =======================
+Assembly Name                            Source Code License
+=======================================  =======================
+SharpSnmpLib.dll                         MIT/X11
+Samples                                  public domain or MIT/X11
+=======================================  ========================
+
+Release 10.0
+------------
 =======================================  ====================
 Assembly Name                            Source Code License
 =======================================  ====================
