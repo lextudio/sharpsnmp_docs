@@ -12,8 +12,18 @@ This page documents major releases of SharpSnmpPro.Mib.
 Releases
 --------
 
-2.1.0 (Private Beta)
+3.0.0 (Private Beta)
 ^^^^^^^^^^^^^^^^^^^^
+This is a major release with new platform support. Major changes:
+
+Bug fixes
+* Fixed a few parsing edge cases.
+
+New Features
+* C# 8.0 support (nullable annotation).
+
+2.1.0
+^^^^^
 This is a bug fix release. Major changes:
 
 Bug fixes
@@ -29,7 +39,7 @@ Removed Features
 
 * .NET Core 1.0 and 1.1 support expires.
 
-.. note:: This release depends on `#SNMP Library 11.0.0 <https://github.com/lextudio/sharpsnmplib/releases/tag/11.0.0>`_ and above.
+.. note:: This release depends on `#SNMP Library 12.1.0 <https://github.com/lextudio/sharpsnmplib/releases/tag/12.1.0>`_ and above.
 
 2.0.0
 ^^^^^
@@ -109,8 +119,8 @@ The lifecycle of the releases are listed below,
 ======= ================= ================
 Version Release Date      End-of-life Date
 ======= ================= ================
-2.1.0   N/A               N/A
-2.0.0   Dec 31, 2017      N/A
+2.1.0   Oct 04, 2020      N/A
+2.0.0   Dec 31, 2017      Jan 05, 2021
 1.2.0   Jan 16, 2017      Mar 31, 2018
 1.1.3   Oct 01, 2016      Apr 16, 2017
 1.1.2   Sep 15, 2016      Oct 01, 2017

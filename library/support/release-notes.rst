@@ -19,7 +19,7 @@ Product Lifecycle
 Due to the introduction of #SNMP Pro products, the support lifecycle will match
 the corresponding Pro products.
 
-#SNMP Pro current release (2.0.0) requires #SNMP Library 10.0.2 and above, so
+#SNMP Pro releases (2.0.0 and 2.1.0) requires #SNMP Library 10.0.2 and above, so
 release 10.0.2 and above are all supported.
 
 Any release older than 10.0.2 is obsolete and no longer supported.

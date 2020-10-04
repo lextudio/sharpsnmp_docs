@@ -15,19 +15,11 @@ The Trial Edition can be requested `here <https://www.sharpsnmp.com/#contact-us>
 
 * SharpSnmpPro.Mib.Trial.dll
 * SharpSnmpLib.dll
-* SharpSnmpPro.Mib.Trial.2.0.0.nupkg
+* SharpSnmpPro.Mib.Trial.2.1.0.nupkg
 
 Supported Platforms
 -------------------
-Unlike the Compiler Pro which requires .NET 4.5 and Windows, this assembly can be used on multiple platforms,
-
-* .NET Framework 4.5.2 and above
-* Mono 5.0 and above (via .NET Standard 2.0)
-* Xamarin.iOS Unified (via .NET Standard 2.0)
-* Xamarin.Android (via .NET Standard 2.0)
-* Xamarin.Mac (via .NET Standard 2.0)
-
-.. important:: The trial edition only supports .NET Framework.
+The trial edition only supports .NET Framework 4.7.1 and above.
 
 Evaluation Steps
 ----------------
@@ -39,7 +31,7 @@ It can be cloned to a local folder, such as ``%temp%\sharpsnmppro-samples`` .
   cd %temp%
   git clone https://github.com/lextudio/sharpsnmppro-samples.git
   cd sharpsnmppro-samples
-  git checkout release_2.0
+  git checkout release_2.1
 
 Then extract all the files from the ZIP package to that folder (``%temp%\sharpsnmppro-samples`` for example).
 
