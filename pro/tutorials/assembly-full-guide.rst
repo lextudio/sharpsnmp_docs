@@ -21,6 +21,7 @@ Supported Platforms
 -------------------
 Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be used on multiple platforms,
 
+* .NET Core 3.1 and .NET 5 (via .NET Standard 2.0)
 * .NET Framework 4.7.1 and above
 * .NET Framework 4.6.1 and above (via .NET Standard 2.0)
 * Mono 5.0 and above (via .NET Standard 2.0)

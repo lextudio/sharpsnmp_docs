@@ -43,8 +43,8 @@ These .NET Framework releases are end of life.
 
 #SNMP does not support them.
 
-.NET 4.5.2/.NET 4.6.x/.NET 4.7.x
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.NET 4.5.2/.NET 4.6.x/.NET 4.7.x/.NET 4.8
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 According to `Microsoft support policies
 <https://support.microsoft.com/en-us/lifecycle#gp/Framework_FAQ>`_, these
 releases are still supported.
