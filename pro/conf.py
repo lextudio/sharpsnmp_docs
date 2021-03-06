@@ -50,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'#SNMP Pro Documentation'
-copyright = u'2015, Lex Li'
+copyright = u'2015, LeXtudio Inc.'
 author = u'Lex Li'
 
 # The version info for the project you're documenting, acts as replacement for

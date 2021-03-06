@@ -11,7 +11,7 @@ This page shows you how the licensing works for the Pro Edition.
 
 Licensing Model for #SNMP MIB Compiler Pro
 ------------------------------------------
-Lex Li issues a unique license file for each ordered software license. The user then applies the license file to the installed software. Once the software license is applied, the licensed software 
+LeXtudio Inc. issues a unique license file for each ordered software license. The user then applies the license file to the installed software. Once the software license is applied, the licensed software 
 product displays 'Registered' in title. Each license entitles the user to install and use the licensed software on only one computer, i.e., each license file can be applied to at most one copy of 
 the installed software.
 
@@ -19,9 +19,9 @@ Floating license is not supported. Due to the nature of the software, the softwa
 then use it somewhere in the field. It might be inconvenient for them if the software was trying to connect to some kind of licensing server in order to determine if it is eligible to start-up or 
 not, depending on the current number of other users.
 
-Without signing an appropriate software licensing agreement with Lex Li it is not permitted to bundle any purchased products and license files with your products and ship them to your customers or end-users. 
+Without signing an appropriate software licensing agreement with LeXtudio Inc. it is not permitted to bundle any purchased products and license files with your products and ship them to your customers or end-users. 
 
-The MIB documents authored or the C# source files generated are the intellectual properties of the licensees and Lex Li does not request any permission on them. 
+The MIB documents authored or the C# source files generated are the intellectual properties of the licensees and LeXtudio Inc. does not request any permission on them. 
 
 Evaluation License for #SNMP MIB Compiler Pro
 ---------------------------------------------
