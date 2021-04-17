@@ -121,7 +121,11 @@ todo_include_todos = False
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 html_context = {
-    'on_rtd' : on_rtd
+    'on_rtd' : on_rtd,
+    'display_github': True,
+    'github_user': 'lextudio',
+    'github_repo': 'sharpsnmp_docs',
+    'github_version': 'master/library/',
 }
 
 if not on_rtd:
@@ -391,5 +395,5 @@ def setup(app):
         """Insert Google Analytics tracker
         Based on this Stackoverflow suggestion: https://stackoverflow.com/a/41885884
         """
-        app.add_javascript("https://www.googletagmanager.com/gtag/js?id=UA-1962620-11")
-        app.add_javascript("google_analytics_tracker.js")
+        app.add_js_file("https://www.googletagmanager.com/gtag/js?id=UA-1962620-11")
+        app.add_js_file("google_analytics_tracker.js")
