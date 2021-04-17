@@ -1,5 +1,5 @@
-#SNMP Docs [![Build Status](https://travis-ci.org/lextm/sharpsnmp_docs.svg?branch=master)](https://travis-ci.org/lextm/sharpsnmp_docs)
-======================================================================================================================================
+#SNMP Docs
+==========
 
 This project provides the source for [docs.sharpsnmp.com](https://docs.sharpsnmp.com/). You can learn more about #SNMP at the [homepage](https://sharpsnmp.com).
 
