@@ -13,9 +13,9 @@ Background
 ----------
 The Full version is sent to registered users only via emails, and is packaged up with latest #SNMP Library. So below are the assemblies in the ZIP package,
 
-* SharpSnmpPro.Mib.Trial.dll
+* SharpSnmpPro.Mib.dll
 * SharpSnmpLib.dll
-* SharpSnmpPro.Mib.Trial.2.1.0.nupkg
+* SharpSnmpPro.Mib.2.1.0.nupkg
 
 Supported Platforms
 -------------------
