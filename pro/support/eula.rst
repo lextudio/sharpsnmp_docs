@@ -51,11 +51,11 @@ If the SOFTWARE DEVELOPMENT PRODUCT(S) you have obtained is marked as "COMPLIMEN
 
 LEXTUDIO reserves the right to discontinue at its discretion and without advance notice, the availability of COMPLIMENTARY or FREE versions of the SOFTWARE DEVELOPMENT PRODUCT(S) or its constituent parts at any time. 
 
-1.4 FIFTY (15) DAY EVALUATION (TRIAL) USE LICENSE.
+1.4 FIFTEEN (15) DAY EVALUATION (TRIAL) USE LICENSE.
 
 If the SOFTWARE DEVELOPMENT PRODUCT(S) you have obtained is marked as a "TRIAL" or "EVALUATION," you may install one copy of the SOFTWARE DEVELOPMENT PRODUCT(S) for evaluation purposes only, for a period of 15 calendar days from the date of installation ("EVALUATION PERIOD"). Upon expiration of the EVALUATION PERIOD, the SOFTWARE DEVELOPMENT PRODUCT(S) must be uninstalled and all copies destroyed.
 
-You MAY NOT CREATE applications or begin software projects using the SOFTWARE DEVELOPMENT PRODUCT(S) under the terms of the FIFTY (15) DAY EVALUATION (TRIAL) USE LICENSE.
+You MAY NOT CREATE applications or begin software projects using the SOFTWARE DEVELOPMENT PRODUCT(S) under the terms of the FIFTEEN (15) DAY EVALUATION (TRIAL) USE LICENSE.
 
 You MAY NOT REDISTRIBUTE files in the SOFTWARE DEVELOPMENT PRODUCT(S) distribution if using an evaluation or trial version of the SOFTWARE DEVELOPMENT PRODUCT(S).
 
