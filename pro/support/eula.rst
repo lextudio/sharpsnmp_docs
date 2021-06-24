@@ -13,7 +13,9 @@ License Details
 ---------------
 
 LEXTUDIO INC.
+
 #SNMP Pro Edition
+
 Copyright (C) 2014-2021 LeXtudio Inc.
 
 Last revised June, 2021
