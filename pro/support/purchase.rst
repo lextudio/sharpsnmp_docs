@@ -13,7 +13,7 @@ This page shows you how to purchase the Pro Edition.
 ----------------
 You can purchase licenses from `Stripe <https://buy.stripe.com/eVadSK3Ku4gobAs9AA>`_ .
 
-> Note that to buy multiple licenses, please change the quantity field.
+.. note:: To buy multiple licenses, please change the quantity field.
 
 If you would like to use other payment methods like wire transfer, please
 contact `our support team <mailto:support@lextudio.com>`_ .
