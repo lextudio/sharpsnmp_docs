@@ -18,8 +18,6 @@ Dependencies
 When you open snmpd.csproj in Visual Studio (or another IDE), you should first
 check what are its references.
 
-The ``SharpSnmpLib`` NuGet package contains our #SNMP Library components.
-
 .. note:: This package targets multiple platforms.
 
 Facade and Pipeline

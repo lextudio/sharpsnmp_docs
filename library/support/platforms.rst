@@ -4,7 +4,7 @@ Supported Platforms
 By `Lex Li`_
 
 This page describes for major releases of #SNMP, which version(s) of .NET
-Framework and Mono are supported.
+platforms are supported.
 
 .. contents:: In this article:
   :local:
@@ -69,7 +69,7 @@ The following operating systems are tested,
 * Ubuntu
 * Fedora Core
 
-It is recommended to use latest Mono release, such as 4.2.1 and above.
+It is recommended to switch to .NET Core instead of Mono.
 
 .NET Core
 ---------

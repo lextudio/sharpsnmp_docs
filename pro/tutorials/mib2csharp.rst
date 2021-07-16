@@ -3,8 +3,7 @@ MIB-to-C# Compilation
 
 By `Lex Li`_
 
-This page shows you information about the MIB-to-C# compilation feature, which
-is currently experimental.
+This page shows you information about how to enable MIB-to-C# compilation.
 
 .. contents:: In this article:
   :local:
@@ -46,11 +45,8 @@ testing.
 
 Limitations
 -----------
-There is no official support to use either the test agent or the generated C#
-classes for production usage.
-
-MIB-to-C# compilation only generates new classes (or overwrites existing
-classes). Currently no plan to support in-place upgrade.
+This article is provided as it is, and there is no official support to use
+either the test agent or the generated C# classes for production usage.
 
 Related Resources
 -----------------

@@ -59,7 +59,8 @@ The latest package can be found at,
 
 .. note:: Starting from 11.0.0 release, ``Lextm.SharpSnmpLib.BouncyCastle``
    package is obsolete, and no longer published. You can compile your own copy
-   using the source code from `the samples <https://github.com/lextudio/sharpsnmplib-samples>`_ .
+   using the source code from
+   `the samples <https://github.com/lextudio/sharpsnmplib-samples>`_ .
 
 Install #SNMP Library via source code
 -------------------------------------

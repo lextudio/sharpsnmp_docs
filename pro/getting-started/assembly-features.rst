@@ -26,7 +26,6 @@ Unlike the Compiler Pro which requires .NET 4.7.1 and Windows, this assembly can
 * .NET Core 3.1 and .NET 5 (via .NET Standard 2.0)
 * .NET Framework 4.7.1 and above
 * .NET Framework 4.6.1 and above (via .NET Standard 2.0)
-* Mono 5.0 and above (via .NET Standard 2.0)
 * Xamarin.iOS Unified (via .NET Standard 2.0)
 * Xamarin.Android (via .NET Standard 2.0)
 * Xamarin.Mac (via .NET Standard 2.0)
