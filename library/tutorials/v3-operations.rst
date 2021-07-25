@@ -180,4 +180,6 @@ Related Resources
 
 - :doc:`/samples/command-line-tools`
 - :doc:`/tutorials/introduction`
+- :doc:`/tutorials/aes`
+- :doc:`/tutorials/security-notice`
 - `The API Reference <https://help.sharpsnmp.com>`_
