@@ -51,5 +51,5 @@ the data you get from the agent.
 Related Resources
 -----------------
 
-- `#SNMP MIB Compiler Pro <https://pro.sharpsnmp.com/en/latest/getting-started/compiler-features.html>`_
-- `SharpSnmpPro.Mib Assembly <https://pro.sharpsnmp.com/en/latest/getting-started/assembly-features.html>`_
+- `#SNMP MIB Compiler Pro <https://pro.sharpsnmp.com/getting-started/compiler-features.html>`_
+- `SharpSnmpPro.Mib Assembly <https://pro.sharpsnmp.com/getting-started/assembly-features.html>`_

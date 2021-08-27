@@ -380,7 +380,7 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'pro': ('https://pro.sharpsnmp.com/en/latest', None)
+    'pro': ('https://pro.sharpsnmp.com/', None)
 }
 
 feed_num_items = 15

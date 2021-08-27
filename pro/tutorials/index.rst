@@ -8,4 +8,5 @@ Tutorials
    compiler-full-guide
    assembly-trial-guide
    assembly-full-guide
+   mib-walk
    mib2csharp
