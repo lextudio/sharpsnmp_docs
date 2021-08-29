@@ -22,6 +22,22 @@ Bug fixes
 New Features
 * C# 8.0 support (nullable annotation).
 
+2.1.2
+^^^^^
+This is a bug fix release. Major changes:
+
+Bug fixes
+
+* `ObjectIdentifierMacro.Decode does not work properly <https://github.com/lextudio/sharpsnmppro-samples/issues/19>`_ .
+
+2.1.1
+^^^^^
+This is a bug fix release. Major changes:
+
+Bug fixes
+
+* `Extra text written to standard output/error <https://github.com/lextudio/sharpsnmppro-samples/issues/18>`_ .
+
 2.1.0
 ^^^^^
 This is a bug fix release. Major changes:
@@ -119,7 +135,7 @@ The lifecycle of the releases are listed below,
 ======= ================= ================
 Version Release Date      End-of-life Date
 ======= ================= ================
-2.1.0   Oct 04, 2020      N/A
+2.1.x   Oct 04, 2020      N/A
 2.0.0   Dec 31, 2017      Jan 05, 2021
 1.2.0   Jan 16, 2017      Mar 31, 2018
 1.1.3   Oct 01, 2016      Apr 16, 2017
