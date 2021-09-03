@@ -22,16 +22,23 @@ Built-in Providers on .NET Core
 Microsoft does have some DES/AES support in .NET Core. However,
 
 * DES is not part of .NET Standard 1.3.
-* SNMP AES relies on CFB mode, which is not supported by .NET Core.
+* SNMP AES relies on CFB mode, which is not supported by certain .NET Core
+  releases.
 
 Therefore, the built-in DES/AES privacy providers (derived from
-``AESPrivacyProviderBase``) do not work well on .NET Core.
+``AESPrivacyProviderBase``) do not work well on certain .NET Core releases.
 
 You can check ``DESPrivacyProvider.IsSupported`` to see if DES is natively
 supported on a platform.
 
 You can check ``AESPrivacyProviderBase.IsSupported`` to see if AES is natively
 supported on a platform.
+
+.. important:: DES is natively supported on .NET Core 3.1 and above, but you
+   need to upgrade to at least #SNMP Library 12.4.0 release.
+
+.. important:: AES is natively supported on .NET 5 and above, but you
+   need to upgrade to at least #SNMP Library 12.4.0 release.
 
 Providers on Bouncy Castle
 --------------------------
