@@ -45,8 +45,8 @@ Providers on Bouncy Castle
 Bouncy Castle is an open source library that implements many algorithms,
 including DES and AES(CFB).
 
-The sample projects show how to use ``Samples.BouncyCastle``(12.1 and above) or
-``SharpSnmpLib.BouncyCastle``(10.0-12.0) to enable DES/AES privacy providers
+The sample projects show how to use ``Samples.BouncyCastle`` (12.1 and above) or
+``SharpSnmpLib.BouncyCastle`` (10.0-12.0) to enable DES/AES privacy providers
 based on Bouncy Castle. They can be used on platforms such as .NET Core.
 
 .. note:: Compared to built-in providers, these are slower due to Bouncy Castle

@@ -14,7 +14,7 @@ Background
 If you notice, both SNMP data type ``OCTET STRING`` and ``Opaque`` can be
 viewed as byte array type in .NET. Maybe you wonder why ``OCTET STRING`` is
 not viewed as ``System.String``, the reason is simple. ``System.String`` does
-have an important property that distinguishes itself from a byte array –
+have an important property that distinguishes itself from a byte array -
 encoding. It seems when SNMP was designed, it does not provide a default
 encoding for ``OCTET STRING`` explicitly (and sometimes it is even used just
 like a byte array when you store MAC address bytes in it).
@@ -55,18 +55,18 @@ As a reference at first, there are new methods and properties in
 
 Scenarios
 ---------
-Now let’s review a few common scenarios and discuss what you may do to
-customize ``OctetString``’s behaviors.
+Now let's review a few common scenarios and discuss what you may do to
+customize ``OctetString``'s behaviors.
 
 Default ASCII Way
 ^^^^^^^^^^^^^^^^^
-If you don’t touch the properties and methods related to ``Encoding``, then
+If you don't touch the properties and methods related to ``Encoding``, then
 you are in a pure ASCII way. It should behavior the same as old releases of
 #SNMP (0.5, 1.0 and 1.1).
 
 Default Encoding.* Way
 ^^^^^^^^^^^^^^^^^^^^^^
-If you change ``DefaultEncoding`` to any other ``Encoding`` types, and don’t
+If you change ``DefaultEncoding`` to any other ``Encoding`` types, and don't
 touch the properties and methods related to ``Encoding`` later, you are in a
 pure ``Encoding.*`` way.
 
