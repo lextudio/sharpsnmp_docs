@@ -76,7 +76,7 @@ located at ``192.168.1.2`` and set the value of OID ``1.3.6.1.2.1.1.6.0`` to
 
 .. code-block:: csharp
 
-  SetRequestMessage request = new GetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), new List<variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"), new OctetString("Shanghai"))}, priv, Messenger.MaxMessageSize, report);
+  SetRequestMessage request = new SetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), new List<variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"), new OctetString("Shanghai"))}, priv, Messenger.MaxMessageSize, report);
   ISnmpMessage reply = request.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
   if (reply.Pdu().ErrorStatus.ToInt32() != 0) // != ErrorCode.NoError
   {
