@@ -55,7 +55,7 @@ located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
 
 .. code-block:: csharp
 
-  GetRequestMessage request = new GetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), new List<variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"))}, priv, Messenger.MaxMessageSize, report);
+  GetRequestMessage request = new GetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"))}, priv, Messenger.MaxMessageSize, report);
   ISnmpMessage reply = request.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
   if (reply.Pdu().ErrorStatus.ToInt32() != 0) // != ErrorCode.NoError
   {
@@ -76,7 +76,7 @@ located at ``192.168.1.2`` and set the value of OID ``1.3.6.1.2.1.1.6.0`` to
 
 .. code-block:: csharp
 
-  SetRequestMessage request = new SetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), new List<variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"), new OctetString("Shanghai"))}, priv, Messenger.MaxMessageSize, report);
+  SetRequestMessage request = new SetRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"), new OctetString("Shanghai"))}, priv, Messenger.MaxMessageSize, report);
   ISnmpMessage reply = request.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
   if (reply.Pdu().ErrorStatus.ToInt32() != 0) // != ErrorCode.NoError
   {
@@ -93,7 +93,7 @@ agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
 
 .. code-block:: csharp
 
-  GetBulkRequestMessage request = new GetBulkRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), 0, 10, new List<variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"))}, priv, Messenger.MaxMessageSize, report);
+  GetBulkRequestMessage request = new GetBulkRequestMessage(VersionCode.V3, Messenger.NextMessageId, Messenger.NextRequestId, new OctetString("myname"), 0, 10, new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"))}, priv, Messenger.MaxMessageSize, report);
   ISnmpMessage reply = request.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
   if (reply.Pdu().ErrorStatus.ToInt32() != 0) // != ErrorCode.NoError
   {
@@ -112,7 +112,7 @@ The following code shows how to perform v3 WALK on an SNMP agent located at
 
 .. code-block:: csharp
 
-  var result = new List<variable>();
+  var result = new List<Variable>();
   Messenger.BulkWalk(VersionCode.V3, 
                     new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161), 
                     new OctetString("public"), 
