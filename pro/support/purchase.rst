@@ -36,10 +36,9 @@ The current price for a single developer license is **1000 CAD**.
    You can learn our business hours from
    `this page <https://support.lextudio.com/contracts/purchase.html>`_ .
 
-Source Code Availability
-------------------------
-All above are binaries sold only. Source code is sold separately. Please
-contact `the support team <mailto:support@lextudio.com>`_ for more information.
+.. important:: All products are sold as binaries only. Source code is no longer
+   available for purchase. Please contact `the support team <mailto:support@lextudio.com>`_
+   for more information.
 
 Related Resources
 -----------------
