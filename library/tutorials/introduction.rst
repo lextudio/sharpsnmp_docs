@@ -125,6 +125,7 @@ built upon GET-BULK operations and provide better performance.
   Messenger.BulkWalk(VersionCode.V2,
                     new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161),
                     new OctetString("public"),
+                    null,
                     new ObjectIdentifier("1.3.6.1.2.1.1"),
                     result,
                     60000,

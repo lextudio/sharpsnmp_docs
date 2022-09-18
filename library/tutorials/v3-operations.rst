@@ -115,13 +115,14 @@ The following code shows how to perform v3 WALK on an SNMP agent located at
   var result = new List<Variable>();
   Messenger.BulkWalk(VersionCode.V3, 
                     new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161), 
-                    new OctetString("public"), 
-                    new ObjectIdentifier("1.3.6.1.2.1.1"), 
-                    result, 
-                    60000, 
-                    10, 
-                    WalkMode.WithinSubtree, 
-                    priv, 
+                    new OctetString("public"),
+                    OctetString.Empty, // context name
+                    new ObjectIdentifier("1.3.6.1.2.1.1"),
+                    result,
+                    60000,
+                    10,
+                    WalkMode.WithinSubtree,
+                    priv,
                     report);
 
 TRAP v2 Operation
@@ -144,10 +145,13 @@ listener located at ``192.168.1.2``,
     new List<Variable>(),
     DefaultPrivacyProvider.DefaultPair,
     0x10000,
-    new OctetString(ByteTool.Convert("80001F8880E9630000D61FF449")),
+    new OctetString(ByteTool.Convert("80001F8880E9630000D61FF449")), // engine ID
     0,
     0);
   trap.Send(new IPEndPoint(IPAddress.Parse("192.168.1.2"), 162));
+
+.. note:: Assume the engine that sends out this TRAP v2 message has the ID of
+   ``0x80001F8880E9630000D61FF449``.
 
 INFORM Operation
 ----------------
