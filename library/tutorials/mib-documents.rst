@@ -37,16 +37,23 @@ documents and learn carefully which objects are exposed.
 You can import the MIB documents to a monitor software, or write your own
 software to monitor the objects.
 
-SNMP OID, Data Type, and Description
+SNMP OIDs, Data Types, and Descriptions
 ------------------------------------
-From the MIB documents you know the identifiers (OID) of the management
-objects, their data types, and descriptions. That information can then be put
-down to papers.
+From the MIB documents you know what are the management objects that can be used,
+their identifiers (OIDs), data types, and descriptions. That information can then
+be put down to papers.
 
-You can use #SNMP Library with MIB documents, as only OID is required during
-request construction in most cases. Of course data type is needed when
-performing SET operations. The descriptions help you understand the meaning of
-the data you get from the agent.
+When your application uses #SNMP Library to perform SNMP operations, only OIDs
+are required in most cases, and basic data types are needed when performing SET
+operations. The descriptions help you understand the meaning of the data you get
+from the agent but they are not used anywhere in typical SNMP applications.
+
+However, if your application requires more advanced features, such as strict data
+validation based on complex data types defined in MIB documents (often are
+textual conventions), then you need to parse MIB documents on-the-fly and
+enable the validation rules. We have a commercial product line,
+`#SNMP Pro <https://pro.sharpsnmp.com>`, which contains the functionality you
+need.
 
 Related Resources
 -----------------
