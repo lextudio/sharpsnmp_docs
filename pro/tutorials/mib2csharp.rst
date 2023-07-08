@@ -34,6 +34,8 @@ To test out the same with SharpSnmpPro.Mib assembly,
 #. Use ``ObjectTree.GenerateSourceFiles(string outputFolder)`` method to
    generate C# source files.
 
+.. warning: This GitHub repo does not work with the Trial edition of `SharpSnmpPro.Mib`.
+
 Extending Test Agent
 ^^^^^^^^^^^^^^^^^^^^
 Once the source files are generated (in ``modules`` foldler for example), a
