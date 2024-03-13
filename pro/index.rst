@@ -17,3 +17,4 @@ Topics
     getting-started/index
     tutorials/index
     support/index
+    Privacy Policy <https://docs.sharpsnmp.com/privacy>

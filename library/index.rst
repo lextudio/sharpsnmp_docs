@@ -19,6 +19,7 @@ Topics
     samples/index
     contribute/index
     support/index
+    privacy
 
 Pro Edition
 -----------
