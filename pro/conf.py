@@ -31,8 +31,13 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.intersphinx'
+    'sphinx.ext.intersphinx',
+    "sphinx_sitemap",
+    "sphinx_copybutton",
 ]
+
+html_baseurl = "https://docs.lextudio.com/sharpsnmppro/"
+sitemap_url_scheme = "{link}"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -50,8 +55,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'#SNMP Pro Documentation'
-copyright = u'2015, LeXtudio Inc.'
-author = u'Lex Li'
+copyright = u'2015-2024, LeXtudio Inc.'
+author = u'LeXtudio Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -67,7 +72,7 @@ release = '2.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = "en"
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -96,6 +101,7 @@ exclude_patterns = ['_build']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
+pygments_dark_style = "monokai"
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -116,28 +122,30 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-# This allows sphinx_rtd_theme to work locally
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-html_context = {
-    'on_rtd' : on_rtd,
-    'display_github': True,
-    'github_user': 'lextudio',
-    'github_repo': 'sharpsnmp_docs',
-    'github_version': 'master/pro/',
-}
-
-if not on_rtd:
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    
-#html_theme = 'default'
+html_theme = 'furo'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    "source_repository": "https://github.com/lextudio/sharpsnmp_docs",
+    "source_branch": "master",
+    "source_directory": "pro/",
+    "footer_icons": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/lextudio/sharpsnmp_docs",
+            "html": "",
+            "class": "fa-brands fa-solid fa-github fa-2x",
+        },
+    ],
+}
+
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css",
+]
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -379,14 +387,14 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'library': ('https://docs.sharpsnmp.com/', None)
+    'library': ('https://docs.lextudio.com/sharpsnmplib/', None)
 }
 
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
-feed_base_url = 'https://pro.sharpsnmp.com/'
+feed_base_url = 'https://docs.lextudio.com/sharpsnmppro/'
 feed_description = '#SNMP Pro Documentation'
-feed_author = 'Lex Li'
+feed_author = 'LeXtudio Inc.'
 
 def setup(app):
     on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
