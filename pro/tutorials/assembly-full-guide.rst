@@ -19,17 +19,17 @@ The Full version is sent to registered users only via emails, and is packaged up
 
 Supported Platforms
 -------------------
-Unlike the Compiler Pro which requires .NET 4.5 and Windows, this product can be used on multiple platforms,
+Unlike the Compiler Pro which requires .NET 4.6.2 and Windows, this product can be used on multiple platforms,
 
-* .NET Core 3.1 and .NET 5 (via .NET Standard 2.0)
+* .NET 6 and above (via .NET Standard 2.0)
 * .NET Framework 4.7.1 and above
-* .NET Framework 4.6.1 and above (via .NET Standard 2.0)
+* .NET Framework 4.6.2 and above (via .NET Standard 2.0)
 * Xamarin.iOS Unified (via .NET Standard 2.0)
 * Xamarin.Android (via .NET Standard 2.0)
 * Xamarin.Mac (via .NET Standard 2.0)
 * Other platforms that are compliant to .NET Standard 2.0.
 
-.. note:: More information about .NET Standard 2.0 can be found from `Microsoft <https://docs.microsoft.com/en-us/dotnet/standard/net-standard>`_ .
+.. note:: More information about .NET Standard 2.0 can be found from `Microsoft <https://learn.microsoft.com/dotnet/standard/net-standard>`_ .
 
 Complete Sample Project
 -----------------------
