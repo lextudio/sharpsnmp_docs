@@ -12,20 +12,24 @@ Topics
 ------
 
 .. toctree::
-    :titlesonly:
+   :titlesonly:
 
-    getting-started/index
-    tutorials/index
-    samples/index
-    contribute/index
-    support/index
-    privacy
+   Visit Docs Home <https://docs.lextudio.com>
+   getting-started/index
+   tutorials/index
+   samples/index
+   contribute/index
+   support/index
+   privacy
 
 Pro Edition
 -----------
 MIB Compiler and the related library is released as #SNMP Pro edition.
 
-More information can be found at `its own documentation site <https://pro.sharpsnmp.com>`_ .
+.. toctree::
+   :maxdepth: 1
+
+   Learn about #SNMP Pro <https://docs.lextudio.com/sharpsnmppro>
 
 Contribute
 ----------

@@ -12,9 +12,11 @@ Topics
 ------
 
 .. toctree::
-    :titlesonly:
+   :titlesonly:
 
-    getting-started/index
-    tutorials/index
-    support/index
-    Privacy Policy <https://docs.lextudio.com/sharpsnmplib/privacy>
+   Visit Docs Home <https://docs.lextudio.com>
+   Learn about #SNMP Library <https://docs.lextudio.com/sharpsnmplib>
+   getting-started/index
+   tutorials/index
+   support/index
+   Privacy Policy <https://docs.lextudio.com/sharpsnmplib/privacy>
