@@ -34,7 +34,10 @@ extensions = [
     'sphinx.ext.intersphinx',
     "sphinx_sitemap",
     "sphinx_copybutton",
+    'notfound.extension',
 ]
+
+notfound_urls_prefix = "/sharpsnmppro/"
 
 html_baseurl = "https://docs.lextudio.com/sharpsnmppro/"
 sitemap_url_scheme = "{link}"
