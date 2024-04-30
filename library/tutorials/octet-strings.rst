@@ -1,13 +1,7 @@
 OCTET STRING and Encoding
 =========================
 
-By `Lex Li`_
-
 This page shows you how ``OCTET STRING`` type works internally.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

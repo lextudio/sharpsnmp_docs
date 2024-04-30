@@ -1,13 +1,7 @@
 Licensing Terms
 ===============
 
-By `Lex Li`_
-
 This page shows you how the licensing works for the Pro Edition. 
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Licensing Model for #SNMP MIB Compiler Pro
 ------------------------------------------

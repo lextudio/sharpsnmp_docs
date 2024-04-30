@@ -1,17 +1,11 @@
 Beginners's Guide on MIB Documents
 ==================================
 
-By `Lex Li`_
-
 This page shows you which roles MIB documents play in SNMP communication.
 
 .. important:: It is highly recommended that you buy a book such as
    `Understanding SNMP MIBs <http://www.amazon.com/Understanding-SNMP-MIBs-David-Perkins/dp/0134377087>`_
    to learn from the masters of this art.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

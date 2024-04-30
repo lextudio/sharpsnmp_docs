@@ -1,13 +1,7 @@
 Security Notice
 ===============
 
-By `Lex Li`_
-
 This page shows you information about security notices.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Overview
 --------

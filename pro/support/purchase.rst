@@ -1,13 +1,7 @@
 Purchase
 ========
 
-By `Lex Li`_
-
 This page shows you how to purchase the Pro Edition.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 #SNMP Pro Bundle
 ----------------

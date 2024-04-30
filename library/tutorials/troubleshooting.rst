@@ -1,13 +1,7 @@
 Troubleshooting Guide
 =====================
 
-By `Lex Li`_
-
 This page shows you how to troubleshoot common problems.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 General Approach
 ----------------

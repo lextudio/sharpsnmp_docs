@@ -1,13 +1,7 @@
 Information on DES/AES Privacy Providers
 ========================================
 
-By `Lex Li`_
-
 This page shows you information regarding DES/AES privacy providers.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

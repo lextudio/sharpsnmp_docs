@@ -1,14 +1,8 @@
 SNMP v3 Operations
 ==================
 
-By `Lex Li`_
-
 This page shows you how to perform SNMP v3 operations. Basic SNMP v3
 operations (GET, SET and so on) are translated to #SNMP function calls.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

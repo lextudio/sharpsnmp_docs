@@ -1,13 +1,7 @@
 SNMP Device Discovery
 =====================
 
-By `Lex Li`_
-
 This page shows you how SNMP device might be discovered.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

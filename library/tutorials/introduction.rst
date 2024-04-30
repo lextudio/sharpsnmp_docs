@@ -1,14 +1,8 @@
 An Introduction to #SNMP
 ========================
 
-By `Lex Li`_
-
 This page shows you the basics about #SNMP. Basic SNMP operations (GET, SET
 and so on) are translated to #SNMP function calls.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 GET Operation
 -------------

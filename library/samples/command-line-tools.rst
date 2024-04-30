@@ -1,12 +1,7 @@
 Command Line Tools
 ==================
-By `Lex Li`_
 
 This page shows you what are the command line tools shipped.
-
-.. contents:: In this article
-   :local:
-   :depth: 1
 
 How to Acquire The Command Line Tools
 -------------------------------------

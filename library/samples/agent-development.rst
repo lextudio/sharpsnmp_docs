@@ -1,13 +1,7 @@
 Agent Development
 =================
 
-By `Lex Li`_
-
 This page shows you how the agent sample works.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Dependencies
 ------------

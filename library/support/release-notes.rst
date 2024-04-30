@@ -1,13 +1,7 @@
 Release Notes
 =============
 
-By `Lex Li`_
-
 This page documents major releases of #SNMP Library.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Releases
 --------

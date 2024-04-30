@@ -1,13 +1,7 @@
 #SNMP MIB Compiler Pro Features
 ===============================
 
-By `Lex Li`_
-
 This page shows you the main features of the Compiler Pro Edition.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

@@ -1,14 +1,8 @@
 Supported Platforms
 ===================
 
-By `Lex Li`_
-
 This page describes for major releases of #SNMP, which version(s) of .NET
 platforms are supported.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 .NET Framework
 --------------

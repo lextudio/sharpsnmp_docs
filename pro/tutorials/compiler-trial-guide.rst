@@ -1,13 +1,7 @@
 #SNMP Compiler Pro Trial Version Reviewers' Guide
 =================================================
 
-By `Lex Li`_
-
 This page shows you a guide on #SNMP Compiler Pro Trial version.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

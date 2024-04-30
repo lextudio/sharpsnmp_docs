@@ -1,13 +1,7 @@
 SharpSnmpPro.Mib Assembly Features
 ==================================
 
-By `Lex Li`_
-
 This page shows you the main features of SharpSnmpPro.Mib assembly.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

@@ -1,13 +1,7 @@
 MIB-to-C# Compilation
 =====================
 
-By `Lex Li`_
-
 This page shows you information about how to enable MIB-to-C# compilation.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------

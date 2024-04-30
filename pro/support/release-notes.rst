@@ -1,13 +1,7 @@
 SharpSnmpPro.Mib Release Notes
 ==============================
 
-By `Lex Li`_
-
 This page documents major releases of SharpSnmpPro.Mib.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Releases
 --------

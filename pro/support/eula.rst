@@ -1,13 +1,7 @@
 End User License Agreement
 ==========================
 
-By `Lex Li`_
-
 This page shows you the End User License Agreement for the Pro Edition. 
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 License Details
 ---------------

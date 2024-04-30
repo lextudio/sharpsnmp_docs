@@ -1,14 +1,8 @@
 Enhanced SNMP WALK
 ==================
 
-By `Lex Li`_
-
 This page shows you information about how to utilize MIB documents to enhance
 SNMP WALK operations.
-
-.. contents:: In this article:
-  :local:
-  :depth: 1
 
 Background
 ----------
