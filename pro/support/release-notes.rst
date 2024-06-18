@@ -16,6 +16,14 @@ Bug fixes
 New Features
 * C# 8.0 support (nullable annotation).
 
+2.1.3
+^^^^^
+This is a bug fix release. Major changes:
+
+Bug fixes
+
+* `Module.Traps becomes obsolete <https://github.com/lextudio/sharpsnmppro-samples/issues/20>`_ .
+
 2.1.2
 ^^^^^
 This is a bug fix release. Major changes:
@@ -147,7 +155,7 @@ till its next release becomes three months old. This change is to match our
 more frequent release cycles.
 
 Users of expired releases must upgrade to an active supported release before
-contacing technical support team.
+contacting technical support team.
 
 Related Resources
 -----------------
