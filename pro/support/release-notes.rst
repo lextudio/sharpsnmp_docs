@@ -11,9 +11,11 @@ Releases
 This is a major release with new platform support. Major changes:
 
 Bug fixes
+
 * Fixed a few parsing edge cases.
 
 New Features
+
 * C# 8.0 support (nullable annotation).
 
 2.1.3
