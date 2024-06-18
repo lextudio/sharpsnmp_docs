@@ -142,7 +142,7 @@ manager located at ``192.168.1.3``,
                       new ObjectIdentifier("1.3.6.1.2.1.1"),
                       GenericCode.ColdStart,
                       0,
-                      0，
+                      0,
                       new List<Variable>());
 
 SNMP v2 and above introduces a simplified TRAP v2 message,

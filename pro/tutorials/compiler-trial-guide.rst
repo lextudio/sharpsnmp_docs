@@ -44,7 +44,7 @@ contains the diagnostics logging entries.
    contains the generated source files.
 
    To learn the usage of generated files, please refer to
-   :doc:`/tutorials/mib2sharp`.
+   :doc:`/tutorials/mib2csharp`.
 
 Related Resources
 -----------------

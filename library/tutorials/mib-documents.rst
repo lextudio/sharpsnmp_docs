@@ -32,7 +32,7 @@ You can import the MIB documents to a monitor software, or write your own
 software to monitor the objects.
 
 SNMP OIDs, Data Types, and Descriptions
-------------------------------------
+---------------------------------------
 From the MIB documents you know what are the management objects that can be used,
 their identifiers (OIDs), data types, and descriptions. That information can then
 be put down to papers.
