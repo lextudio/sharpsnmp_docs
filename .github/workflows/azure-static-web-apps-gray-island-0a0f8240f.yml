@@ -24,9 +24,8 @@ jobs:
       - name: Build the docs
         run: |
           python -m pip install pipenv
-          python -m pipenv install
-          cd pro
-          python -m pipenv run make html
+          python -m pipenv install --verbose
+          python -m pipenv run make -C pro html
 
       - name: Build And Deploy
         id: builddeploy
