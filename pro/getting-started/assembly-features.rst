@@ -17,12 +17,8 @@ Supported Platforms
 -------------------
 Unlike the Compiler Pro which requires .NET 4.7.1 and Windows, this assembly can be used on multiple platforms,
 
-* .NET Core 3.1 and .NET 5 (via .NET Standard 2.0)
+* .NET 6 and 8 (via .NET Standard 2.0)
 * .NET Framework 4.7.1 and above
-* .NET Framework 4.6.1 and above (via .NET Standard 2.0)
-* Xamarin.iOS Unified (via .NET Standard 2.0)
-* Xamarin.Android (via .NET Standard 2.0)
-* Xamarin.Mac (via .NET Standard 2.0)
 * Other platforms that are compliant to .NET Standard 2.0.
 
 Features
