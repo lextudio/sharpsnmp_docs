@@ -5,9 +5,13 @@ This page shows you information about security notices.
 
 Overview
 --------
-Recent changes in security related areas make many SNMP building blocks deprecated. For example, MD5 and SHA-1 have been widely considered obsolete due to possible colisions. DES/3DES are in a similar case.
+Recent changes in security related areas make many SNMP building blocks
+deprecated. For example, MD5 and SHA-1 have been widely considered obsolete
+due to possible collisions. DES/3DES are in a similar case.
 
-So to configure your SNMP agents and remedy security risks, it is recommended to choose authentication/privacy providers that use more modern algorithms, such as SHA-2 and AES.
+So to configure your SNMP agents and remedy security risks, it is recommended
+to choose authentication/privacy providers that use more modern algorithms,
+such as SHA-2 and AES.
 
 Built-in Providers
 ------------------
@@ -32,6 +36,18 @@ Privacy Providers
 `AES192PrivacyProvider`
 `AES256PrivacyProvider`
 ==============================  ====================
+
+FIPS Compliance
+---------------
+
+Since the provider implementations are based on .NET cryptography libraries,
+the actual FIPS compliance depends on the .NET platform. You can read the `.NET
+documentation`_ for more information.
+
+You can also implement your own FIPS-compliant providers by implementing the
+`IAuthenticationProvider` and `IPrivacyProvider` interfaces.
+
+.. _`.NET documentation`: https://learn.microsoft.com/dotnet/standard/security/fips-compliance
 
 Related Resources
 -----------------
