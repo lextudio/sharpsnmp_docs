@@ -24,8 +24,8 @@ common approach.
    twice whether you need to discover devices. Keep in mind that you are
    supposed to know all the devices and their IP addresses.
 
-Simple Device Discovery for v1 and v2c (IPv4)
----------------------------------------------
+Simple Device Discovery for v1 and v2c, IPv4
+--------------------------------------------
 UDP allows broadcast, so if we broadcast an SNMP GET request with OID
 ``1.3.6.1.2.1.1.1.0`` using community name ``"public"``, some devices will
 reply with their device information. In this way we know both the device IP
@@ -34,14 +34,24 @@ address and type from the replies.
 .. note:: You should avoid using "public" as community name, as it is so well
    known.
 
-Discovery for v3 (IPv4)
------------------------
+Discovery for v3, IPv4
+----------------------
 RFC 3414 defines a discovery process for SNMP v3. This gives us a chance to
 discover all v3 enabled devices in the same network by broadcasting a simple
 discovery request without any credentials.
 
 As in this way the device IP address is revealed, make sure your devices don't
 use a common user name and passwords.
+
+Discovery for IPv6
+------------------
+IPv6 does not support broadcasting, so the above approaches are not valid for
+IPv6. However, you can use the SNMP v3 discovery process to discover devices
+in the same network if multicast is enabled.
+
+.. note::
+
+   This IPv6 feature was added in release 12.5.5.
 
 Related Resources
 -----------------
