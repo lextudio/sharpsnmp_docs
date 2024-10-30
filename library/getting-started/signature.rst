@@ -6,15 +6,11 @@ By `Lex Li`_
 This article describes how to verify that you are using official releases of
 C# SNMP Library.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Release 10.0.10 and Above
 -------------------------
 
 Both the NuGet packages and assemblies inside would be signed using Lex Li's
-personal code sign certificate, so digitial signature is embedded.
+personal code sign certificate, so digital signature is embedded.
 
 You can use ``signtool`` and NuGet CLI to verify the signature. For example,
 

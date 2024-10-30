@@ -145,7 +145,7 @@ can switch to it to learn how to construct a browser side pipeline accordingly.
 
 This sample is provided to demonstrate how the library might be used. If you
 want to build a full feature SNMP agent based on this sample, then many changes
-(mult-threading and security related) are mandate.
+(multi-threading and security related) are mandate.
 
 Related Resources
 -----------------

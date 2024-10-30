@@ -6,10 +6,6 @@ By `Lex Li`_
 This article describes what open source licenses are used for the source code
 of major releases of C# SNMP.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Release 11.0 and Above
 ----------------------
 =======================================  ========================

@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This page shows you information about export restrictions.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Background
 ----------
 The C# SNMP Library is open source software that contains strong encryption.

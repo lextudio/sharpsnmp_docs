@@ -8,32 +8,55 @@
 C# SNMP Library Documentation
 =============================
 
+Welcome to the documentation site for C# SNMP (#SNMP), a comprehensive SNMP ecosystem for
+C# and .NET that has been empowering developers and network administrators to build
+SNMP-based applications for more than a decade. This site introduces #SNMP key
+features, sibling projects, and support options to help you make the most of
+SNMP.
+
+SNMP Knowledge
+--------------
+
+Simple Network Management Protocol (SNMP) is an essential protocol for managing
+and monitoring network devices. #SNMP leverages SNMP with the power and
+simplicity of Python, providing a versatile SNMP engine for a wide range of
+applications.
+
+.. toctree::
+   :maxdepth: 2
+
+   SNMP History <https://docs.lextudio.com/snmp/snmp-history.html>
+   SNMP Design <https://docs.lextudio.com/snmp/snmp-design.html>
+
+You can interact with `SNMP Guru GPT <https://chat.openai.com/g/g-ZWj5VHbh7-snmp-guru>`_
+to ask questions about SNMP and learn more in-depth information about the protocol.
+
 Topics
 ------
+
+To get started with C# SNMP Library, you can follow the tutorials and samples provided below.
 
 .. toctree::
    :titlesonly:
 
-   Visit Docs Home <https://docs.lextudio.com>
    getting-started/index
    tutorials/index
    samples/index
-   contribute/index
-   support/index
-   privacy
 
 Pro Edition
 -----------
-MIB Compiler and the related library is released as C# SNMP Pro edition.
+
+Enterprise users might require more advanced features, such as MIB compilation. We provide
+a commercial edition, #SNMP Pro, which includes a MIB compiler and related libraries.
 
 .. toctree::
    :maxdepth: 1
 
-   Learn about C# SNMP Pro <https://docs.lextudio.com/sharpsnmppro>
+   Learn about #SNMP Pro <https://docs.lextudio.com/sharpsnmppro>
 
 Contribute
 ----------
 
-**We accept pull requests!** But you're more likely to have yours accepted if you follow these guidelines:
-
-	1. Read the `Contributing Guide <https://github.com/lextm/sharpsnmp_docs/blob/master/CONTRIBUTING.md>`_.
+   contribute/index
+   support/index
+   privacy

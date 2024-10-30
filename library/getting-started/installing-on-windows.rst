@@ -6,10 +6,6 @@ By `Lex Li`_
 This page shows you how to install C# SNMP Library to your project on Windows.
 The usage on other platforms (macOS and Linux) should be quite similar.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 Install C# SNMP Library via NuGet
 ---------------------------------
 

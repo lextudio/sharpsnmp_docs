@@ -5,10 +5,6 @@ By `Lex Li`_
 
 This article describes history of C# SNMP (#SNMP) ecosystem.
 
-.. contents:: In this article:
-  :local:
-  :depth: 1
-
 The Road to 1.0 Release
 -----------------------
 Microsoft introduced .NET Framework to developers in 2000. However, it lacks of
