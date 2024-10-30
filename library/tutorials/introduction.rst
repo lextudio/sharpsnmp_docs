@@ -1,5 +1,5 @@
-An Introduction to #SNMP
-========================
+An Introduction to #SNMP, SNMP Library for C# and .NET
+======================================================
 
 This page shows you the basics about #SNMP, an open source SNMP implementation
 for C# and .NET.
@@ -199,8 +199,9 @@ Related Resources
 -----------------
 
 - :doc:`/tutorials/v3-operations`
-- :doc:`/tutorials/troubleshooting`
 - :doc:`/samples/agent-development`
 - :doc:`/samples/command-line-tools`
 - `#SNMP Pro <https://pro.sharpsnmp.com>`_
 - `The API Reference <https://help.sharpsnmp.com>`_
+- :doc:`/tutorials/troubleshooting`
+- :doc:`/tutorials/security-notice`

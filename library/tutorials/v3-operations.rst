@@ -1,5 +1,5 @@
-SNMP v3 Operations
-==================
+SNMP v3 Operations with C#
+==========================
 
 This page shows you how to perform SNMP v3 operations. Basic SNMP v3
 operations (GET, SET and so on) are translated to #SNMP function calls.
@@ -170,14 +170,24 @@ listener located at ``192.168.1.2``,
     report);
 
 .. note:: To help you understand how to use the API provided by #SNMP Library,
-   there are more sample projects you can find under Samples folder in source
-   code package. Both C# and VB.NET samples are available.
+   there are more sample projects you can find in this 
+   `samples repo <https://github.com/lextudio/sharpsnmplib-samples>`_.
+
+Next Steps
+----------
+
+#SNMP Library supports many advanced features, such as manager and agent
+development. And if you need enterprise MIB support, you can evaluate and
+purchase #SNMP Pro.
 
 Related Resources
 -----------------
 
-- :doc:`/samples/command-line-tools`
 - :doc:`/tutorials/introduction`
 - :doc:`/tutorials/aes`
 - :doc:`/tutorials/security-notice`
+- :doc:`/samples/agent-development`
+- :doc:`/samples/command-line-tools`
+- `#SNMP Pro <https://pro.sharpsnmp.com>`_
+- :doc:`/tutorials/troubleshooting`
 - `The API Reference <https://help.sharpsnmp.com>`_
