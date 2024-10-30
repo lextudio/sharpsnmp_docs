@@ -12,7 +12,7 @@ How to Acquire The Command Line Tools
 Please acquire the source code and then launch Visual Studio 2017 to open
 ``SharpSnmpLib.Samples.sln``.
 
-The sample projects are under the "Samples" folder and devided into two
+The sample projects are under the "Samples" folder and divided into two
 languages, C# and VB.NET. Compile them and then they can be executed.
 
 Typical Commands
@@ -111,26 +111,9 @@ For SNMP v3, typical commands are
 
 Built-in community names and users for snmpd
 --------------------------------------------
-SNMP v1 and v2c
-^^^^^^^^^^^^^^^
-==================  ==================
-Get community name	Set community name
-==================  ==================
-public              public
-==================  ==================
-
-SNMP v3
-^^^^^^^
-Community names are obsolete in SNMP v3, so snmpd.exe supports three users (to
-match three modes).
-
-=======  =============  ==============  ==============  =======  ==============
-User     Security mode  Authentication  Phrase          Privacy  Phrase
-=======  =============  ==============  ==============  =======  ==============
-neither  noAuthNoPriv   default         N/A             default  N/A
-authen   authNoPriv     MD5             authentication  default  N/A
-privacy  authPriv       MD5             authentication  DES      privacyphrase
-=======  =============  ==============  ==============  =======  ==============
+Credentials to communicate with snmpd have been revised to match PySNMP, so you
+can refer to `this article <https://docs.lextudio.com/snmp/snmp-simulation-service>`
+for details.
 
 Checkout
 --------

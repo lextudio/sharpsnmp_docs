@@ -1,8 +1,11 @@
 An Introduction to #SNMP
 ========================
 
-This page shows you the basics about #SNMP. Basic SNMP operations (GET, SET
-and so on) are translated to #SNMP function calls.
+This page shows you the basics about #SNMP, an open source SNMP implementation
+for C# and .NET.
+
+Basic SNMP operations (GET, SET and so on) you learn from elsewhere can be
+easily translated to #SNMP function calls.
 
 GET Operation
 -------------
@@ -180,12 +183,24 @@ The manager should send back a reply to this INFORM message. Otherwise, a
 ``TimeoutException`` occurs.
 
 .. note:: To help you understand how to use the API provided by #SNMP Library,
-   there are more sample projects you can find under Samples folder in source
-   code package. Both C# and VB.NET samples are available.
+   there are more sample projects you can find in this 
+   `samples repo <https://github.com/lextudio/sharpsnmplib-samples>`_.
+
+   Both C# and VB.NET samples are available.
+
+Next Steps
+----------
+
+#SNMP Library supports many advanced features, such as SNMP v3 operations and
+manager/agent development. And if you need enterprise MIB support, you can use
+#SNMP Pro.
 
 Related Resources
 -----------------
 
-- :doc:`/samples/command-line-tools`
 - :doc:`/tutorials/v3-operations`
+- :doc:`/tutorials/troubleshooting`
+- :doc:`/samples/agent-development`
+- :doc:`/samples/command-line-tools`
+- `#SNMP Pro <https://pro.sharpsnmp.com>`_
 - `The API Reference <https://help.sharpsnmp.com>`_
