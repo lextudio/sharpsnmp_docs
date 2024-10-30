@@ -15,7 +15,7 @@ such as SHA-2 and AES.
 
 Built-in Providers
 ------------------
-#SNMP Library built-in providers are,
+C# SNMP Library built-in providers are,
 
 ==============================  ====================
 Authentication Providers    

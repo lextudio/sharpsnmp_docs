@@ -59,7 +59,7 @@ Removed Features
 
 * .NET Core 1.0 and 1.1 support expires.
 
-.. note:: This release depends on `#SNMP Library 12.1.0 <https://github.com/lextudio/sharpsnmplib/releases/tag/12.1.0>`_ and above.
+.. note:: This release depends on `C# SNMP Library 12.1.0 <https://github.com/lextudio/sharpsnmplib/releases/tag/12.1.0>`_ and above.
 
 2.0.0
 ^^^^^
@@ -78,7 +78,7 @@ New Features
 * `Moved a few classes to new namespaces <https://github.com/lextudio/sharpsnmppro-samples/issues/14>`_ .
 * `Added overloading methods to ObjectRegistryBase support OID input <https://github.com/lextudio/sharpsnmppro-samples/issues/16>`_ .
 
-.. note:: This release depends on `#SNMP Library 10.0.2 <https://github.com/lextudio/sharpsnmplib/releases/tag/10.0.2>`_ and above.
+.. note:: This release depends on `C# SNMP Library 10.0.2 <https://github.com/lextudio/sharpsnmplib/releases/tag/10.0.2>`_ and above.
 
 1.2.0
 ^^^^^
@@ -101,7 +101,7 @@ New features
 
 Tutorials on the new features will be added to related sections.
 
-.. note:: This release depends on `#SNMP Library 9.0.5 <https://github.com/lextudio/sharpsnmplib/releases/tag/9.0.5>`_ and above.
+.. note:: This release depends on `C# SNMP Library 9.0.5 <https://github.com/lextudio/sharpsnmplib/releases/tag/9.0.5>`_ and above.
 
 1.1.3
 ^^^^^

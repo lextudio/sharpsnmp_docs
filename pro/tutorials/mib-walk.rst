@@ -6,7 +6,7 @@ SNMP WALK operations.
 
 Background
 ----------
-#SNMP Library has a sample project ``snmpd`` that can work as a test agent.
+C# SNMP Library has a sample project ``snmpd`` that can work as a test agent.
 
 If we use ``snmpwalk`` sample to query all objects from this agent, the following
 information can be seen,

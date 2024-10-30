@@ -5,7 +5,7 @@ This page shows you how to troubleshoot common problems.
 
 General Approach
 ----------------
-Troubleshooting #SNMP related issues require basic knowledge of the following
+Troubleshooting C# SNMP related issues require basic knowledge of the following
 
 * Computer networking (TCP/IP)
 * UDP and SNMP specific

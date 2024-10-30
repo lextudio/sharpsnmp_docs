@@ -3,7 +3,7 @@ Project History
 
 By `Lex Li`_
 
-This article describes history of #SNMP.
+This article describes history of C# SNMP (#SNMP) ecosystem.
 
 .. contents:: In this article:
   :local:
@@ -19,7 +19,7 @@ Lex Li did an evaluation report in 2008 for his project at Cisco [1]_. He was
 quite satisfied with some of the commercial solutions, but felt that there
 should be a need to have an open source implementation. Based on the code base
 from Malcolm Crowe [2]_, Lex was able to start a new open source project called
-#SNMP Library [3]_ in April 2008.
+C# SNMP Library [3]_ in April 2008 (#SNMP for short).
 
 It was challenging a task to design an easy-to-use SNMP API, and also difficult
 a mission to study the SNMP protocol details. Remember the facts that Lex just
@@ -53,7 +53,7 @@ the message format (and different agent side behaviors when we attempted to
 implement an agent prototype). Thus, many API elements have to be completely
 rewritten. But things became easier as another open source SNMP implementation
 named SNMP#NET was published by Milan Sinadinovic [10]_ . By reusing the
-encryption code, #SNMP Library soon started to support SNMP v3 packets. The 3.0
+encryption code, C# SNMP Library soon started to support SNMP v3 packets. The 3.0
 release (code name Trident) was released in August 2009 with initial SNMP v3
 support.
 
@@ -92,7 +92,7 @@ commercial products from LeXtudio [22]_ . Many issues once reported to the open
 source MIB compiler were finally fixed in the Pro edition by the new compiler
 design.
 
-The open source project was renamed back to #SNMP Library. Its latest release
+The open source project was renamed back to C# SNMP Library. Its latest release
 8.5 was published in February 2015 [23]_ . This release featured full support
 for Windows, OS X, Linux, and Xamarin platforms.
 

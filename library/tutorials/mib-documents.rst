@@ -37,7 +37,7 @@ From the MIB documents you know what are the management objects that can be used
 their identifiers (OIDs), data types, and descriptions. That information can then
 be put down to papers.
 
-When your application uses #SNMP Library to perform SNMP operations, only OIDs
+When your application uses C# SNMP Library to perform SNMP operations, only OIDs
 are required in most cases, and basic data types are needed when performing SET
 operations. The descriptions help you understand the meaning of the data you get
 from the agent but they are not used anywhere in typical SNMP applications.

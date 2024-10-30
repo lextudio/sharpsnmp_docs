@@ -58,7 +58,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'#SNMP Library Documentation'
+project = u'C# SNMP Library Documentation'
 copyright = u'2015-2024, LeXtudio Inc.'
 author = u'LeXtudio Inc.'
 
@@ -156,7 +156,7 @@ html_css_files = [
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "#SNMP Library Documentation"
+html_title = "C# SNMP Library Documentation"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -258,7 +258,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'sharpsnmplib.tex', u'#SNMP Library Documentation',
+  (master_doc, 'sharpsnmplib.tex', u'C# SNMP Library Documentation',
    u'Lex Li', 'manual'),
 ]
 
@@ -288,7 +288,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sharpsnmplib', u'#SNMP Library Documentation',
+    (master_doc, 'sharpsnmplib', u'C# SNMP Library Documentation',
      [author], 1)
 ]
 
@@ -302,8 +302,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'sharpsnmplib', u'#SNMP Library Documentation',
-   author, 'sharpsnmplib', '#SNMP Library Documentation',
+  (master_doc, 'sharpsnmplib', u'C# SNMP Library Documentation',
+   author, 'sharpsnmplib', 'C# SNMP Library Documentation',
    'Networking'),
 ]
 
@@ -397,7 +397,7 @@ intersphinx_mapping = {
 feed_num_items = 15
 feed_skip_regex = '(.)*index'
 feed_base_url = 'https://docs.lextudio.com/sharpsnmplib/'
-feed_description = '#SNMP Library Documentation'
+feed_description = 'C# SNMP Library Documentation'
 feed_author = 'LeXtudio Inc.'
 
 def setup(app):

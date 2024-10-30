@@ -1,9 +1,9 @@
 Support Services
 ================
 
-The #SNMP ecosystem is a robust and dynamic environment that offers a variety
+The C# SNMP ecosystem is a robust and dynamic environment that offers a variety
 of support channels to cater to the diverse needs of its users. Whether you're
-a beginner just starting out with #SNMP, an experienced developer looking for
+a beginner just starting out with C# SNMP, an experienced developer looking for
 advanced guidance, or an organization requiring dedicated assistance, there's a
 support option available for you.
 
@@ -11,7 +11,7 @@ Community Support
 -----------------
 
 Community support is a great way to seek help and learn from the collective
-wisdom of the #SNMP community. This support is primarily available through
+wisdom of the C# SNMP community. This support is primarily available through
 Stack Overflow and GitHub.
 
 Stack Overflow
@@ -35,26 +35,26 @@ and problem-solving.
 GitHub
 ++++++
 
-#SNMP has an active GitHub repository, which is another major channel for
+C# SNMP has an active GitHub repository, which is another major channel for
 support. GitHub is a web-based hosting service for version control and
 collaboration. It allows you to work on projects from anywhere and collaborate
 with others.
 
-On `#SNMP GitHub repository`_, you can report issues, suggest enhancements,
-and contribute to the project. The developers and maintainers of #SNMP closely
+On `C# SNMP GitHub repository`_, you can report issues, suggest enhancements,
+and contribute to the project. The developers and maintainers of C# SNMP closely
 monitor the repository and provide support. They are actively involved in
 addressing the issues reported by users, considering the enhancement
 suggestions, and merging the contributions made by users.
 
 Contributing to the GitHub repository is also a great way to learn and grow as
 a developer. By reporting issues and suggesting enhancements, you're helping to
-improve #SNMP for everyone. By contributing to the project, you're not just
+improve C# SNMP for everyone. By contributing to the project, you're not just
 solving your own problems, but also helping others who might face the same
 issues in the future.
 
 
 .. _Stack Overflow: https://stackoverflow.com/questions/tagged/sharp-snmp
-.. _#SNMP GitHub repository: https://github.com/lextudio/sharpsnmplib
+.. _C# SNMP GitHub repository: https://github.com/lextudio/sharpsnmplib
 
 Commercial Support
 ------------------
@@ -70,8 +70,8 @@ requirements. For example,
   due to either lack of expertise or dedicated time.
 
 For organizations that require dedicated assistance and priority support,
-`LeXtudio Inc.`_, the current maintainer of #SNMP, offers commercial support
-contracts. These contracts provide direct access to the current core #SNMP
+`LeXtudio Inc.`_, the current maintainer of C# SNMP, offers commercial support
+contracts. These contracts provide direct access to the current core C# SNMP
 contributors and ensure timely resolution of issues.
 
 Commercial support is a premium service that caters to the specific needs of
@@ -98,7 +98,7 @@ or via the links below:
     publishable-key="pk_live_51Iv1HkAd8zPsD0tk1fblws8dATC8VyEzSRBQVWpoDh2zYFc955Qv8xHRzFI86ScSiYVheXEeieLwbYPdIXt9GknJ00jpF2F3tc">
     </stripe-pricing-table>
 
-In conclusion, the #SNMP ecosystem offers a variety of support options to
+In conclusion, the C# SNMP ecosystem offers a variety of support options to
 cater to the diverse needs of its users. Whether you prefer to seek help from
 the community, collaborate on GitHub, or require dedicated commercial support,
 there's a support option that suits your needs. The key is to choose the

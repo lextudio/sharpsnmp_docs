@@ -5,7 +5,7 @@ This page shows you the basics about #SNMP, an open source SNMP implementation
 for C# and .NET.
 
 Basic SNMP operations (GET, SET and so on) you learn from elsewhere can be
-easily translated to #SNMP function calls.
+easily translated to C# SNMP function calls.
 
 GET Operation
 -------------
@@ -22,7 +22,7 @@ located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
 
 This operation will time out if no reply is received after 60 seconds (1
 minute), and throw an exception (``TimeoutException``). If any error occurs, an
-``ErrorException`` can be caught. All #SNMP exceptions are derived from
+``ErrorException`` can be caught. All C# SNMP exceptions are derived from
 ``SnmpException``.
 
 The result returned is a list that matches the list of ``Variable`` objects
@@ -108,7 +108,7 @@ walk on an SNMP agent located at ``192.168.1.2`` starting at ``1.3.6.1.2.1.1``,
 The result returned contains a list of all available OIDs (as ``Variable``) in
 this SNMP agent that under tree node of ``1.3.6.1.2.1.1``.
 
-#SNMP supports two walk modes, ``Default`` and ``WithinSubtree``. The former
+C# SNMP supports two walk modes, ``Default`` and ``WithinSubtree``. The former
 ends the WALK operation at the end of MIB view, while the latter ends at the
 end of the subtree of initial OID.
 
@@ -182,7 +182,7 @@ shows how to send an empty INFORM message to an SNMP manager located at
 The manager should send back a reply to this INFORM message. Otherwise, a
 ``TimeoutException`` occurs.
 
-.. note:: To help you understand how to use the API provided by #SNMP Library,
+.. note:: To help you understand how to use the API provided by C# SNMP Library,
    there are more sample projects you can find in this 
    `samples repo <https://github.com/lextudio/sharpsnmplib-samples>`_.
 
@@ -191,7 +191,7 @@ The manager should send back a reply to this INFORM message. Otherwise, a
 Next Steps
 ----------
 
-#SNMP Library supports many advanced features, such as SNMP v3 operations and
+C# SNMP Library supports many advanced features, such as SNMP v3 operations and
 manager/agent development. And if you need enterprise MIB support, you can use
 #SNMP Pro.
 

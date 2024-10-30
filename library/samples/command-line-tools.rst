@@ -17,7 +17,7 @@ languages, C# and VB.NET. Compile them and then they can be executed.
 
 Typical Commands
 ----------------
-Below describes typical commands for #SNMP command line tools. For more
+Below describes typical commands for C# SNMP command line tools. For more
 information on each tools, you may refer to the source code.
 
 SNMPGET

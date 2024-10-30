@@ -5,7 +5,7 @@ This page shows you information about how to enable MIB-to-C# compilation.
 
 Background
 ----------
-#SNMP Library has a sample project that can work as a test agent. The agent can
+C# SNMP Library has a sample project that can work as a test agent. The agent can
 be manually extended to support more management objects, but it is possible to
 compile MIB documents to C# classes so as to simplify the process.
 
@@ -35,7 +35,7 @@ Extending Test Agent
 Once the source files are generated (in ``modules`` folder for example), a
 C# project called ``Objects.csproj`` can be found in the same folder.
 
-Open ``snmpd.csproj`` in #SNMP Library source code, and add a reference to this
+Open ``snmpd.csproj`` in C# SNMP Library source code, and add a reference to this
 new project, and the generated management objects can be added to the agent for
 testing.
 

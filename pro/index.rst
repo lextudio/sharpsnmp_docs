@@ -15,7 +15,7 @@ Topics
    :titlesonly:
 
    Visit Docs Home <https://docs.lextudio.com>
-   Learn about #SNMP Library <https://docs.lextudio.com/sharpsnmplib>
+   Learn about C# SNMP (#SNMP) Library <https://docs.lextudio.com/sharpsnmplib>
    getting-started/index
    tutorials/index
    support/index

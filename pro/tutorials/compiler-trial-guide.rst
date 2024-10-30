@@ -6,7 +6,7 @@ This page shows you a guide on #SNMP Compiler Pro Trial version.
 Background
 ----------
 The Trial version can be requested `here <https://www.sharpsnmp.com/#contact-us>`_,
-and is packaged up with the latest #SNMP Library and SharpSnmpPro.Mib.
+and is packaged up with the latest C# SNMP Library and SharpSnmpPro.Mib.
 
 Evaluation Steps
 ----------------

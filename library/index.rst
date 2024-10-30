@@ -5,8 +5,8 @@
    
 .. _index:
 
-#SNMP Library Documentation
-===========================
+C# SNMP Library Documentation
+=============================
 
 Topics
 ------
@@ -24,12 +24,12 @@ Topics
 
 Pro Edition
 -----------
-MIB Compiler and the related library is released as #SNMP Pro edition.
+MIB Compiler and the related library is released as C# SNMP Pro edition.
 
 .. toctree::
    :maxdepth: 1
 
-   Learn about #SNMP Pro <https://docs.lextudio.com/sharpsnmppro>
+   Learn about C# SNMP Pro <https://docs.lextudio.com/sharpsnmppro>
 
 Contribute
 ----------

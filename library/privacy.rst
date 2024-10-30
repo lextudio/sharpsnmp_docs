@@ -3,7 +3,7 @@ Privacy Policy
 
 This privacy policy was last updated on 2024-03-13.
 
-This privacy policy describes how #SNMP Library and its affiliates
+This privacy policy describes how C# SNMP (#SNMP) Library and its affiliates
 ("we", "us", or "our") collects, uses, and discloses your information when you
 use our documentation site (the "Service").
 

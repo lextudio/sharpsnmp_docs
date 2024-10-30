@@ -14,12 +14,12 @@ encoding for ``OCTET STRING`` explicitly (and sometimes it is even used just
 like a byte array when you store MAC address bytes in it).
 
 Therefore, a problem has been there for a long time, "which encoding should be
-used there if an OctetString instance comes". In very old revision of #SNMP
+used there if an OctetString instance comes". In very old revision of C# SNMP
 Library, the answer was ASCII and there was no way in them to change it to
 Unicode or any other encodings. Note that it is recommended you use ASCII if
 possible.
 
-In more recent builds of #SNMP Library you can explicitly state which encoding
+In more recent builds of C# SNMP Library you can explicitly state which encoding
 you prefer.
 
 Important Methods
@@ -56,7 +56,7 @@ Default ASCII Way
 ^^^^^^^^^^^^^^^^^
 If you don't touch the properties and methods related to ``Encoding``, then
 you are in a pure ASCII way. It should behavior the same as old releases of
-#SNMP (0.5, 1.0 and 1.1).
+C# SNMP (0.5, 1.0 and 1.1).
 
 Default Encoding.* Way
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -76,7 +76,7 @@ correct, call ``ToString(Encoding)`` explicitly.
 
 Last Words
 ----------
-I understand the current implementation is not perfect yet. When #SNMP parses
+I understand the current implementation is not perfect yet. When C# SNMP parses
 incoming packets, it always use ``DefaultEncoding`` to construct
 ``OctetString`` objects from raw bytes. This is not optimal for hybrid cases.
 Hope a better way can be found soon.

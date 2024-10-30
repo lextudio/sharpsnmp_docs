@@ -5,7 +5,7 @@ This page shows you a guide on SharpSnmpPro.Mib assembly full version.
 
 Background
 ----------
-The Full version is sent to registered users only via emails, and is packaged up with latest #SNMP Library. So below are the assemblies in the ZIP package,
+The Full version is sent to registered users only via emails, and is packaged up with latest C# SNMP Library. So below are the assemblies in the ZIP package,
 
 * SharpSnmpPro.Mib.dll
 * SharpSnmpLib.dll
@@ -28,7 +28,7 @@ Unlike the Compiler Pro which requires .NET 4.6.2 and Windows, this product can 
 Complete Sample Project
 -----------------------
 You learn how SNMP operations can be done by consuming the open source SNMP API. A question then is what values MIB documents provide, as they are said to be an important part 
-of SNMP protocol but not seem to be utilized anywhere if we solely use #SNMP Library.
+of SNMP protocol but not seem to be utilized anywhere if we solely use C# SNMP Library.
 
 Well, a rough answer is MIB documents mean everything,
 

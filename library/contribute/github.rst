@@ -1,7 +1,7 @@
 GitHub Guide
 ============
 
-This page shows you how to use #SNMP Library repo on GitHub to collaborate.
+This page shows you how to use C# SNMP Library repo on GitHub to collaborate.
 
 Submitting a Patch
 ------------------

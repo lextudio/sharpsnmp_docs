@@ -2,7 +2,7 @@ SNMP v3 Operations with C#
 ==========================
 
 This page shows you how to perform SNMP v3 operations. Basic SNMP v3
-operations (GET, SET and so on) are translated to #SNMP function calls.
+operations (GET, SET and so on) are translated to C# SNMP function calls.
 
 Background
 ----------
@@ -11,7 +11,7 @@ is security. It is very hard to hide community strings from sniffers, and also
 difficult to set access control on entities.
 
 IETF recognized SNMP v3 RFC documents in 2004, which uses a new design to
-address the security concerns. The changes were so huge, so #SNMP has to
+address the security concerns. The changes were so huge, so C# SNMP has to
 expose a different styles of APIs for developers to perform v3 operations.
 
 Discovery Process
@@ -169,14 +169,14 @@ listener located at ``192.168.1.2``,
     DefaultPrivacyProvider.DefaultPair,
     report);
 
-.. note:: To help you understand how to use the API provided by #SNMP Library,
+.. note:: To help you understand how to use the API provided by C# SNMP Library,
    there are more sample projects you can find in this 
    `samples repo <https://github.com/lextudio/sharpsnmplib-samples>`_.
 
 Next Steps
 ----------
 
-#SNMP Library supports many advanced features, such as manager and agent
+C# SNMP Library supports many advanced features, such as manager and agent
 development. And if you need enterprise MIB support, you can evaluate and
 purchase #SNMP Pro.
 

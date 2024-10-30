@@ -5,7 +5,7 @@ This page shows you the main features of the Compiler Pro Edition.
 
 Background
 ----------
-#SNMP Library used to ship a compiler sample project, which only provides
+C# SNMP Library used to ship a compiler sample project, which only provides
 limited features such as syntax highlighting. The Pro Edition of #SNMP MIB
 Compiler, however, is designed and developed to include advanced features
 that target SNMP professionals and enterprises.
@@ -35,7 +35,7 @@ reporting and help identify broken MIB documents.
 Based on the metadata collected from MIB documents, the compiler can generate
 appropriate C# code through compilation, which is similar to Net-SNMP's mib2c
 utility (who compiles MIB documents to C code). The output C# source files can
-be used to link with the snmpd sample in #SNMP Library so as to form a
+be used to link with the snmpd sample in C# SNMP Library so as to form a
 simulator for those MIB documents.
 
 Visual Studio Style Panels

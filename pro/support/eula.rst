@@ -113,8 +113,8 @@ Whether included as part of the SOFTWARE DEVELOPMENT PRODUCT(S) installation pac
 
 THE OPEN SOURCE LIBRARIES listed in this section are included in this SOFTWARE DEVELOPMENT PRODUCT(S) installation package.
 
-#SNMP Library (Open Source - MIT License)
-Copyright (c) 2008-2021 Malcolm Crowe, Lex Li, and other contributors.
+C# SNMP (#SNMP) Library (Open Source - MIT License)
+Copyright (c) 2008-2024 Malcolm Crowe, Lex Li, and other contributors.
 https://github.com/lextudio/sharpsnmplib/blob/master/LICENSE 
 
 9. DEVELOPER LICENSE AND UPDATES.
