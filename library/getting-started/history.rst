@@ -1,29 +1,30 @@
-Project History
-===============
+History of C# SNMP Library
+==========================
 
 By `Lex Li`_
 
-This article describes history of C# SNMP (#SNMP) ecosystem.
+This article describes history of C# SNMP (#SNMP) Library.
 
 The Road to 1.0 Release
 -----------------------
-Microsoft introduced .NET Framework to developers in 2000. However, it lacks of
-official SNMP protocol support. Many third parties provide their solutions
-ever after to please their users.
+Microsoft introduced .NET Framework to developers in 2000. While this platform
+has built-in support for many network protocols such as HTTP, FTP, and SMTP,
+it lacks of SNMP protocol support. Many third party solutions were developed
+to fill the gap, but most of them are commercial products.
 
-Lex Li did an evaluation report in 2008 for his project at Cisco [1]_. He was
-quite satisfied with some of the commercial solutions, but felt that there
-should be a need to have an open source implementation. Based on the code base
-from Malcolm Crowe [2]_, Lex was able to start a new open source project called
-C# SNMP Library [3]_ in April 2008 (#SNMP for short).
+Lex Li did an evaluation report of the existing libraries in 2008 for a 
+project [1]_. He was quite satisfied with some of the commercial solutions, but
+felt that there should be a need to have an open source implementation. Based
+on the code base from Malcolm Crowe [2]_, Lex was able to start a new open
+source project called C# SNMP Library [3]_ in April 2008 (#SNMP for short).
 
 It was challenging a task to design an easy-to-use SNMP API, and also difficult
 a mission to study the SNMP protocol details. Remember the facts that Lex just
-graduated in 2007, and only had one year experience on programming serious
+graduated in 2007, and only had one year experience on programming professional
 projects. But luckily all initial problems (such as message parsing) were
-solved via endless experiments, and even features such as MIB parsing was
-developed in an ugly way [4]_ . By using TDD approach, every major features are
-covered.
+solved via experiments, and even features such as MIB parsing was developed in
+a way [4]_ . By using TDD approach, every major features are covered by unit
+test cases to ensure that regression bugs can be easily tracked down and fixed.
 
 Near the final release of 1.0, two more products were added (the MIB browser
 and MIB compiler), so the project was renamed to #SNMP Suite.
@@ -34,24 +35,22 @@ support.
 
 SNMP v3 Support and Beyond
 --------------------------
-Steve Santacroce joined the project development in August 2008 [6]_ , soon Lex
-decided to leave from Cisco. Lex moved to Microsoft in October 2008. The
-efforts required to drive #SNMP forward were so overwhelming that Lex had to
-drop another open source project [7]_ .
+Steve Santacroce joined the project development in August 2008 [6]_ , and Lex
+joined Microsoft in October 2008. The efforts required to drive #SNMP forward
+were so overwhelming that Lex had to drop another open source project [7]_ .
 
 The next major release of #SNMP Suite was 1.5 (code name TwinTower) in January
-2009 [8]_ . It provides a refined API set, and many bug fixes over the initial
-release. Three months later, the 2.0 release (code name CrossRoad) was released
-in April 2009 [9]_ , which finished all tasks except SNMP v3 support.
+2009 [8]_ . It provides refined API surface, and many bugfixes over the initial
+release. The 2.0 release (code name CrossRoad) was released in April 2009 [9]_,
+which finished all tasks except SNMP v3 support.
 
-SNMP v3 is a monster to conquer, because it introduces fundamental changes to
-the message format (and different agent side behaviors when we attempted to
-implement an agent prototype). Thus, many API elements have to be completely
-rewritten. But things became easier as another open source SNMP implementation
-named SNMP#NET was published by Milan Sinadinovic [10]_ . By reusing the
-encryption code, C# SNMP Library soon started to support SNMP v3 packets. The 3.0
-release (code name Trident) was released in August 2009 with initial SNMP v3
-support.
+SNMP v3 is a monster to conquer, because it introduced fundamental changes to
+the message format (and different agent side behaviors). Thus, many API
+elements have to be completely rewritten. But things became easier as another
+open source SNMP implementation named SNMP#NET was published by Milan
+Sinadinovic [10]_ . By reusing the encryption code, C# SNMP Library soon
+started to support SNMP v3 packets. The 3.0 release (code name Trident) was
+released in August 2009 with initial SNMP v3 support.
 
 The next major task was to implement an SNMP agent that can process incoming
 requests. Fortunately Lex was working on ASP.NET/IIS at Microsoft at that time,
@@ -63,10 +62,10 @@ message support [12]_ . SNMP v3 message support only arrived in 5.0 release
 first time as Lex revised DockPanel Suite [14]_ .
 
 The 6.0 release (code name HoneyCell) in November 2010 was the first major
-release that ships no big change [15]_ . #SNMP Suite had become mature then.
+release that ships no big change [15]_ . #SNMP Suite had become more mature.
 
-Later Releases and License Changes
-----------------------------------
+New Releases and License Changes
+--------------------------------
 The 7.0 release (code name BigDipper) was released in October 2011 [16]_ was
 mainly a bug fix release.
 
@@ -99,6 +98,13 @@ more flexible.
 The 10.x release finally embraced .NET Standard support. It also completed AES
 support (adding AES 192/256). To support platforms where native AES is missing,
 a new ``SharpSnmpLib.BouncyCastle`` package is added.
+
+The 11.x release separated the samples to a new repository and fixed a few long
+standing issues.
+
+The 12.x release revised supported platforms to better align with modern .NET.
+It has been optimized to utilize new socket features introduced in .NET 6, and
+also added type annotations to the code base.
 
 .. rubric:: Footnotes
 
