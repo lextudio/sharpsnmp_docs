@@ -57,6 +57,9 @@ a commercial edition, #SNMP Pro, which includes a MIB compiler and related libra
 Contribute
 ----------
 
+.. toctree::
+   :maxdepth: 1
+
    contribute/index
    support/index
    privacy
