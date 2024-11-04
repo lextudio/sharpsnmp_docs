@@ -1,5 +1,5 @@
-An Introduction to C# SNMP Library
-==================================
+Introduction to C# SNMP Library
+===============================
 
 This page shows you the basics about #SNMP, an open source SNMP implementation
 for C# and .NET.

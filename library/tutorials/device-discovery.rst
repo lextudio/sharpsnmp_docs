@@ -1,5 +1,5 @@
-SNMP Device Discovery
-=====================
+SNMP Device Discovery with C#
+=============================
 
 This page shows you how SNMP device might be discovered.
 

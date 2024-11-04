@@ -1,5 +1,5 @@
-Release Notes
-=============
+C# SNMP Release Notes
+=====================
 
 This page documents major releases of C# SNMP Library.
 

@@ -3,7 +3,7 @@ History of C# SNMP Library
 
 By `Lex Li`_
 
-This article describes history of C# SNMP (#SNMP) Library.
+This article describes the history of C# SNMP (#SNMP) Library.
 
 The Road to 1.0 Release
 -----------------------

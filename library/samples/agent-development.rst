@@ -1,5 +1,5 @@
-Agent Development
-=================
+Agent Development with C#
+=========================
 
 This page shows you how the agent sample works.
 

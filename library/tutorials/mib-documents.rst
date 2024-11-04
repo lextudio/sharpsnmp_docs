@@ -1,5 +1,5 @@
-Beginners's Guide on MIB Documents
-==================================
+Beginners's Guide on MIB Documents with C# SNMP
+===============================================
 
 This page shows you which roles MIB documents play in SNMP communication.
 

@@ -1,5 +1,5 @@
-Troubleshooting Guide
-=====================
+C# SNM Troubleshooting Guide
+============================
 
 This page shows you how to troubleshoot common problems.
 
