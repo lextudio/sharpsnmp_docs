@@ -7,6 +7,11 @@ for C# and .NET.
 Basic SNMP operations (GET, SET and so on) you learn from elsewhere can be
 easily translated to C# SNMP function calls.
 
+.. note::
+
+   The equivalent Net-SNMP command line is provided for each operation, so you
+   can compare the two.
+
 GET Operation
 -------------
 The following code shows how to send an SNMP v1 GET message to an SNMP agent
@@ -28,6 +33,14 @@ minute), and throw an exception (``TimeoutException``). If any error occurs, an
 The result returned is a list that matches the list of ``Variable`` objects
 sent. The ``Variable`` in this list contains the value of the OID.
 
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+  
+      snmpget -v 1 -c public -t 60 192.168.1.2:161 1.3.6.1.2.1.1.1.0
+
 SET Operation
 -------------
 The following code shows how to send an SNMP v1 SET message to an SNMP agent
@@ -42,6 +55,14 @@ located at ``192.168.1.2`` and set the value of OID ``1.3.6.1.2.1.1.6.0`` to
                              new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.6.0"), new OctetString("Shanghai"))},
                              60000);
 
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmpset -v 1 -c public -t 60 192.168.1.2:161 1.3.6.1.2.1.1.6.0 s "Shanghai"
+
 GET-NEXT Operation
 ------------------
 The following code shows how to send an SNMP v1 GET-NEXT message to an SNMP
@@ -52,7 +73,7 @@ agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
   GetNextRequestMessage message = new GetNextRequestMessage(0,
                                                             VersionCode.V1,
                                                             new OctetString("public"),
-                                                            new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.6.0"))});
+                                                            new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"))});
   ISnmpMessage response = message.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
   if (response.Pdu().ErrorStatus.ToInt32() != 0)
   {
@@ -63,6 +84,14 @@ agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
   }
 
   var result = response.Pdu().Variables;
+
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmpgetnext -v 1 -c public -t 60 192.168.1.2:161 1.3.6.1.2.1.1.1.0
 
 GET-BULK Operation
 ------------------
@@ -76,7 +105,7 @@ agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
                                                             new OctetString("public"),
                                                             0,
                                                             10,
-                                                            new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.6.0"))});
+                                                            new List<Variable>{new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0"))});
   ISnmpMessage response = message.GetResponse(60000, new IPEndPoint(IPAddress.Parse("192.168.1.2"), 161));
   if (response.Pdu().ErrorStatus.ToInt32() != 0)
   {
@@ -87,6 +116,14 @@ agent located at ``192.168.1.2`` and query on OID ``1.3.6.1.2.1.1.1.0``,
   }
 
   var result = response.Pdu().Variables;
+
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmpbulkget -v 2c -c public -t 60 -Cn0 -Cr10 192.168.1.2:161 1.3.6.1.2.1.1.1.0
 
 Walk Operation
 --------------
@@ -104,6 +141,14 @@ walk on an SNMP agent located at ``192.168.1.2`` starting at ``1.3.6.1.2.1.1``,
                  result,
                  60000,
                  WalkMode.WithinSubtree);
+
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmpwalk -v 1 -c public -t 60 192.168.1.2:161 1.3.6.1.2.1.1
 
 The result returned contains a list of all available OIDs (as ``Variable``) in
 this SNMP agent that under tree node of ``1.3.6.1.2.1.1``.
@@ -131,6 +176,14 @@ built upon GET-BULK operations and provide better performance.
                     null,
                     null);
 
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmpbulkwalk -v 2c -c public -t 60 -Cn0 -Cr10 192.168.1.2:161 1.3.6.1.2.1.1
+
 TRAP Operation
 --------------
 It is usually an SNMP agent that sends out TRAP messages. The following code
@@ -148,6 +201,14 @@ manager located at ``192.168.1.3``,
                       0,
                       new List<Variable>());
 
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmptrap -v 1 -c public 192.168.1.3:162 1.3.6.1.2.1.1 192.168.1.2 6 0 0
+
 SNMP v2 and above introduces a simplified TRAP v2 message,
 
 .. code-block:: csharp
@@ -159,6 +220,14 @@ SNMP v2 and above introduces a simplified TRAP v2 message,
                       new ObjectIdentifier("1.3.6.1.2.1.1"),
                       0,
                       new List<Variable>());
+
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmptrap -v 2c -c public 192.168.1.3:162 "" 1.3.6.1.2.1.1
 
 INFORM Operation
 ----------------
@@ -178,6 +247,14 @@ shows how to send an empty INFORM message to an SNMP manager located at
                       2000,
                       null,
                       null);
+
+.. note::
+
+   The equivalent Net-SNMP command line is
+
+   .. code-block:: bash
+
+      snmpinform -v 2c -c -t 2 public 192.168.1.3:162 "" 1.3.6.1.2.1.1
 
 The manager should send back a reply to this INFORM message. Otherwise, a
 ``TimeoutException`` occurs.
