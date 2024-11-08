@@ -10,15 +10,16 @@ SNMP v1 and v2c were designed to be simple, but one significant issue of them
 is security. It is very hard to hide community strings from sniffers, and also
 difficult to set access control on entities.
 
-IETF recognized SNMP v3 RFC documents in 2004, which uses a new design to
-address the security concerns. The changes were so huge, so C# SNMP has to
-expose a different styles of APIs for developers to perform v3 operations.
+IETF recognized those security challenges and finalized SNMP v3 RFC documents
+in 2004, which uses a new design to address the concerns. The changes were so
+huge from message format to agent/manager details, so C# SNMP Library has to
+expose a different styles of APIs enabling developers to perform v3 operations.
 
 Discovery Process
 -----------------
-SNMP v3 defines a discovery process in RFC 3414, that before an SNMP agent
-responds to a manager the two must interchange information such as time stamp,
-engine ID and so on.
+SNMP v3 defines a unique discovery process in RFC 3414. For example, before an
+SNMP agent responds to a manager the two must interchange information such as
+time stamp, engine ID and so on.
 
 .. code-block:: csharp
 
@@ -119,6 +120,28 @@ The following code shows how to perform v3 WALK on an SNMP agent located at
                     priv,
                     report);
 
+INFORM Operation
+----------------
+.. note:: Comparing to sending TRAP v2 messages, it is common to send INFORM
+   messages.
+
+The following code shows how to send an INFORM message to an SNMP manager/trap
+listener located at ``192.168.1.2``,
+
+.. code-block:: csharp
+
+  Messenger.SendInform(
+    0,
+    VersionCode.V3,
+    new IPEndPoint(IPAddress.Parse("192.168.1.2"), 162),
+    new OctetString("neither"),
+    new ObjectIdentifier(new uint[] { 1, 3, 6 }),
+    0,
+    new List<Variable>(),
+    2000,
+    DefaultPrivacyProvider.DefaultPair,
+    report);
+
 TRAP v2 Operation
 -----------------
 .. note:: TRAP v1 message format is obsolete by TRAP v2. Thus, for SNMP v3
@@ -144,41 +167,29 @@ listener located at ``192.168.1.2``,
     0);
   trap.Send(new IPEndPoint(IPAddress.Parse("192.168.1.2"), 162));
 
-.. note:: Assume the engine that sends out this TRAP v2 message has the ID of
-   ``0x80001F8880E9630000D61FF449``.
+.. note::
 
-INFORM Operation
-----------------
-.. note:: Comparing to sending TRAP v2 messages, it is common to send INFORM
-   messages.
+  The TRAP sending/processing steps in SNMP v3 are quite different from other
+  message types. Because the TRAP message is sent out by the agent, and will
+  not be acknowledged by the manager, the normal discovery process is not
+  applicable.
 
-The following code shows how to send an INFORM message to an SNMP manager/trap
-listener located at ``192.168.1.2``,
-
-.. code-block:: csharp
-
-  Messenger.SendInform(
-    0,
-    VersionCode.V3,
-    new IPEndPoint(IPAddress.Parse("192.168.1.2"), 162),
-    new OctetString("neither"),
-    new ObjectIdentifier(new uint[] { 1, 3, 6 }),
-    0,
-    new List<Variable>(),
-    2000,
-    DefaultPrivacyProvider.DefaultPair,
-    report);
-
-.. note:: To help you understand how to use the API provided by C# SNMP Library,
-   there are more sample projects you can find in this 
-   `samples repo <https://github.com/lextudio/sharpsnmplib-samples>`_.
+  Instead, who sends out the TRAP v2 message has to reveal the engine ID of
+  ``0x80001F8880E9630000D61FF449`` in the message, and the manager has to
+  trust the engine ID to process the message according to its configuration.
 
 Next Steps
 ----------
 
-C# SNMP Library supports many advanced features, such as manager and agent
-development. And if you need enterprise MIB support, you can evaluate and
-purchase #SNMP Pro.
+To help you understand how to use the API provided by C# SNMP Library, there
+are sample projects with ready-to-use code you can find in this
+`samples repo <https://github.com/lextudio/sharpsnmplib-samples>`_ where more
+details are demonstrated.
+
+Besides essential SNMP operations, C# SNMP Library supports many advanced
+features, such as manager and agent development. And if you need enterprise MIB
+support, you can evaluate and purchase #SNMP Pro. All useful links are shared
+in the section below.
 
 Related Resources
 -----------------
