@@ -1,5 +1,5 @@
-C# SNM Troubleshooting Guide
-============================
+C# SNMP Troubleshooting Guide
+=============================
 
 This page shows you how to troubleshoot common problems.
 
