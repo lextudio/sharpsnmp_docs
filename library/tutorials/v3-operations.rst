@@ -176,7 +176,7 @@ listener located at ``192.168.1.2``,
 
   Instead, who sends out the TRAP v2 message has to reveal the engine ID of
   ``0x80001F8880E9630000D61FF449`` in the message, and the manager has to
-  trust the engine ID to process the message according to its configuration.
+  trust this engine ID to process the message according to its configuration.
 
 Next Steps
 ----------

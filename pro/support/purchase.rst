@@ -10,17 +10,22 @@ You can purchase licenses online via the Stripe link below:
 
 .. raw:: html
 
-   <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-   <stripe-pricing-table pricing-table-id="prctbl_1QJKIDAd8zPsD0tkH5JpAXqL"
-   publishable-key="pk_live_51Iv1HkAd8zPsD0tk1fblws8dATC8VyEzSRBQVWpoDh2zYFc955Qv8xHRzFI86ScSiYVheXEeieLwbYPdIXt9GknJ00jpF2F3tc">
-   </stripe-pricing-table>
+   <script async
+      src="https://js.stripe.com/v3/buy-button.js">
+   </script>
+
+   <stripe-buy-button
+      buy-button-id="buy_btn_1Qgym1Ad8zPsD0tkcO5F1aUp"
+      publishable-key="pk_live_51Iv1HkAd8zPsD0tk1fblws8dATC8VyEzSRBQVWpoDh2zYFc955Qv8xHRzFI86ScSiYVheXEeieLwbYPdIXt9GknJ00jpF2F3tc"
+   >
+   </stripe-buy-button>
 
 .. note:: To buy multiple licenses, please change the quantity field.
 
 If you would like to use other payment methods like wire transfer, please
 contact `LeXtudio Inc.`_.
 
-The current price for a single developer license is **999 USD** before tax.
+The current price for a single developer license is **1149 USD** before tax.
 
 * #SNMP MIB Compiler Pro
 * SharpSnmpPro.Mib Assembly
