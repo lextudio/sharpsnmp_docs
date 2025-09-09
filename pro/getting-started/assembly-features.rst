@@ -1,33 +1,32 @@
-SharpSnmpPro.Mib Assembly Features
-==================================
+C# SNMP Pro MIB Library Features
+================================
 
-This page provides an overview of the main features of the
-``SharpSnmpPro.Mib`` assembly.
+This page provides an overview of the main features of the C# SNMP Pro MIB
+Library, which is a commercial product designed to enhance SNMP development in
+.NET.
 
 Background
 ----------
 Our legacy product, #SNMP Suite, used to ship with an assembly called
 ``SharpSnmpLib.Mib``. However, that assembly only provided limited
 functionality, and power users requested more advanced features. As a result,
-we developed a new assembly called ``SharpSnmpPro.Mib``.
+we developed a new product, C# SNMP Pro MIB Library.
 
-The Brand New SharpSnmpPro.Mib Assembly
+The Brand New C# SNMP Pro MIB Library
 ---------------------------------------
-The ``SharpSnmpPro.Mib`` assembly is a key component that empowers our Compiler
-Pro product.
+The C# SNMP Pro MIB Library is a key component that can empower MIB compilers.
 
 .. image:: _static/sharpsnmppro.mib.png
-    :alt: SharpSnmpPro.Mib Assembly
+    :alt: C# SNMP Pro MIB Library
     :align: center
 
 Supported Platforms
 -------------------
-Unlike the Compiler Pro, which requires .NET 4.7.1 and Windows, the
-``SharpSnmpPro.Mib`` assembly can be used on multiple platforms, including:
+The C# SNMP Pro MIB Library can be used on multiple platforms, including:
 
-- .NET 6 and 8
+- .NET 8 and above
 - .NET Framework 4.7.1 and above
-- Other platforms compliant with .NET Standard 2.0.
+- Other platforms compliant with .NET Standard 2.0 (limited support).
 
 Features
 --------
@@ -184,6 +183,5 @@ Related Resources
 - :doc:`/support/purchase`
 - `API Documentation <https://help.sharpsnmp.com>`_
 - `Requesting a Trial <https://www.sharpsnmp.com/#contact-us>`_
-- :doc:`/getting-started/compiler-features`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/assembly-full-guide`

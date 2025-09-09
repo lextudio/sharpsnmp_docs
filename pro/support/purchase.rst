@@ -27,12 +27,9 @@ contact `LeXtudio Inc.`_.
 
 The current price for a single developer license is **1149 USD** before tax.
 
-* #SNMP MIB Compiler Pro
-* SharpSnmpPro.Mib Assembly
+* C# SNMP Pro MIB Library
+* A full feature compiler (Windows only)
 * Three months email based support
-
-.. note:: Starting from 1.1.2 release, the products are no longer sold
-   individually.
 
 .. important:: Email based support is activated upon delivery of the products,
    so there is no refund for bundle purchase once activated.
@@ -53,7 +50,7 @@ Support Services
 You can purchase extra commercial support contracts by contacting `LeXtudio Inc.`_,
 or via the Stripe link below:
 
-.. important:: The sample projects are not covered by bugfix support.
+.. important:: The free sample projects are not covered by bugfix support.
 
 .. raw:: html
 
@@ -70,4 +67,3 @@ Related Resources
 - `Support Services <https://support.lextudio.com>`_
 - `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/tutorials/assembly-full-guide`
-- :doc:`/tutorials/compiler-full-guide`

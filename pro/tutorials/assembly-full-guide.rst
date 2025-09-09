@@ -9,11 +9,11 @@ The Full version is sent to registered users only via emails, and is packaged up
 
 * SharpSnmpPro.Mib.dll
 * SharpSnmpLib.dll
-* SharpSnmpPro.Mib.2.1.0.nupkg
+* SharpSnmpPro.Mib.2.x.x.nupkg
 
 Supported Platforms
 -------------------
-Unlike the Compiler Pro which requires .NET 4.6.2 and Windows, this product can be used on multiple platforms,
+This product can be used on multiple platforms,
 
 * .NET 6 and above (via .NET Standard 2.0)
 * .NET Framework 4.7.1 and above
@@ -80,5 +80,3 @@ Related Resources
 - `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-trial-guide`
-- :doc:`/tutorials/compiler-trial-guide`
-- :doc:`/tutorials/compiler-full-guide`

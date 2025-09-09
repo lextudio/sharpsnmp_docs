@@ -52,5 +52,4 @@ need.
 Related Resources
 -----------------
 
-- `#SNMP MIB Compiler Pro <https://pro.sharpsnmp.com/getting-started/compiler-features.html>`_
-- `SharpSnmpPro.Mib Assembly <https://pro.sharpsnmp.com/getting-started/assembly-features.html>`_
+- `C# SNMP Pro MIB Library <https://pro.sharpsnmp.com/getting-started/assembly-features.html>`_

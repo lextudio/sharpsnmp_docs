@@ -206,7 +206,5 @@ Related Resources
 
 - :doc:`/support/purchase`
 - `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
-- :doc:`/getting-started/compiler-features`
-- :doc:`/tutorials/compiler-full-guide`
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/assembly-full-guide`

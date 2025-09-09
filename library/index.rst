@@ -47,12 +47,12 @@ Pro Edition
 -----------
 
 Enterprise users might require more advanced features, such as MIB compilation. We provide
-a commercial edition, #SNMP Pro, which includes a MIB compiler and related libraries.
+a commercial edition, C# SNMP Pro MIB Library, which includes MIB compiling capabilities.
 
 .. toctree::
    :maxdepth: 1
 
-   Learn about #SNMP Pro <https://docs.lextudio.com/sharpsnmppro>
+   Learn about C# SNMP Pro MIB Library <https://docs.lextudio.com/sharpsnmppro>
 
 Contribute
 ----------
