@@ -18,6 +18,14 @@ New Features
 
 * C# 8.0 support (nullable annotation).
 
+2.1.4
+^^^^^
+This is a bug fix release. Major changes:
+
+Bug fixes
+
+* Introduced C# source generator support.
+
 2.1.3
 ^^^^^
 This is a bug fix release. Major changes:
