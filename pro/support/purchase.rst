@@ -29,7 +29,7 @@ The current price for a single developer license is **1149 USD** before tax.
 
 * C# SNMP Pro MIB Library
 * A full feature compiler (Windows only)
-* Three months email based support
+* Three months email based support (see :doc:`/support/bundled-support`)
 
 .. important:: Email based support is activated upon delivery of the products,
    so there is no refund for bundle purchase once activated.

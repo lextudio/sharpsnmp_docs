@@ -6,6 +6,7 @@ Support Information
 
    release-notes
    purchase
+   bundled-support
    eula
    licensing
    Support Services <https://support.lextudio.com>
