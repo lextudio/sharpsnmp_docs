@@ -18,13 +18,22 @@ New Features
 
 * C# 8.0 support (nullable annotation).
 
+2.1.5
+^^^^^
+
+This is a bug fix release. Major changes:
+
+Bug fixes
+
+* `Fixed issues with handling read-only access <https://github.com/lextudio/sharpsnmppro-samples/issues/22>`_ .
+
 2.1.4
 ^^^^^
 This is a bug fix release. Major changes:
 
 Bug fixes
 
-* Introduced C# source generator support.
+* `Introduced C# source generator support <https://github.com/lextudio/sharpsnmppro-samples/issues/21>`_ .
 
 2.1.3
 ^^^^^
