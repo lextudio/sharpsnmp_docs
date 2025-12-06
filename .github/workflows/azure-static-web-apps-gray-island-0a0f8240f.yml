@@ -19,13 +19,20 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.12
-
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: 3.12
+          enable-cache: true
+      - name: Sync dependencies
+        run: |
+          uv --version
+          uv python pin 3.12
+          uv sync
       # Build the docs
       - name: Build the docs
         run: |
-          python -m pip install pipenv
-          python -m pipenv install --verbose
-          python -m pipenv run make -C pro html
+          uv run make -C pro html
 
       - name: Build And Deploy
         id: builddeploy

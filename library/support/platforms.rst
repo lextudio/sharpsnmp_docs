@@ -21,8 +21,7 @@ C# SNMP Library no longer supports them.
 
 .NET Framework 3.5 SP1/3.5.1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-According to `Microsoft support policies
-<https://support.microsoft.com/en-us/lifecycle#gp/Framework_FAQ>`_ , this .NET
+According to `Microsoft support policies`_, this .NET
 Framework release is still supported.
 
 `C# SNMP 8.0 release (code name TritonMate)
@@ -37,8 +36,7 @@ C# SNMP Library no longer supports them.
 
 .NET Framework 4.7.1/4.8.x
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-According to `Microsoft support policies
-<https://support.microsoft.com/lifecycle#gp/Framework_FAQ>`_, these
+According to `Microsoft support policies`_, these
 releases are still supported.
 
 `C# SNMP 8.5 release (code name TritonMate Refresh)
@@ -72,3 +70,5 @@ Related Resources
 -----------------
 
 - :doc:`/support/services`
+
+.. _Microsoft support policies: https://support.microsoft.com/en-us/lifecycle#gp/Framework_FAQ
