@@ -8,6 +8,7 @@ operations to advanced features, from troubleshooting to security notices.
 .. toctree::
    :titlesonly:
 
+   v13-migration
    introduction
    v3-operations
    aes

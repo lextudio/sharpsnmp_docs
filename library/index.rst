@@ -8,6 +8,12 @@
 C# SNMP Library Documentation
 =============================
 
+.. note::
+
+   **C# SNMP Library v13.0 is here!** The new version is available as beta.
+   Check out the `v13.0 beta releases on GitHub <https://github.com/lextudio/sharpsnmplib/releases>`_
+   and see the :doc:`/tutorials/v13-migration` guide for upgrade instructions.
+
 Welcome to the documentation site for C# SNMP (#SNMP), a comprehensive SNMP ecosystem for
 C# and .NET that has been empowering developers and network administrators to build
 SNMP-based applications for more than a decade. This site introduces #SNMP key

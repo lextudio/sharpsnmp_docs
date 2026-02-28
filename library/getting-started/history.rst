@@ -106,6 +106,50 @@ The 12.x release revised supported platforms to better align with modern .NET.
 It has been optimized to utilize new socket features introduced in .NET 6, and
 also added type annotations to the code base.
 
+The 13.x Era - Building on Recent .NET Modernization
+----------------------------------------------------
+
+In recent years, Microsoft invested heavily in modernizing the .NET runtime and standard
+library. Key initiatives included the development of span-based APIs (``Span<T>``,
+``ReadOnlySpan<T>``), the introduction of `System.Formats.Asn1
+<https://learn.microsoft.com/en-us/dotnet/api/system.formats.asn1>`_ for binary protocol
+parsing, the ``System.Threading.Channels`` API for high-performance async communication,
+and numerous other improvements that benefit all networking stacks running on .NET, not
+just web services like ASP.NET Core.
+
+These investments opened opportunity for the SNMP ecosystem. The first major exploration
+was the now-abandoned `DotNetSnmp <https://github.com/lextudio/DotNetSnmp>`_ project, which
+demonstrated how to apply modern .NET patterns to SNMP protocol implementation. Building
+on those lessons, C# SNMP Library v13 (started in 2024) adopts the same principles to bring
+the main library into the modern .NET era.
+
+The 13.x release represents a comprehensive redesign, replacing the custom ASN.1 parser
+that had served the library since its 1.0 release (2008) with Microsoft's modern
+``System.Formats.Asn1`` implementation. This change eliminated a significant burden of
+maintenance while gaining the performance, memory efficiency, and maintainability benefits
+of using span-based APIs and the latest language features.
+
+Key improvements in v13:
+
+- **System.Formats.Asn1**: Leverages Microsoft's modern, thoroughly-tested ASN.1 parser,
+  introducing ``ReadOnlySpan<T>``, efficient buffer handling, and reduced allocations.
+- **Modern .NET Only**: Targets .NET 8.0 and above (net8.0, net9.0, net10.0+), allowing
+  full use of modern language features, runtime optimizations, and the latest LTS releases.
+- **Performance**: Reduced memory pressure through span-based APIs and modern .NET primitives,
+  enabling better scalability in high-throughput SNMP operations.
+- **Improved Async Support**: Enhanced async/await patterns throughout the library, taking
+  advantage of ``System.Threading.Channels`` and other modern async utilities.
+- **SNMP over TCP**: Added support for SNMP over TCP, leveraging .NET's modern socket APIs for improved
+  reliability and performance in environments to supplement traditional UDP transport.
+
+This transformation ensures that C# SNMP Library remains aligned with modern .NET development
+practices and empowered by the same infrastructure investments that benefit the broader
+.NET ecosystem. It also sets the stage for continued innovation in SNMP protocol support
+as Microsoft continues to evolve .NET.
+
+For users upgrading from v12, refer to the :doc:`/tutorials/v13-migration` guide
+for detailed migration instructions and best practices.
+
 .. rubric:: Footnotes
 
 .. [1] https://blog.lextudio.com/2007/12/product-review-snmp-libraries-for-net-evaluation-report/
