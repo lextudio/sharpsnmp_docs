@@ -143,6 +143,13 @@ html_theme_options = {
             "class": "fa-brands fa-solid fa-github fa-2x",
         },
     ],
+    "announcement": """
+<p>
+  <strong>SNMP Studio for Visual Studio Code</strong> delivers cross-platform and modern SNMP tooling with an OID Explorer,
+  dependency map, and message session.
+  <a href="https://www.sharpsnmp.com/#section-studio" target="_blank" rel="noopener">Explore the private beta</a>.
+</p>
+""",
 }
 
 html_css_files = [

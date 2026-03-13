@@ -11,6 +11,7 @@ help you get started.
 
    installing-on-windows
    history
+   platforms
    The API Reference <https://help.sharpsnmp.com>
    license-notice
    export-restrictions
