@@ -20,3 +20,11 @@ Topics
    tutorials/index
    support/index
    Privacy Policy <https://docs.lextudio.com/sharpsnmplib/privacy>
+
+API Reference
+-------------
+
+.. toctree::
+   :maxdepth: 1
+
+   api/dotnet/index

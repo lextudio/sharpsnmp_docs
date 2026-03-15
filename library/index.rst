@@ -60,6 +60,14 @@ a commercial edition, C# SNMP Pro MIB Library, which includes MIB compiling capa
 
    Learn about C# SNMP Pro MIB Library <https://docs.lextudio.com/sharpsnmppro>
 
+API Reference
+-------------
+
+.. toctree::
+   :maxdepth: 1
+
+   api/dotnet/index
+
 Contribute
 ----------
 
