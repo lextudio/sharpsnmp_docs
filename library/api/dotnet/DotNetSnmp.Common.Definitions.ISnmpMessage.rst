@@ -91,3 +91,20 @@ Version
 
 **Source:** `SharpSnmpLib/Common/ISnmpMessage.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Common/ISnmpMessage.cs#L18>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`GetResponse <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponse>`
+- :dn:meth:`GetResponse <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponse>`
+- :dn:meth:`GetResponse <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponse>`
+- :dn:meth:`GetResponseAsync <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponseAsync>`
+- :dn:meth:`GetResponseAsync <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponseAsync>`
+- :dn:meth:`GetResponseAsync <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponseAsync>`
+- :dn:meth:`GetResponseAsync <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.GetResponseAsync>`
+- :dn:meth:`MessageId <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.MessageId>`
+- :dn:meth:`Pdu <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.Pdu>`
+- :dn:meth:`RequestId <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.RequestId>`
+- :dn:meth:`ToBytes <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.ToBytes>`
+- :dn:meth:`TypeCode <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.TypeCode>`
+- :dn:meth:`Variables <Lextm.SharpSnmpLib.Messaging.SnmpMessageCompatibilityExtensions.Variables>`
+

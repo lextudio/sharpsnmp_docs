@@ -148,3 +148,10 @@ Implicit(Integer32 to Int32)
 
 **Source:** `SharpSnmpLib/Asn1/SyntaxObjects/Integer32.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Asn1/SyntaxObjects/Integer32.cs#L48>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`ToErrorCode <Lextm.SharpSnmpLib.CompatibilityExtensions.ToErrorCode>`
+- :dn:meth:`ToInt32 <Lextm.SharpSnmpLib.CompatibilityExtensions.ToInt32>`
+- :dn:meth:`TryToErrorCode <Lextm.SharpSnmpLib.CompatibilityExtensions.TryToErrorCode>`
+

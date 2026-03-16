@@ -28,3 +28,10 @@ Append(StringBuilder)
    :param typeName: The ``StringBuilder`` to append the type name to.
    :type typeName: ``StringBuilder``
 
+Extension Methods
+-----------------
+
+- :dn:meth:`Decode <Lextm.SharpSnmpPro.Mib.SmiTypeExtensions.Decode>`
+- :dn:meth:`GetLastType <Lextm.SharpSnmpPro.Mib.SmiTypeExtensions.GetLastType>`
+- :dn:meth:`Verify <Lextm.SharpSnmpPro.Mib.SmiTypeExtensions.Verify>`
+

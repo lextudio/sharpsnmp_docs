@@ -487,8 +487,6 @@ GetErrorMessage(ObjectIdentifier)
 
       public static string GetErrorMessage(this ObjectIdentifier id)
 
-   :type id: :dn:struct:`~DotNetSnmp.Asn1.SyntaxObjects.ObjectIdentifier`
-
    :rtype: ``String``
 
 **Source:** `SharpSnmpLib/Messaging/Messenger.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Messaging/Messenger.cs#L146>`__

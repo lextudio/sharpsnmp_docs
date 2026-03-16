@@ -29,7 +29,6 @@ GetResponse(ISnmpMessage, Int32, IPEndPoint, Socket)
 
       public static ISnmpMessage GetResponse(this ISnmpMessage request, int timeout, IPEndPoint receiver, Socket udpSocket)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type timeout: ``Int32``
    :type receiver: ``IPEndPoint``
    :type udpSocket: ``Socket``
@@ -49,7 +48,6 @@ GetResponse(ISnmpMessage, Int32, IPEndPoint, UserRegistry, Socket)
 
       public static ISnmpMessage GetResponse(this ISnmpMessage request, int timeout, IPEndPoint receiver, UserRegistry registry, Socket udpSocket)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type timeout: ``Int32``
    :type receiver: ``IPEndPoint``
    :type registry: :dn:cls:`~Lextm.SharpSnmpLib.Security.UserRegistry`
@@ -70,7 +68,6 @@ GetResponse(ISnmpMessage, Int32, IPEndPoint)
 
       public static ISnmpMessage GetResponse(this ISnmpMessage request, int timeout, IPEndPoint receiver)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type timeout: ``Int32``
    :type receiver: ``IPEndPoint``
 
@@ -89,7 +86,6 @@ GetResponseAsync(ISnmpMessage, IPEndPoint, Socket, CancellationToken)
 
       public static Task<ISnmpMessage> GetResponseAsync(this ISnmpMessage request, IPEndPoint receiver, Socket udpSocket, CancellationToken cancellationToken)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type receiver: ``IPEndPoint``
    :type udpSocket: ``Socket``
    :type cancellationToken: ``CancellationToken``
@@ -109,7 +105,6 @@ GetResponseAsync(ISnmpMessage, IPEndPoint, Socket)
 
       public static Task<ISnmpMessage> GetResponseAsync(this ISnmpMessage request, IPEndPoint receiver, Socket udpSocket)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type receiver: ``IPEndPoint``
    :type udpSocket: ``Socket``
 
@@ -128,7 +123,6 @@ GetResponseAsync(ISnmpMessage, IPEndPoint, UserRegistry, Socket, CancellationTok
 
       public static Task<ISnmpMessage> GetResponseAsync(this ISnmpMessage request, IPEndPoint receiver, UserRegistry registry, Socket udpSocket, CancellationToken cancellationToken)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type receiver: ``IPEndPoint``
    :type registry: :dn:cls:`~Lextm.SharpSnmpLib.Security.UserRegistry`
    :type udpSocket: ``Socket``
@@ -149,7 +143,6 @@ GetResponseAsync(ISnmpMessage, IPEndPoint, UserRegistry, Socket)
 
       public static Task<ISnmpMessage> GetResponseAsync(this ISnmpMessage request, IPEndPoint receiver, UserRegistry registry, Socket udpSocket)
 
-   :type request: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
    :type receiver: ``IPEndPoint``
    :type registry: :dn:cls:`~Lextm.SharpSnmpLib.Security.UserRegistry`
    :type udpSocket: ``Socket``
@@ -169,8 +162,6 @@ MessageId(ISnmpMessage)
 
       public static int MessageId(this ISnmpMessage message)
 
-   :type message: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
-
    :rtype: ``Int32``
 
 **Source:** `SharpSnmpLib/Messaging/SnmpMessageCompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Messaging/SnmpMessageCompatibilityExtensions.cs#L195>`__
@@ -185,8 +176,6 @@ Pdu(ISnmpMessage)
    .. code-block:: csharp
 
       public static LegacyPdu Pdu(this ISnmpMessage message)
-
-   :type message: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
 
    :rtype: :dn:cls:`~Lextm.SharpSnmpLib.Messaging.LegacyPdu`
 
@@ -203,8 +192,6 @@ RequestId(ISnmpMessage)
 
       public static int RequestId(this ISnmpMessage message)
 
-   :type message: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
-
    :rtype: ``Int32``
 
 **Source:** `SharpSnmpLib/Messaging/SnmpMessageCompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Messaging/SnmpMessageCompatibilityExtensions.cs#L182>`__
@@ -219,8 +206,6 @@ ToBytes(ISnmpMessage)
    .. code-block:: csharp
 
       public static byte[] ToBytes(this ISnmpMessage message)
-
-   :type message: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
 
    :rtype: ``Byte[]``
 
@@ -237,8 +222,6 @@ TypeCode(ISnmpMessage)
 
       public static SnmpType TypeCode(this ISnmpMessage message)
 
-   :type message: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
-
    :rtype: :dn:enum:`~Lextm.SharpSnmpLib.SnmpType`
 
 **Source:** `SharpSnmpLib/Messaging/SnmpMessageCompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Messaging/SnmpMessageCompatibilityExtensions.cs#L153>`__
@@ -253,8 +236,6 @@ Variables(ISnmpMessage)
    .. code-block:: csharp
 
       public static IList<Variable> Variables(this ISnmpMessage message)
-
-   :type message: :dn:iface:`~DotNetSnmp.Common.Definitions.ISnmpMessage`
 
    :rtype: ``IList<Variable>``
 

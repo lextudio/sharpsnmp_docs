@@ -92,3 +92,8 @@ Unknown
 
    :rtype: :dn:enum:`~Lextm.SharpSnmpPro.Mib.EntityStatus`
 
+Extension Methods
+-----------------
+
+- :dn:meth:`ToStatusString <Lextm.SharpSnmpPro.Mib.EntityStatusExtensions.ToStatusString>`
+

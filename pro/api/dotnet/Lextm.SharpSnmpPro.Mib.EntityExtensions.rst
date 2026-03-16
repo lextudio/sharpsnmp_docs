@@ -28,9 +28,6 @@ DescriptionFormatted(IEntity)
       [CLSCompliant(false)]
       public static string DescriptionFormatted(this IEntity entity)
 
-   :param entity: The entity.
-   :type entity: :dn:iface:`~Lextm.SharpSnmpPro.Mib.IEntity`
-
    :rtype: ``String``
 
 GetObjectIdentifier(IEntity)
@@ -44,9 +41,6 @@ GetObjectIdentifier(IEntity)
 
       [CLSCompliant(false)]
       public static uint[] GetObjectIdentifier(this IEntity entity)
-
-   :param entity: Entity.
-   :type entity: :dn:iface:`~Lextm.SharpSnmpPro.Mib.IEntity`
 
    :rtype: ``UInt32[]``
 

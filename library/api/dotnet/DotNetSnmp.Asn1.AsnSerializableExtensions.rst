@@ -29,7 +29,6 @@ Encode(IAsnSerializable, Span<Byte>)
 
       public static int Encode(this IAsnSerializable obj, Span<byte> destination)
 
-   :type obj: :dn:iface:`~DotNetSnmp.Asn1.Serialization.IAsnSerializable`
    :type destination: ``Span<Byte>``
 
    :rtype: ``Int32``
@@ -46,8 +45,6 @@ Encode(IAsnSerializable)
    .. code-block:: csharp
 
       public static byte[] Encode(this IAsnSerializable obj)
-
-   :type obj: :dn:iface:`~DotNetSnmp.Asn1.Serialization.IAsnSerializable`
 
    :rtype: ``Byte[]``
 

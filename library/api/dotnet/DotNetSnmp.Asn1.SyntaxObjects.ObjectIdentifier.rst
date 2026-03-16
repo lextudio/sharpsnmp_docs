@@ -287,3 +287,8 @@ LessThanOrEqual(ObjectIdentifier, ObjectIdentifier)
 
 **Source:** `SharpSnmpLib/Asn1/SyntaxObjects/ObjectIdentifier.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Asn1/SyntaxObjects/ObjectIdentifier.cs#L122>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`GetErrorMessage <Lextm.SharpSnmpLib.Messaging.Messenger.GetErrorMessage>`
+

@@ -50,3 +50,10 @@ WriteTo(AsnWriter)
 
 **Source:** `SharpSnmpLib/Asn1/IAsnSerializable.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Asn1/IAsnSerializable.cs#L15>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`Encode <DotNetSnmp.Asn1.AsnSerializableExtensions.Encode>`
+- :dn:meth:`Encode <DotNetSnmp.Asn1.AsnSerializableExtensions.Encode>`
+- :dn:meth:`ToBytes <Lextm.SharpSnmpLib.CompatibilityExtensions.ToBytes>`
+

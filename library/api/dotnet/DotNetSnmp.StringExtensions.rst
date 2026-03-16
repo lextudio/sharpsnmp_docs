@@ -29,7 +29,6 @@ GetBytesMemoryOrDefault(String, Encoding)
 
       public static ReadOnlyMemory<byte> GetBytesMemoryOrDefault(this string s, Encoding encoding)
 
-   :type s: ``String``
    :type encoding: ``Encoding``
 
    :rtype: ``ReadOnlyMemory<Byte>``
@@ -47,7 +46,6 @@ GetBytesSpanOrDefault(String, Encoding)
 
       public static ReadOnlySpan<byte> GetBytesSpanOrDefault(this string s, Encoding encoding)
 
-   :type s: ``String``
    :type encoding: ``Encoding``
 
    :rtype: ``ReadOnlySpan<Byte>``

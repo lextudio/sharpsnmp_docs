@@ -29,7 +29,6 @@ ConsumeInt32(AsnReader, Nullable<Int32>)
 
       public static void ConsumeInt32(this AsnReader reader, int? expectedValue = default(int? ))
 
-   :type reader: ``AsnReader``
    :type expectedValue: ``Nullable<Int32>``
 
 **Source:** `SharpSnmpLib/Asn1/AsnReaderExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Asn1/AsnReaderExtensions.cs#L31>`__
@@ -45,7 +44,6 @@ ConsumeOctetString(AsnReader, Nullable<ReadOnlyMemory<Byte>>)
 
       public static void ConsumeOctetString(this AsnReader reader, ReadOnlyMemory<byte>? expectedValue = default(ReadOnlyMemory<byte>? ))
 
-   :type reader: ``AsnReader``
    :type expectedValue: ``Nullable<ReadOnlyMemory<Byte>>``
 
 **Source:** `SharpSnmpLib/Asn1/AsnReaderExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Asn1/AsnReaderExtensions.cs#L12>`__

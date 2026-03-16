@@ -302,3 +302,9 @@ WrongValue
 
 **Source:** `SharpSnmpLib/Common/PduErrorStatus.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Common/PduErrorStatus.cs#L63>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`ToErrorCode <Lextm.SharpSnmpLib.CompatibilityExtensions.ToErrorCode>`
+- :dn:meth:`ToInt32 <Lextm.SharpSnmpLib.CompatibilityExtensions.ToInt32>`
+

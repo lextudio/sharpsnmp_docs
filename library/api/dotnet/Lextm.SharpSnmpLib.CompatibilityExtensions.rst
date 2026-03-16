@@ -29,8 +29,6 @@ GetRaw(OctetString)
 
       public static byte[] GetRaw(this OctetString value)
 
-   :type value: :dn:struct:`~DotNetSnmp.Asn1.SyntaxObjects.OctetString`
-
    :rtype: ``Byte[]``
 
 **Source:** `SharpSnmpLib/CompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/CompatibilityExtensions.cs#L80>`__
@@ -45,8 +43,6 @@ ToBytes(IAsnSerializable)
    .. code-block:: csharp
 
       public static byte[] ToBytes(this IAsnSerializable value)
-
-   :type value: :dn:iface:`~DotNetSnmp.Asn1.Serialization.IAsnSerializable`
 
    :rtype: ``Byte[]``
 
@@ -63,8 +59,6 @@ ToErrorCode(ErrorCode)
 
       public static ErrorCode ToErrorCode(this ErrorCode value)
 
-   :type value: :dn:enum:`~DotNetSnmp.Common.Definitions.ErrorCode`
-
    :rtype: :dn:enum:`~DotNetSnmp.Common.Definitions.ErrorCode`
 
 **Source:** `SharpSnmpLib/CompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/CompatibilityExtensions.cs#L33>`__
@@ -79,8 +73,6 @@ ToErrorCode(Integer32)
    .. code-block:: csharp
 
       public static ErrorCode ToErrorCode(this Integer32 value)
-
-   :type value: :dn:struct:`~DotNetSnmp.Asn1.SyntaxObjects.Integer32`
 
    :rtype: :dn:enum:`~DotNetSnmp.Common.Definitions.ErrorCode`
 
@@ -97,8 +89,6 @@ ToHexString(OctetString)
 
       public static string ToHexString(this OctetString value)
 
-   :type value: :dn:struct:`~DotNetSnmp.Asn1.SyntaxObjects.OctetString`
-
    :rtype: ``String``
 
 **Source:** `SharpSnmpLib/CompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/CompatibilityExtensions.cs#L88>`__
@@ -113,8 +103,6 @@ ToInt32(ErrorCode)
    .. code-block:: csharp
 
       public static int ToInt32(this ErrorCode value)
-
-   :type value: :dn:enum:`~DotNetSnmp.Common.Definitions.ErrorCode`
 
    :rtype: ``Int32``
 
@@ -131,8 +119,6 @@ ToInt32(Integer32)
 
       public static int ToInt32(this Integer32 value)
 
-   :type value: :dn:struct:`~DotNetSnmp.Asn1.SyntaxObjects.Integer32`
-
    :rtype: ``Int32``
 
 **Source:** `SharpSnmpLib/CompatibilityExtensions.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/CompatibilityExtensions.cs#L17>`__
@@ -148,7 +134,6 @@ TryToErrorCode(Integer32, out ErrorCode)
 
       public static bool TryToErrorCode(this Integer32 value, scoped out ErrorCode code)
 
-   :type value: :dn:struct:`~DotNetSnmp.Asn1.SyntaxObjects.Integer32`
    :type code: :dn:enum:`~DotNetSnmp.Common.Definitions.ErrorCode`
 
    :rtype: ``Boolean``

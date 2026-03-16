@@ -27,9 +27,6 @@ ToStatusString(EntityStatus)
 
       public static string ToStatusString(this EntityStatus status)
 
-   :param status: The :dn:enum:``~Lextm.SharpSnmpPro.Mib.EntityStatus`` value.
-   :type status: :dn:enum:`~Lextm.SharpSnmpPro.Mib.EntityStatus`
-
    :returns: The lowercase string representation of the status.
    :rtype: ``String``
 

@@ -139,3 +139,10 @@ EncryptMessage(SnmpV3Message)
 
 **Source:** `SharpSnmpLib/V3/Security/Privacy/IPrivacyProvider.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/V3/Security/Privacy/IPrivacyProvider.cs#L40>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`Decrypt <Lextm.SharpSnmpLib.Security.PrivacyProviderCompatibilityExtensions.Decrypt>`
+- :dn:meth:`Encrypt <Lextm.SharpSnmpLib.Security.PrivacyProviderCompatibilityExtensions.Encrypt>`
+- :dn:meth:`ToSecurityLevel <Lextm.SharpSnmpLib.Security.PrivacyProviderCompatibilityExtensions.ToSecurityLevel>`
+

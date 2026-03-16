@@ -29,8 +29,6 @@ Convert(Byte[])
 
       public static string Convert(this byte[] bytes)
 
-   :type bytes: ``Byte[]``
-
    :rtype: ``String``
 
 **Source:** `SharpSnmpLib/ByteTool.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/ByteTool.cs#L101>`__
@@ -47,8 +45,6 @@ Convert(IEnumerable<Char>)
       [Obsolete("Use Convert(this string str) instead.")]
       public static byte[] Convert(this IEnumerable<char> description)
 
-   :type description: ``IEnumerable<Char>``
-
    :rtype: ``Byte[]``
 
 **Source:** `SharpSnmpLib/ByteTool.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/ByteTool.cs#L45>`__
@@ -63,8 +59,6 @@ Convert(String)
    .. code-block:: csharp
 
       public static byte[] Convert(this string str)
-
-   :type str: ``String``
 
    :rtype: ``Byte[]``
 

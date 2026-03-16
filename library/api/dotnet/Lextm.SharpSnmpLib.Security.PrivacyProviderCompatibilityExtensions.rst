@@ -30,7 +30,6 @@ Decrypt(AES192PrivacyProvider, Byte[], Byte[], Int32, Int32, Byte[])
 
       public static byte[] Decrypt(this AES192PrivacyProvider privacy, byte[] encryptedData, byte[] key, int engineBoots, int engineTime, byte[] privacyParameters)
 
-   :type privacy: :dn:cls:`~Lextm.SharpSnmpLib.Security.AES192PrivacyProvider`
    :type encryptedData: ``Byte[]``
    :type key: ``Byte[]``
    :type engineBoots: ``Int32``
@@ -52,7 +51,6 @@ Decrypt(AES256PrivacyProvider, Byte[], Byte[], Int32, Int32, Byte[])
 
       public static byte[] Decrypt(this AES256PrivacyProvider privacy, byte[] encryptedData, byte[] key, int engineBoots, int engineTime, byte[] privacyParameters)
 
-   :type privacy: :dn:cls:`~Lextm.SharpSnmpLib.Security.AES256PrivacyProvider`
    :type encryptedData: ``Byte[]``
    :type key: ``Byte[]``
    :type engineBoots: ``Int32``
@@ -74,7 +72,6 @@ Decrypt(AESPrivacyProvider, Byte[], Byte[], Int32, Int32, Byte[])
 
       public static byte[] Decrypt(this AESPrivacyProvider privacy, byte[] encryptedData, byte[] key, int engineBoots, int engineTime, byte[] privacyParameters)
 
-   :type privacy: :dn:cls:`~Lextm.SharpSnmpLib.Security.AESPrivacyProvider`
    :type encryptedData: ``Byte[]``
    :type key: ``Byte[]``
    :type engineBoots: ``Int32``
@@ -96,7 +93,6 @@ Decrypt(IPrivacyProvider, IAsnSerializable, SecurityParameters)
 
       public static IAsnSerializable Decrypt(this IPrivacyProvider privacy, IAsnSerializable data, SecurityParameters parameters)
 
-   :type privacy: :dn:iface:`~DotNetSnmp.Protocol.V3.Security.Privacy.IPrivacyProvider`
    :type data: :dn:iface:`~DotNetSnmp.Asn1.Serialization.IAsnSerializable`
    :type parameters: :dn:cls:`~Lextm.SharpSnmpLib.SecurityParameters`
 
@@ -115,7 +111,6 @@ Encrypt(AES192PrivacyProvider, Byte[], Byte[], Int32, Int32, Byte[])
 
       public static byte[] Encrypt(this AES192PrivacyProvider privacy, byte[] unencryptedData, byte[] key, int engineBoots, int engineTime, byte[] privacyParameters)
 
-   :type privacy: :dn:cls:`~Lextm.SharpSnmpLib.Security.AES192PrivacyProvider`
    :type unencryptedData: ``Byte[]``
    :type key: ``Byte[]``
    :type engineBoots: ``Int32``
@@ -137,7 +132,6 @@ Encrypt(AES256PrivacyProvider, Byte[], Byte[], Int32, Int32, Byte[])
 
       public static byte[] Encrypt(this AES256PrivacyProvider privacy, byte[] unencryptedData, byte[] key, int engineBoots, int engineTime, byte[] privacyParameters)
 
-   :type privacy: :dn:cls:`~Lextm.SharpSnmpLib.Security.AES256PrivacyProvider`
    :type unencryptedData: ``Byte[]``
    :type key: ``Byte[]``
    :type engineBoots: ``Int32``
@@ -159,7 +153,6 @@ Encrypt(AESPrivacyProvider, Byte[], Byte[], Int32, Int32, Byte[])
 
       public static byte[] Encrypt(this AESPrivacyProvider privacy, byte[] unencryptedData, byte[] key, int engineBoots, int engineTime, byte[] privacyParameters)
 
-   :type privacy: :dn:cls:`~Lextm.SharpSnmpLib.Security.AESPrivacyProvider`
    :type unencryptedData: ``Byte[]``
    :type key: ``Byte[]``
    :type engineBoots: ``Int32``
@@ -181,7 +174,6 @@ Encrypt(IPrivacyProvider, IAsnSerializable, SecurityParameters)
 
       public static IAsnSerializable Encrypt(this IPrivacyProvider privacy, IAsnSerializable data, SecurityParameters parameters)
 
-   :type privacy: :dn:iface:`~DotNetSnmp.Protocol.V3.Security.Privacy.IPrivacyProvider`
    :type data: :dn:iface:`~DotNetSnmp.Asn1.Serialization.IAsnSerializable`
    :type parameters: :dn:cls:`~Lextm.SharpSnmpLib.SecurityParameters`
 
@@ -199,8 +191,6 @@ ToSecurityLevel(IPrivacyProvider)
    .. code-block:: csharp
 
       public static Levels ToSecurityLevel(this IPrivacyProvider privacy)
-
-   :type privacy: :dn:iface:`~DotNetSnmp.Protocol.V3.Security.Privacy.IPrivacyProvider`
 
    :rtype: :dn:enum:`~DotNetSnmp.Common.Definitions.Levels`
 

@@ -125,3 +125,9 @@ Verified
 
    :rtype: :dn:enum:`~Lextm.SharpSnmpPro.Mib.VerificationStatus`
 
+Extension Methods
+-----------------
+
+- :dn:meth:`DescriptionFormatted <Lextm.SharpSnmpPro.Mib.EntityExtensions.DescriptionFormatted>`
+- :dn:meth:`GetObjectIdentifier <Lextm.SharpSnmpPro.Mib.EntityExtensions.GetObjectIdentifier>`
+

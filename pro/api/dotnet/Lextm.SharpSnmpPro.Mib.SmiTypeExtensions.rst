@@ -27,8 +27,6 @@ Decode(ISmiType, IAsnSerializable)
 
       public static string Decode(this ISmiType type, IAsnSerializable data)
 
-   :param type: The SMI type used to interpret and decode the SNMP data. Must implement :dn:iface:``~Lextm.SharpSnmpPro.Mib.ISmiType``.
-   :type type: :dn:iface:`~Lextm.SharpSnmpPro.Mib.ISmiType`
    :param data: The SNMP data to decode. Cannot be ``null``.
    :type data: :any:`IAsnSerializable <DotNetSnmp.Asn1.Serialization.IAsnSerializable>`
 
@@ -46,9 +44,6 @@ GetLastType(ISmiType)
 
       public static ISmiType GetLastType(this ISmiType type)
 
-   :param type: A syntax.
-   :type type: :dn:iface:`~Lextm.SharpSnmpPro.Mib.ISmiType`
-
    :returns: The true base type.
    :rtype: :dn:iface:`~Lextm.SharpSnmpPro.Mib.ISmiType`
 
@@ -63,8 +58,6 @@ Verify(ISmiType, IAsnSerializable)
 
       public static bool Verify(this ISmiType type, IAsnSerializable data)
 
-   :param type: Syntax type.
-   :type type: :dn:iface:`~Lextm.SharpSnmpPro.Mib.ISmiType`
    :param data: Input data.
    :type data: :any:`IAsnSerializable <DotNetSnmp.Asn1.Serialization.IAsnSerializable>`
 

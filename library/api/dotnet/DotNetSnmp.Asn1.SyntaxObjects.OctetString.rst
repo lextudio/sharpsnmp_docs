@@ -245,3 +245,9 @@ Implicit(OctetString to String)
 
 **Source:** `SharpSnmpLib/Asn1/SyntaxObjects/OctetString.cs <https://github.com/lextudio/sharpsnmplib/blob/release-13.0/SharpSnmpLib/Asn1/SyntaxObjects/OctetString.cs#L97>`__
 
+Extension Methods
+-----------------
+
+- :dn:meth:`GetRaw <Lextm.SharpSnmpLib.CompatibilityExtensions.GetRaw>`
+- :dn:meth:`ToHexString <Lextm.SharpSnmpLib.CompatibilityExtensions.ToHexString>`
+
