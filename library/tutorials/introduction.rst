@@ -279,6 +279,6 @@ Related Resources
 - :doc:`/samples/agent-development`
 - :doc:`/samples/command-line-tools`
 - `#SNMP Pro <https://pro.sharpsnmp.com>`_
-- `The API Reference <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`
 - :doc:`/tutorials/troubleshooting`
 - :doc:`/tutorials/security-notice`

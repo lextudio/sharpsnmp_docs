@@ -32,9 +32,16 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # ones.
 extensions = [
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.dotnetdomain',
     "sphinx_sitemap",
     "sphinx_copybutton",
     'notfound.extension',
+]
+
+# Suppress ref.any warnings for array types (e.g. User[], Variable[,]).
+# The :any: role cannot resolve UIDs that contain [] notation.
+nitpick_ignore_regex = [
+    ('any', r'.*\[[\],]*\]$'),
 ]
 
 notfound_urls_prefix = "/sharpsnmplib/"
@@ -396,7 +403,10 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
-    'pro': ('https://docs.lextudio.com/sharpsnmppro/', None)
+    'pro': (
+        'https://docs.lextudio.com/sharpsnmppro/',
+        '../pro/_build/html/objects.inv',
+    )
 }
 
 feed_num_items = 15

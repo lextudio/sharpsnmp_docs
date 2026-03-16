@@ -88,4 +88,4 @@ Related Resources
 - :doc:`/tutorials/introduction`
 - :doc:`/samples/command-line-tools`
 - :doc:`/tutorials/v3-operations`
-- `The API Reference <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`

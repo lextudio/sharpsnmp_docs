@@ -85,4 +85,4 @@ Related Resources
 -----------------
 
 - :doc:`/tutorials/introduction`
-- `The API Reference <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`

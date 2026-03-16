@@ -1,0 +1,3 @@
+[submodule "sphinxcontrib-dotnetdomain"]
+	path = sphinxcontrib-dotnetdomain
+	url = https://github.com/lextudio/sphinxcontrib-dotnetdomain

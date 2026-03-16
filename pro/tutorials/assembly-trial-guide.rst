@@ -57,13 +57,13 @@ If new projects are going to be created to test out the Trial Edition, please no
 
 Without this text file, the Trial Edition should give you an exception with error message "This assembly is not licensed to you. Please buy a license from LeXtudio...".
 
-The API reference documentation can be found on `the help site <https://help.sharpsnmp.com>`_ .
+The API reference documentation can be found on :doc:`the API reference site </api/dotnet/index>`.
 
 Related Resources
 -----------------
 
 - :doc:`/support/purchase`
-- `API Documentation <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`
 - `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/getting-started/assembly-features`
 - :doc:`/tutorials/assembly-full-guide`

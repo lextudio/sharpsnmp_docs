@@ -1,5 +1,2 @@
 **/_build/
 *.pyc
-
-/library/api/dotnet/
-/pro/api/dotnet/

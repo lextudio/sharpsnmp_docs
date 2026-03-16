@@ -175,13 +175,12 @@ You can easily test if the data is valid for ``SNMPv2-MIB::sysDescr``.
    supports custom types such as ``BITS``, ``CiscoRowOperStatus``, and
    ``CiscoPort``.
 
-.. _API reference: https://help.sharpsnmp.com
 
 Related Resources
 -----------------
 
 - :doc:`/support/purchase`
-- `API Documentation <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`
 - `Requesting a Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/tutorials/assembly-trial-guide`
 - :doc:`/tutorials/assembly-full-guide`

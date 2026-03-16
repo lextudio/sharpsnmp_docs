@@ -201,4 +201,4 @@ Related Resources
 - :doc:`/samples/command-line-tools`
 - `#SNMP Pro <https://pro.sharpsnmp.com>`_
 - :doc:`/tutorials/troubleshooting`
-- `The API Reference <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`

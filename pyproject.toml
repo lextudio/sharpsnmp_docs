@@ -11,4 +11,8 @@ dependencies = [
     "sphinx-copybutton>=0.5.2",
     "sphinx-notfound-page>=1.1.0",
     "sphinx-sitemap-lextudio>=2.5.2",
+    "sphinxcontrib-dotnetdomain",
 ]
+
+[tool.uv.sources]
+sphinxcontrib-dotnetdomain = { path = "sphinxcontrib-dotnetdomain", editable = true }

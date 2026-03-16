@@ -180,6 +180,6 @@ Related Resources
 -----------------
 
 - :doc:`/support/purchase`
-- `API Documentation <https://help.sharpsnmp.com>`_
+- :doc:`API Reference </api/dotnet/index>`
 - `Requesting Trial <https://www.sharpsnmp.com/#contact-us>`_
 - :doc:`/getting-started/assembly-features`
