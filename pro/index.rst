@@ -5,26 +5,42 @@
 
 .. _index:
 
-#SNMP Pro Documentation
-=======================
+C# SNMP Pro Documentation
+=========================
 
-Topics
-------
+We started to work on C# SNMP products in 2008, and through the years, we have
+built a comprehensive suite of SNMP tools and libraries. This documentation
+covers the Pro Edition of our C# SNMP products, including the new SNMP Studio
+extension for Visual Studio Code.
+
+Tutorials
+---------
+
+For reviewers and users looking for step-by-step guides, we have a dedicated section:
 
 .. toctree::
    :titlesonly:
 
-   Visit Docs Home <https://docs.lextudio.com>
-   Learn about C# SNMP (#SNMP) Library <https://docs.lextudio.com/sharpsnmplib>
-   getting-started/index
    tutorials/index
-   support/index
-   Privacy Policy <https://docs.lextudio.com/sharpsnmplib/privacy>
 
-API Reference
--------------
+Developer Guide
+---------------
+
+For developers interested in the technical details, API references, and integration guides, please refer to this section:
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
 
+   getting-started/index
    api/dotnet/index
+   Learn about C# SNMP (#SNMP) Library <https://docs.lextudio.com/sharpsnmplib>
+
+Other Topics
+------------
+
+.. toctree::
+   :titlesonly:
+
+   Visit LeXtudio Docs Home <https://docs.lextudio.com>
+   support/index
+   Privacy Policy <https://docs.lextudio.com/sharpsnmplib/privacy>
