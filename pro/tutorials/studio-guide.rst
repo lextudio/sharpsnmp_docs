@@ -28,7 +28,6 @@ Quick setup
 
    git clone https://github.com/lextudio/sharpsnmppro-mib.git
 
-   # clone into a folder named `sharpsnmppro-mib` at your workspace root
 3. Open a MIB file from the cloned repository to trigger the extension activation.
 4. Confirm the language server is running and the extension activates on MIB files.
 
@@ -95,7 +94,7 @@ What to verify
 Steps
 1. Open the Workspace OID Explorer pane.
 2. Expand the tree and search for a symbol or numeric OID (such as ``sysDescr``).
-3. Review its definitions from multile MIBs, copy the OID to clipboard, and navigate to its definition in the source MIB file.
+3. Review its definitions from multiple MIBs, copy the OID to clipboard, and navigate to its definition in the source MIB file.
 
 AI Workflows
 ~~~~~~~~~~~~
@@ -176,49 +175,7 @@ Review checklist
 - Language services: diagnostics, go-to-definition, hover.
 - MIB/module management: imports resolved and outline accurate.
 - OID Explorer: navigate, copy, jump to definition.
+- AI workflows: connect to AI assistant and get relevant responses.
 - Message session: compose, send, preserve history.
 - Table view: columns, sorting, filtering.
 - Walk view: listed results, filtering.
-
-Functional test scenarios (suggested)
------------------------------------
-
-- Open a MIB from `sharpsnmppro-mib` and confirm semantic highlighting.
-- Search for an OID in OID Explorer and navigate to its MIB source.
-- Start an SNMP Walk against a simulated agent; verify incremental display and cancelability.
-- Compose a `GetRequest` in Message Session and confirm response parsing.
-
-Bug report template for reviewers
---------------------------------
-
-- Summary: one-line description
-- Steps to reproduce: environment, actions
-- Expected: what should happen
-- Actual: what happened (include logs and screenshots)
-- Attachments: relevant MIBs, VSIX, workspace settings
-
-Scoring rubric (simple)
------------------------
-
-- 5 — Excellent: no issues, docs clear, UX polished
-- 4 — Good: minor issues or suggestions
-- 3 — Acceptable: functional, but several UX or doc gaps
-- 2 — Problematic: missing features or unstable interactions
-- 1 — Blocker: critical failure or crash
-
-Filing feedback
----------------
-
-- Preferred: open issues in the repository with the `review` label.
-- Include the module (extension, language server), OS, VS Code version, and attachments.
-
-Next steps for the author
-------------------------
-
-- Link this guide from the main getting-started index.
-- Ask reviewers to use the checklist and submit issues with the template above.
-
-Acknowledgements
-----------------
-
-Thanks to the docs and screenshots contributors — this guide references the new `_static` images.
