@@ -4,18 +4,24 @@ Reviewers' Guide — SNMP Studio for Visual Studio Code
 Purpose
 -------
 
-This guide helps reviewers evaluate the SNMP Studio extension for Visual Studio Code: functionality, UX, documentation quality, and the visual assets in `_static`.
+This guide helps reviewers evaluate the SNMP Studio extension for Visual Studio Code.
 
 Scope
 -----
 
-- Target audience: technical reviewers and QA engineers familiar with VS Code extensions and SNMP concepts.
-- Platforms: macOS, Windows, Linux (verify on at least one OS and one VS Code channel: Stable and Insiders).
+- Target audience: tool reviewers and professional engineers familiar with SNMP concepts.
+- Platforms: macOS, Windows, Linux (verify on at least one OS).
 
 Quick setup
 -----------
 
 1. Install the extension from the VS Code Marketplace (Community Edition) or load the VSIX from file system (Pro Edition).
+
+   .. note::
+
+      - The Community Edition is free and its `marketplace link is here <https://marketplace.visualstudio.com/items?itemName=lextudio.snmp-studio>`_.
+      - The Pro Edition requires a license and can be obtained from the `C# SNMP website <https://www.sharpsnmp.com>`_.
+         
 2. Clone the `sharpsnmppro-mib` repository from GitHub into your workspace — these are the most reliable MIB documents for testing. Example commands:
 
 .. code-block:: bash
